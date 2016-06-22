@@ -1,0 +1,1418 @@
+
+
+body
+{
+	background: transparent;
+}
+
+body.iframe
+{
+	overflow: hidden;
+}
+
+body.iframe,
+body.iframe .responsive_page_frame,
+body.iframe .responsive_page_content
+{
+	height: 100%;
+}
+
+#footer_spacer
+{
+}
+
+.NoSelect
+{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.profile_small_header_bg
+{
+	background-image: none;
+	margin: 0px;
+	height: auto;
+}
+
+.profile_small_header_texture
+{
+	background-image: none;
+	max-width: auto;
+	margin-left: 20px;
+	height: 100px;
+}
+
+.profile_small_header_avatar
+{
+	position: static;
+	width: 36px;
+	height: 36px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.profile_small_header_text
+{
+	left: 65px;
+	top: 30px;
+}
+
+.profile_small_header_avatar .playerAvatar.medium
+{
+	width: 50px;
+	height: 50px;
+}
+
+.profile_small_header_avatar .playerAvatar.medium img
+{
+	width: 48px;
+	height: 48px;
+}
+
+@keyframes loading_throbber_bar
+{
+	0%
+	{
+		transform: scale( 1.0, 0.6 );
+		background-color: #67c1f5;
+	}
+
+	30%
+	{
+		transform: scale( 1.0, 1.0 );
+		background-color: #67c1f5;
+	}
+
+	55%
+	{
+		transform: scale( 1.0, 0.6 );
+		background-color: #67c1f5;
+	}
+
+	100%
+	{
+		transform: scale( 1.0, 0.6 );
+		background-color: #67c1f5;
+	}
+}
+
+@-webkit-keyframes loading_throbber_bar
+{
+	0%
+	{
+		-webkit-transform: scale( 1.0, 0.7 );
+		background-color: #67c1f5;
+	}
+
+	30%
+	{
+		-webkit-transform: scale( 1.0, 1.0 );
+		background-color: #67c1f5;
+	}
+
+	55%
+	{
+		-webkit-transform: scale( 1.0, 0.7 );
+		background-color: #67c1f5;
+	}
+
+	100%
+	{
+		-webkit-transform: scale( 1.0, 0.7 );
+		background-color: #67c1f5;
+	}
+}
+
+
+.LoadingThrobber
+{
+	flow-children: right;
+}
+
+.LoadingThrobber .Bar
+{
+	-webkit-animation: test 2s infinite;
+	float: left;
+	margin-right: 6px;
+	width: 12px;
+	height: 68px;
+	background-color: #67c1f5;
+
+	animation: loading_throbber_bar 1s ease-in-out infinite;
+	-webkit-animation: loading_throbber_bar 1s ease-in-out infinite;
+}
+
+.LoadingThrobber .Bar1
+{
+}
+
+.LoadingThrobber .Bar2
+{
+	animation-delay: 0.16s;
+	-webkit-animation-delay: 0.16s;
+}
+
+.LoadingThrobber .Bar3
+{
+	animation-delay: 0.32s;
+	-webkit-animation-delay: 0.32s;
+}
+
+
+body.flat_page:not(.iframe) .pagecontent
+{
+	padding: 20px 0 0 0;
+	background: -moz-linear-gradient( left, #192533 5%,#213148 40%,#213148 60%,#192533 95%);background: -webkit-linear-gradient( left, #192533 5%,#213148 40%,#213148 60%,#192533 95%);background: -o-linear-gradient( left, #192533 5%,#213148 40%,#213148 60%,#192533 95%);background: -ms-linear-gradient( left, #192533 5%,#213148 40%,#213148 60%,#192533 95%);background: linear-gradient( to right, #192533 5%,#213148 40%,#213148 60%,#192533 95%);}
+
+body.flat_page.iframe .pagecontent
+{
+	padding: 0;
+}
+
+body.flat_page #footer
+{
+	background-color: black;
+}
+
+.SteamClientMinimized #footer
+{
+	display: none;
+}
+
+.SteamClientMinimized .perf_timing_area
+{
+	display: none;
+}
+
+body.flat_page
+{
+	background-color: black;
+}
+
+.HeaderRow
+{
+	position: relative;
+	height: 90px;
+	margin-left: 1px;
+}
+
+.PopOutBox
+{
+	position: absolute;
+	top: 30px;
+	right: 20px;
+	width: 130px;
+	height: 30px;
+	border: 1px #1f1f20 stroke;
+	color: #d4d4d4;
+	margin-bottom: 4px;
+	background-color: rgba(100,100,100,0.25);
+	line-height: 30px;
+	padding-left: 8px;
+}
+
+.PopOutBox:hover
+{
+	cursor: pointer;
+}
+
+.PopOutBox img
+{
+	float: right;
+	margin: 8px 8px 5px 8px;
+}
+
+body:not(.iframe) #PageContents
+{
+	position: relative;
+	min-width: 948px;
+}
+
+body.iframe #PageContents
+{
+}
+
+#LoadingContent .BottomFade
+{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(10%,rgba( 25, 37, 51, 0.4 )), color-stop(95%,black));background: -moz-linear-gradient( top, rgba( 25, 37, 51, 0.4 ) 10%, black 95%);background: -webkit-linear-gradient( top, rgba( 25, 37, 51, 0.4 ) 10%, black 95%);background: -o-linear-gradient( top, rgba( 25, 37, 51, 0.4 ) 10%, black 95%);background: -ms-linear-gradient( top, rgba( 25, 37, 51, 0.4 ) 10%, black 95%);background: linear-gradient( to bottom, rgba( 25, 37, 51, 0.4 ) 10%, black 95%);
+	height: 100px;
+}
+
+.LoadingContentBackground
+{
+	position: absolute;
+			display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		display: -webkit-inline-flex;
+		-webkit-align-items: center;
+		-webkit-justify-content: center;
+		}
+
+body:not(.iframe) .LoadingContentBackground
+{
+	left: 20px;
+	right: 20px;
+	top: 0px;
+	bottom: 100px;
+	background-color: rgba(0,0,0,0.35);
+	box-shadow: 2px 2px 2px rgba(255,255,255,0.06);
+}
+
+body.iframe .LoadingContentBackground
+{
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+#LoadingVideoContent
+{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	background-color: rgba(0,0,0,0.75);
+	z-index: 2;
+	display: none;
+}
+
+.LoadingVideo #LoadingVideoContent
+{
+			display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		display: -webkit-inline-flex;
+		-webkit-align-items: center;
+		-webkit-justify-content: center;
+		}
+
+.ShowPlayer #LoadingContent
+{
+	visibility: hidden;
+}
+
+.LoadingWrapper
+{
+	position: relative;
+	width: 750px;
+}
+
+.LoadingThrobber
+{
+	margin: 0px auto 40px auto;
+	width: 62px;
+	height: 62px;
+}
+
+.HideThrobber .LoadingThrobber
+{
+	display: none;
+}
+
+.LoadingText
+{
+	color: #60acde;
+	font-size: 22px;
+	text-align: center;
+	font-family: Motiva Sans Light;
+}
+
+.LoadingText.Error
+{
+	font-style: italic;
+}
+
+.LoadingText.Error a
+{
+	color: #60ACDE;
+	text-decoration: underline;
+}
+
+#LoadedContent
+{
+	position: relative;
+	visibility: hidden;
+}
+
+body.iframe #LoadedContent
+{
+	visibility: hidden;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.ShowPlayer #LoadedContent,
+body.iframe .ShowPlayer #LoadedContent
+{
+	visibility: visible;
+	max-width: 2255px;
+}
+
+#video_content
+{
+	padding-right: 340px;
+	margin-right: 20px;
+	margin-left: 20px;
+	overflow: hidden;
+}
+
+.SteamClientMinimized #video_content
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+.SteamClientMinimized #video_wrapper
+{
+	padding: 0px;
+	border: 0px solid black;
+}
+
+body.iframe #video_content
+{
+	padding: 0;
+	margin: 0;
+}
+
+.BroadcastInfoWrapper
+{
+	padding-right: 20px;
+	padding-left: 20px;
+	overflow: hidden;
+	min-height: 143px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(10%,rgba( 25, 37, 51, 0.4 )), color-stop(95%,black));background: -moz-linear-gradient( top, rgba( 25, 37, 51, 0.4 ) 10%, black 95%);background: -webkit-linear-gradient( top, rgba( 25, 37, 51, 0.4 ) 10%, black 95%);background: -o-linear-gradient( top, rgba( 25, 37, 51, 0.4 ) 10%, black 95%);background: -ms-linear-gradient( top, rgba( 25, 37, 51, 0.4 ) 10%, black 95%);background: linear-gradient( to bottom, rgba( 25, 37, 51, 0.4 ) 10%, black 95%);}
+
+.BroadcastPlayer
+{
+	width: 100%;
+	display: block;
+	min-width: 500px;
+	max-height: 100vh;	/* no taller than the screen, even if the screen is wider aspect than the video */
+}
+
+body.iframe .BroadcastPlayer
+{
+	min-width: 0;
+}
+
+.SteamClientMinimized
+{
+	width: 300px;
+	height: 168px;
+	padding: 0px;
+	margin: 0px;
+}
+
+body.flat_page.SteamClientMinimized .pagecontent
+{
+	padding: 0px;
+}
+
+body.flat_page.SteamClientMinimized
+{
+	overflow: hidden;
+}
+
+.SteamClientMinimized .dash_overlay,
+.SteamClientMinimized .dash_video_live_banner
+{
+	display: none;
+}
+
+.SteamClientMinimized .BroadcastPlayer
+{
+	min-width: 0;
+	width: 300px;
+	height: 168px;
+}
+
+body:not(.iframe) .ChatAndVideoContainer
+{
+	position: relative
+}
+
+#ChatWindow
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 340px;
+	margin-right: 20px;
+}
+
+body.iframe #ChatWindow
+{
+	position: absolute;
+	width: auto;
+	margin-right: 0;
+	left: 0;
+}
+
+#ChatViewerModalBackdrop
+{
+	position: absolute;
+	top: 27px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	background-color: rgba( 30, 30, 30, 0.5 );
+	z-index: 2;
+}
+
+/* chat can only be minimized in non-responsive view */
+@media screen and (min-width: 911px )
+{
+	.MinimizedChat #video_content
+	{
+		padding-right: 22px;
+	}
+
+	.MinimizedChat #ChatWindow
+	{
+		width: 22px;
+	}
+
+	.MinimizedChat #ChatWindow > *
+	{
+		display: none;
+	}
+
+	.MinimizedChat #ChatWindow .ChatMaximize
+	{
+		display: inline-block;
+	}
+}
+
+
+.ChatMaximize
+{
+	display: none;
+	width: 17px;
+	height: 20px;
+	display: none;
+	position: absolute;
+	right: 2px;
+	top: 2px;
+
+	background-image: url(' http://steamcommunity-a.akamaihd.net/public/images/broadcast/icon_exp.png' );
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+
+.ChatBoxViewers
+{
+	text-align: right;
+	padding: 2px;
+	height: 22px;
+	border-bottom: 1px solid rgba(255,255,255,0.10);
+}
+
+body.iframe .ChatBoxViewers
+{
+	display: none;
+}
+
+.ChatButtons
+{
+	padding: 0px 1px;
+}
+
+.ChatButtons:hover
+{
+	background-color: rgba( 102, 192, 244, 0.4 );
+	cursor: pointer;
+}
+
+.ChatViewers
+{
+	width: 22px;
+	height: 20px;
+	background-image: url(' http://steamcommunity-a.akamaihd.net/public/images/broadcast/icon_viewers.png' );
+	background-repeat: no-repeat;
+	background-position: center center;
+
+	display: inline-block;
+}
+
+.ChatViewers.ViewersVisible
+{
+	background-color: rgba( 52, 142, 194, 0.4 );
+	background-color: #171a21;
+}
+
+.ChatMinimize
+{
+	width: 17px;
+	height: 20px;
+	background-image: url(' http://steamcommunity-a.akamaihd.net/public/images/broadcast/icon_col.png' );
+	background-repeat: no-repeat;
+	background-position: center center;
+
+	display: inline-block;
+	margin: 0px 1px;
+}
+
+.ChatBox
+{
+	position: absolute;
+	left: 0;
+	bottom: 44px;
+	margin-top: 4px;
+	padding: 0px 0px 4px 2px;
+	overflow: hidden;
+	right: 0px;
+}
+
+body:not(.iframe) .ChatBox
+{
+	top: 27px;
+}
+
+body.iframe .ChatBox
+{
+	top: 0;
+}
+
+.ChatWarning
+{
+	padding-left: 8px;
+}
+
+.ChatWarning a
+{
+	color: #999999;
+	text-decoration: underline;
+	margin-bottom: 4px;
+}
+
+.ChatWarning a:hover
+{
+	color: white;
+}
+
+#ChatDragHandle {
+	width: 3px;
+
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	cursor: ew-resize;
+	right: 3px;
+	z-index: 1000;
+}
+
+body.iframe #ChatDragHandle
+{
+	display: none;
+}
+
+.ChatDate
+{
+	color: #4da1ac;
+	margin-bottom: 4px;
+}
+
+.ChatName, .ChatName a
+{
+	color: #57cbde;
+}
+
+.ChatName.InGame,
+.ChatName.InGame a
+{
+	color: #90ba3c;
+}
+
+.ChatEntry
+{
+	color: #d4d4d4;
+	line-height: 18px;
+	white-space: pre-wrap;
+	max-height: 76px;
+	overflow: hidden;
+	word-break: break-word;
+	position: relative;
+	margin: 8px 1px 0px 0px;
+	padding: 0px 22px 0px 8px;
+}
+
+.ChatMessage
+{
+	padding: 1px 22px 1px 8px;
+	margin: 7px 1px 0px 0px;
+}
+
+.ChatMessageMenuBtn
+{
+	display: none;
+	position: absolute;
+	right: 10px;
+	top: 4px;
+
+	width: 12px;
+	height: 12px;
+	border-radius: 2px;
+	background-color: #2b4a63;
+	background-image: url(' http://steamcommunity-a.akamaihd.net/public/images/broadcast/chat_tab.png' );
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.ChatMessage:hover,
+.ChatMessage.ShowingMenu
+{
+	background-color: #172635;
+}
+
+.ChatMessage:hover .ChatMessageMenuBtn,
+.ChatMessage.ShowingMenu .ChatMessageMenuBtn
+{
+	display: block;
+}
+
+.ChatMessageMenuBtn:hover
+{
+	cursor: pointer;
+}
+
+#ChatMessageMenuBackground
+{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 901;
+}
+
+#ChatMessageMenu
+{
+	position: absolute;
+	z-index: 901;
+	top: 0px;
+	right: 0px;
+	background-color: #2b4a63;
+	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+	padding: 4px 6px;
+}
+
+.ChatMessageMenuOption
+{
+	color: #57cbde;
+	cursor: pointer;
+	padding: 1px;
+}
+
+.ChatMessageMenuOption:hover
+{
+	color: white;
+}
+
+
+.ChatExpand
+{
+	position: absolute;
+	right: 10px;
+	bottom: 0px;
+	background-color: #2b4a63;
+	color: #57cbde;
+	padding: 0px 2px;
+	border-radius: 3px;
+	line-height: 13px;
+	margin-bottom: 6px;
+}
+
+.ChatMessage.Expand .ChatExpand
+{
+	display: none;
+}
+
+.ChatMessage.Expand
+{
+	max-height: none;
+}
+
+
+.ChatExpand:hover
+{
+	background-color: rgba( 150, 150, 150, 1.0 );
+	cursor: pointer;
+}
+
+.ChatMessage.Broadcaster
+{
+	background-image: url('http://steamcommunity-a.akamaihd.net/public/images/broadcast/live_chat.png' );
+	background-repeat: no-repeat;
+	background-position: left 6px;
+}
+
+.ChatError
+{
+	color: #bd1636;
+}
+
+.ChatNotification
+{
+	color: #999999;
+}
+
+.ChatControls
+{
+	height: 42px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-flex-flow:row nowrap;
+	-ms-flex-flow:row nowrap;
+	flex-flow:row nowrap;
+}
+
+.ChatTextField
+{
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	margin: 0 0 0 2px;
+	height: 40px;
+	color: white;
+	border: 1px solid #4c4c4c;
+	background-color: #292929;
+	box-sizing: border-box;
+	resize: none;
+	padding: 5px;
+}
+
+
+.NoEmoticons {
+	width: 274px;
+}
+
+.ChatSend
+{
+	-webkit-flex: 0 0 58px;
+	-ms-flex: 0 0 58px;
+	flex: 0 0 58px;
+	margin-left: 4px;
+	height: 40px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#696969), color-stop(95%,#3b3b3b));filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#696969', endColorstr='#3b3b3b',GradientType=0 );background: -moz-linear-gradient( top, #696969 5%, #3b3b3b 95%);background: -webkit-linear-gradient( top, #696969 5%, #3b3b3b 95%);background: -o-linear-gradient( top, #696969 5%, #3b3b3b 95%);background: -ms-linear-gradient( top, #696969 5%, #3b3b3b 95%);background: linear-gradient( to bottom, #696969 5%, #3b3b3b 95%);}
+
+.ChatButton
+{
+    width: 100%;
+    height: 42px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    float: left;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#696969), color-stop(95%,#3b3b3b));filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#696969', endColorstr='#3b3b3b',GradientType=0 );background: -moz-linear-gradient( top, #696969 5%, #3b3b3b 95%);background: -webkit-linear-gradient( top, #696969 5%, #3b3b3b 95%);background: -o-linear-gradient( top, #696969 5%, #3b3b3b 95%);background: -ms-linear-gradient( top, #696969 5%, #3b3b3b 95%);background: linear-gradient( to bottom, #696969 5%, #3b3b3b 95%);}
+
+.EmoticonContainer
+{
+	-webkit-flex: 0 0 32px;
+	-ms-flex: 0 0 32px;
+	flex: 0 0 32px;
+	height: 38px;
+	margin-left: 4px;
+	background-color: #292929;
+	border: 1px solid #4c4c4c;
+	vertical-align: top;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.emoticon_popup_ctn
+{
+	z-index: 1000;
+}
+
+.BroadcastRow
+{
+	position: relative;
+}
+
+.BroadcastRowShadow
+{
+	position: absolute;
+	top: 0px;
+	left: 20px;
+	right: 20px;
+	bottom: 144px;
+	box-shadow: 1px 1px 1px rgba(255,255,255,0.06);
+	background-color: rgba(0,0,0,0.3);
+}
+
+.BroadcastTitleRow
+{
+	font-family: Motiva Sans Light;
+	font-size: 18px;
+}
+
+#BroadcastPersonaRow
+{
+	height: 36px;
+	line-height: 36px;
+	margin-top: 4px;
+}
+
+.BroadcastProfileName
+{
+	margin-left: 4px;
+}
+
+#BroadcastGame
+{
+	color: white;
+}
+
+#BroadcastGame:hover
+{
+	text-decoration: underline;
+}
+
+#BroadcastTitleSeparator,
+#BroadcastTitle
+{
+	color: #9099a1;
+}
+
+#BroadcastViewerCount
+{
+	font-size: 14px;
+	margin: 8px 0px 0px 8px;
+	padding-left: 28px;
+	background-image: url('http://steamcommunity-a.akamaihd.net/public/images/broadcast/icon_viewers.png' );
+	background-repeat: no-repeat;
+	background-position: left center;
+	line-height: 22px;
+}
+
+#BroadcastInfo
+{
+	margin-top: 10px;
+	height: 80px;
+
+	position: relative;
+}
+
+.BroadcastInfoButtonColumn
+{
+	float: right;
+	margin-top: 10px;
+	margin-left: 10px;
+	z-index: 2;
+	position: relative;
+}
+
+#BroadcastInfoButtons
+{
+}
+
+.BroadcastButton
+{
+	display: inline-block;
+	padding: 0px 8px 0px 8px;
+	margin: 0 0 10px 15px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	cursor: pointer;
+	height: 22px;
+	line-height: 22px;
+
+	font-size: 13px;
+	font-family: Motiva Sans Light;
+	color: #9099a1;
+	background: rgba( 43, 74, 99, 0.5 );
+}
+
+.BroadcastButton:hover
+{
+	text-decoration: none;
+	background-color: rgba( 102, 192, 244, 0.4 );
+	color: #ffffff;
+}
+
+#MoreBroadcastLink
+{
+}
+
+#ViewStorePage
+{
+}
+
+#ReportBroadcast
+{
+	background-image: url(' http://steamcommunity-a.akamaihd.net/public/images/broadcast/icon_report.png' );
+	background-position: 6px center;
+	background-repeat: no-repeat;
+	padding-left: 28px;
+}
+
+#ReportBroadcast:hover
+{
+	background-image: url(' http://steamcommunity-a.akamaihd.net/public/images/broadcast/icon_report_white.png' );
+}
+
+#ReportBroadcast.Reported,
+#ReportBroadcast.Reported:hover
+{
+	color: #35d340;
+	cursor: default;
+}
+
+.report_dialog_text_area
+{
+	height: 100px;
+}
+
+.report_dialog_explanation
+{
+	width: 500px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+
+#footer_spacer
+{
+	background-color: black;
+}
+
+#ModalBackground
+{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 901;
+}
+
+#ViewerModal
+{
+	position: absolute;
+	z-index: 901;
+	top: 222px;
+	right: 46px;
+	width: 220px;
+	height: 430px;
+	background-color: #171a21;
+	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+}
+
+#LoadingViewerModal
+{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+
+			display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		display: -webkit-inline-flex;
+		-webkit-align-items: center;
+		-webkit-justify-content: center;
+		}
+
+#LoadingViewerModal .LoadingWrapper
+{
+	width: auto;
+}
+
+#LoadingViewerModal .LoadingThrobber
+{
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+#LoadedViewerModal
+{
+	padding: 15px 15px;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+}
+
+#ViewerModalError
+{
+	padding-top: 80px;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#ViewerModalViewers
+{
+	padding-left: 28px;
+
+	background-image: url(' http://steamcommunity-a.akamaihd.net/public/images/broadcast/icon_viewers.png' );
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+#ViewerModalUsers .UserRow
+{
+	padding-left: 28px;
+	margin-top: 2px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	position: relative;
+}
+
+#ViewerModalUsers .Muted
+{
+	border-radius: 2px;
+	background-image: url(' http://steamcommunity-a.akamaihd.net/public/images/broadcast/icon_muted.png' );
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: absolute;
+	top: 0px;
+	left: 2px;
+	bottom: 0px;
+	width: 20px;
+}
+
+#ViewerModalUsers .Muted.CanUnmute
+{
+    background-color: #2b4a63;
+    cursor: pointer;
+}
+
+#ViewerModalUsers .Muted.CanUnmute:hover
+{
+	background-image: url(' http://steamcommunity-a.akamaihd.net/public/images/broadcast/icon_unmute.png' );
+}
+
+#ViewerModalUsers a
+{
+	color: #4399c4;
+}
+
+#ViewerNotReturned
+{
+	padding-left: 28px;
+	margin-top: 2px;
+}
+
+/* Scrollbar */
+.ps-container>.ps-scrollbar-x-rail {
+	position: absolute; /* please don't change 'position' */
+	bottom: 3px; /* there must be 'bottom' for ps-scrollbar-x-rail */
+	height: 8px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-o-transition: background-color .2s linear, opacity .2s linear;
+	-webkit-transition: background-color .2s linear, opacity .2s linear;
+	-moz-transition: background-color .2s linear, opacity .2s linear;
+	transition: background-color .2s linear, opacity .2s linear;
+}
+
+.ps-container:hover>.ps-scrollbar-x-rail {
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+
+.ps-container>.ps-scrollbar-x-rail:hover {
+	background-color: #eee;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+
+.ps-container>.ps-scrollbar-x-rail.in-scrolling {
+	background-color: #eee;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+
+.ps-container>.ps-scrollbar-y-rail {
+	position: absolute; /* please don't change 'position' */
+	right: 3px; /* there must be 'right' for ps-scrollbar-y-rail */
+	width: 5px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	opacity: 0;
+	filter: alpha(opacity = 0);
+	-o-transition: background-color .2s linear, opacity .2s linear;
+	-webkit-transition: background-color .2s linear, opacity .2s linear;
+	-moz-transition: background-color .2s linear, opacity .2s linear;
+	transition: background-color .2s linear, opacity .2s linear;
+
+	z-index: 1000;
+}
+
+.ps-container:hover>.ps-scrollbar-y-rail {
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+
+.ps-container>.ps-scrollbar-y-rail:hover {
+	background-color: #eee;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+
+.ps-container>.ps-scrollbar-y-rail.in-scrolling {
+	background-color: #eee;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+
+.ps-container>.ps-scrollbar-x-rail>.ps-scrollbar-x {
+	position: absolute; /* please don't change 'position' */
+	bottom: 0; /* there must be 'bottom' for ps-scrollbar-x */
+	height: 8px;
+	background-color: #aaa;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-o-transition: background-color .2s linear;
+	-webkit-transition: background-color.2s linear;
+	-moz-transition: background-color .2s linear;
+	transition: background-color .2s linear;
+}
+
+.ps-container>.ps-scrollbar-x-rail:hover>.ps-scrollbar-x {
+	background-color: #999;
+}
+
+.ps-container>.ps-scrollbar-y-rail>.ps-scrollbar-y {
+	position: absolute; /* please don't change 'position' */
+	right: 0; /* there must be 'right' for ps-scrollbar-y */
+	width: 5px;
+	background-color: #aaa;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-o-transition: background-color .2s linear;
+	-webkit-transition: background-color.2s linear;
+	-moz-transition: background-color .2s linear;
+	transition: background-color .2s linear;
+}
+
+.ps-container>.ps-scrollbar-y-rail:hover>.ps-scrollbar-y {
+	background-color: #999;
+}
+
+.VideoStatsOverlay
+{
+	position: absolute;
+	padding: 10px;
+	top: 10px;
+	left: 10px;
+	background-color: rgba(0,0,0,0.4);
+	display: none;
+}
+
+.ContextMenu
+{
+	background: rgba(0,0,0,0.9);
+	border-radius: 3px;
+}
+
+.ContextMenu a
+{
+	padding: 5px 10px;
+	text-decoration: none;
+	display: block;
+	color: #8F98A0;
+	font-size: 12px;
+}
+
+.ContextMenu a:hover
+{
+	background: rgba(55,55,55,0.9);
+	color: #fff;
+}
+
+#BroadcasterAdminBox
+{
+    color: #8F98A0;
+}
+
+.BroadcasterAdminFormLeft
+{
+    margin-left: 180px;
+    position: absolute;
+    width: 92px;
+    margin-top: 3px;
+}
+
+.BroadcasterAdminFormRight
+{
+    margin-left: 280px;
+    position: absolute;
+}
+
+.BroadcasterAdminFormRow1
+{
+    margin-top: 10px;
+    position: absolute;
+}
+
+.BroadcasterAdminFormRow2
+{
+    margin-top: 40px;
+    position: absolute;
+}
+
+#BroadcasterAdminFormRow3
+{
+    margin-top: 70px;
+    position: absolute;
+}
+
+#BroadcasterAdminFormRow4
+{
+    margin-top: 100px;
+    position: absolute;
+}
+
+.BroadcastAdminInput
+{
+    width: 230px;
+    height: 22px;
+    color: white;
+    border: 1px solid #4c4c4c;
+    background-color: #292929;
+    box-sizing: border-box;
+    resize: none;
+}
+
+#BroadcasterAdminHeader
+{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+#BroadcasterAdminStopButton
+{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 0px;
+    width: 120px;
+}
+
+#BroadcasterAdminUpdateButton
+{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 520px;
+    width: 120px;
+}
+
+#BroadcastAdminUpdateResult
+{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 520px;
+}
+
+#BroadcastAdminViewerCount
+{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 0px;
+}
+
+html.responsive body.broadcast_watch_page .responsive_page_template_content {
+	padding-bottom: 0;
+}
+
+@media screen and (max-aspect-ratio: 10/9),
+	screen and (max-width: 910px)
+{
+
+	html.responsive body #PageContents {
+		min-width: 0;
+	}
+
+	html.responsive body:not(.iframe) #ChatWindow {
+		width: auto;
+		margin: 0 20px;
+		position: relative;
+		min-height: 280px;
+	}
+
+	html.responsive #video_content {
+		width: auto;
+		margin: 0;
+		padding: 0;
+	}
+
+	html.responsive .BroadcastPlayer {
+		min-width: 0;
+	}
+
+	html.responsive .ChatMinimize,
+	html.responsive .ChatMaximize {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 720px)
+{
+	html.responsive #BroadcastInfo {
+		clear: right;
+		padding-top: 10px;
+	}
+
+	html.responsive	body.flat_page:not(.iframe) .pagecontent {
+		padding-top: 0;
+	}
+}
+
+@media screen and (max-width: 910px)
+{
+	html.responsive .ChatTextField {
+		font-size: 16px;
+	}
+
+}
+	html.responsive.touch .ChatTextField {
+		font-size: 16px;
+	}

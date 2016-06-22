@@ -1,0 +1,345 @@
+.itemIconWithTooltip {
+    position:relative;
+}
+.iconTooltip {
+    position: absolute;
+    text-align: left;
+    float: left;
+    border: solid #000 1px;
+    background-color: #111;
+    width: 337px;
+    padding: 20px;
+    background: -moz-linear-gradient(top, #2e2e2d, #000000);
+    z-index: 100;
+}
+
+.iconTooltip img {
+    opacity: 1 !important;
+}
+
+.iconTooltip div:empty, .iconTooltip:hover {
+    display: none !important;
+}
+
+/* specific tooltip style changes for item/ability/hero types */
+.iconTooltip_item {
+}
+.iconTooltip_ability {
+}
+.iconTooltip_hero {
+    width:auto;
+    text-align:center;
+}
+.iconTooltip .itemIcon {
+    float:left;
+    width:74px;
+    height:56px;
+    margin-right:4px;
+}
+.iconTooltip .itemName {
+    margin:7px 0px 3px 82px;
+    color:#ffffff;
+    font-size:18px;
+    font-family:KoreanFont,georgia,serif;
+    text-transform:uppercase;
+}
+.iconTooltip .itemCMB {
+    padding: 4px 0;
+}
+.iconTooltip .abilityName {
+    margin:7px 0px 6px 0px;
+    font-weight:normal;
+    color:#ffffff;
+    font-size:18px;
+    font-family:KoreanFont,georgia,serif;
+    text-transform:uppercase;
+}
+.iconTooltip .abilityCMB {
+    padding: 4px 0;
+}
+.iconTooltip .quality_rare {
+    color:#1a87f9;
+}
+.iconTooltip .quality_artifact {
+    color:#e29b01;
+}
+.iconTooltip .quality_secret_shop {
+    color:#ffffff;
+}
+.iconTooltip .quality_consumable {
+    color:#1d80e7;
+}
+.iconTooltip .quality_common {
+    color:#2bab01;
+}
+.iconTooltip .quality_epic {
+    color:#b812f9;
+}
+.iconTooltip .quality_component {
+    color:#ffffff;
+}
+.iconTooltip .goldIcon {
+    float:left;
+    margin:2px 4px 0 0;
+}
+.iconTooltip .goldCost {
+    font-weight:bold;
+    color:#f5c433;
+    font-size:15px;
+}
+.iconTooltip .description {
+    font-weight:bold;
+    color:#c0c0c0;
+    font-size:14px;
+    line-height:21px;
+    margin-top:9px;
+    padding-left:2px;
+    margin-bottom: 13px;
+}
+.iconTooltip .notes {
+    font-weight:bold;
+    color:#6fe771;
+    font-size:14px;
+    line-height:21px;
+    padding-left:2px;
+    padding-bottom: 8px;
+}
+.iconTooltip .attribVal {
+    color:#fbb040;
+}
+.iconTooltip .attribs {
+    font-weight:bold;
+    color:#7a7a7a;
+    font-size:15px;
+    line-height:21px;
+    margin:6px 0 0 11px;
+    padding-left:2px;
+}
+.iconTooltip .attribValText
+{
+    color:#c0c0c0;
+}
+.iconTooltip .lore {
+    clear:right;
+    color:#afafaf;
+    font-size:11px;
+    line-height:18px;
+    padding:4px 0 4px 2px;
+}
+.iconTooltip .mana {
+    float:right;
+    width:168px;
+}
+.iconTooltip .cooldownMana {
+    color:#fbb040;
+    font-size:13px;
+    margin:8px 0 10px 0;
+    line-height:22px;
+    height:22px;
+    padding-left:2px;
+}
+.iconTooltip .manaImg, .iconTooltip .cooldownImg {
+    margin:0 6px 0 0;
+    display:block;
+    float:left;
+}
+.iconTooltip .abilityHR1, .iconTooltip .abilityHR2 {
+    background-repeat:no-repeat;
+    height:2px;
+    min-width:320px;
+    margin:5px 0px;
+    background-image:url( 'http://cdn.dota2.com/apps/dota2/images/tooltips/abil_hr_1.png' );
+}
+.iconTooltip .abilityHR2 {
+    background-image:url( 'http://cdn.dota2.com/apps/dota2/images/tooltips/abil_hr_2.png' );
+}
+.iconTooltip .abilityTarget {
+    color:#ffffff;
+    font-size:14px;
+    font-family:KoreanFont,arial, helvetica, sans-serif;
+    font-weight:bold;
+    line-height:20px;
+    padding: 7px 0;
+}
+.iconTooltip .abilityTarget .attribVal {
+    color:#ffffff;
+}
+.iconTooltip .abilityDmg .attribVal, .iconTooltip .abilityAttrib .attribVal {
+    color:#888888;
+}
+.iconTooltip .abilityDesc {
+    color:#c6c6c6;
+    line-height:20px;
+    font-size:14px;
+    margin-bottom:6px;
+    font-weight:bold;
+    padding:4px 0;
+}
+.iconTooltip .abilityNotes {
+    color:#6fe771;
+    line-height:20px;
+    font-size:14px;
+    margin-bottom:6px;
+    font-weight:bold;
+}
+.iconTooltip .abilityDmg, .iconTooltip .abilityAttrib {
+    font-size:14px;
+    font-family:KoreanFont,arial, helvetica, sans-serif;
+    font-weight:bold;
+    line-height:20px;
+    color:#c6c6c6;
+    padding: 4px 0;
+}
+.iconTooltip .abilityCMB .mana,.iconTooltip .abilityCMB .cooldown {
+    color:#777777;
+    font-family:KoreanFont,arial, helvetica, sans-serif;
+    font-weight:normal;
+}
+.iconTooltip .abilityLore {
+    color:#a8a8a8;
+    font-family:KoreanFont,arial, helvetica, sans-serif;
+    font-size:11px;
+    line-height:16px;
+    text-align:left;
+}
+.iconTooltip .abilityCMB .cooldownMana
+{
+    margin:6px 0px 2px 0px;
+}
+
+/* hero tips */
+.iconTooltip .heroPrimaryStats {
+    width:180px;
+    height:62px;
+    position:relative;
+    margin:0 auto;
+    overflow:visible;
+}
+.iconTooltip .overviewIcon_Primary {
+    position:absolute;
+    left:-1px;
+    /*top:83px;*/
+    z-index:4;
+}
+.iconTooltip .overviewIcon_Int {
+    position:absolute;
+    left:1px;
+    top:2px;
+    z-index:5;
+}
+.iconTooltip .overviewIcon_Agi {
+    position:absolute;
+    left:1px;
+    top:23px;
+    z-index:5;
+}
+.iconTooltip .overviewIcon_Str {
+    position:absolute;
+    left:1px;
+    top:44px;
+    z-index:5;
+}
+.iconTooltip .overviewIcon_Attack {
+    position:absolute;
+    left:104px;
+    top:2px;
+}
+.iconTooltip .overviewIcon_Speed {
+    position:absolute;
+    left:97px;
+    top:23px;
+}
+.iconTooltip .overviewIcon_Defense {
+    position:absolute;
+    left:102px;
+    top:44px;
+}
+.iconTooltip .overview_StatVal {
+    position:absolute;
+    font-size:14px;
+    font-weight:bold;
+}
+.iconTooltip .overview_IntVal {
+    top:2px;
+    left:21px;
+}
+.iconTooltip .overview_AgiVal {
+    top:23px;
+    left:21px;
+}
+.iconTooltip .overview_StrVal {
+    top:44px;
+    left:21px;
+}
+.iconTooltip .overview_AttackVal {
+    top:2px;
+    left:133px;
+}
+.iconTooltip .overview_SpeedVal {
+    top:23px;
+    left:133px;
+}
+.iconTooltip .overview_DefenseVal {
+    top:44px;
+    left:133px;
+}
+.iconTooltip .primaryVal {
+    color:#fefefe;
+}
+.iconTooltip .heroName {
+    text-align:center;
+    padding-bottom:2px;
+    font-family:KoreanFont,georgia,serif;
+    font-weight:normal;
+    /*text-transform:uppercase;*/
+    letter-spacing:2px;
+    font-size:16px;
+    color:#d9d9d9;
+}
+.iconTooltip .heroRoles {
+    text-align:center;
+    color:#939393;
+    font-family:KoreanFont,arial,helvetica,sans-serif;
+    font-size:12px;
+    padding:4px 0 6px 0;
+}
+.iconTooltip .heroAttackCability {
+    color:#ffffff;
+}
+.iconTooltip .BaseArrow {
+    display:block !important;
+    position:absolute;
+    width:29px;
+    height:34px;
+    top:20px;
+    z-index:101;
+}
+.iconTooltip .ArrowLeft:after {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(17, 17, 17, 0);
+    border-right-color: #111;
+    border-width: 20px;
+    margin-top: -19px;
+}
+.iconTooltip .ArrowRight:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(17, 17, 17, 0);
+    border-left-color: #111;
+    border-width: 20px;
+    margin-top: -19px;
+    margin-left: -29px;
+}
