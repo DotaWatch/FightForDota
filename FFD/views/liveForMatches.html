@@ -1218,7 +1218,7 @@ a.navBarItem:hover {
 
 <div id="MainContainer" class="MainContainer AutoLoad Loaded_js">
 
-
+<!--对应网页最上方的一条-->
 <div id="Panel_OverviewHeader" class="OverviewHeader DotaFont DataDependentPanel Opaque" data-nofade="1" data-nowaitpanel="1">
     <div class="LoadingContainer"><div class="WaitingPanel FadeAnimation" style="display: none;"><div></div></div></div><div class="Content Opaque" data-bothhidden="0">
     <a href="javascript:void(0);" class="LeftArrow ToggleColumnVisibility_js" data-selector=".MainFlexContainer_ColumnA" data-parentclass="NoLeftMargin" data-hidden="0"></a>
@@ -1301,9 +1301,9 @@ a.navBarItem:hover {
     </div>
 </div>
 </div>
-
+<!--对应网页剩余部分，采用CSS3的伸缩性布局：display：flex；minWidth：1200px-->
 <div class="MainFlexContainer MinPageWidth" style="z-index: 1;">
-
+<!--对应网页左列，display：flex；flex-flow：column nowrap；flex：0 0 17.5%-->
 <div class="MainFlexContainer_ColumnA">
     <div id="Panel_SpectatorStats" class="SpectatorStats DataDependentPanel Opaque">
         <div class="LoadingContainer"><div class="WaitingPanel FadeAnimation" style="display: none;"><div></div></div></div><div class="Content Opaque">
