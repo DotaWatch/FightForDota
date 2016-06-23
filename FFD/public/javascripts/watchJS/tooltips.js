@@ -293,7 +293,7 @@ function LoadTooltipCSS()
 		{
 			rel:"stylesheet",
 			type:"text/css",
-			href:"../public/stylesheets/watchCSS/tooltips.css?v=mIglP2q-7ajT"
+			href:"stylesheets/watchCSS/tooltips.css?v=mIglP2q-7ajT"
 		}
 	).appendTo('head');
 	g_bTooltipCSSLoaded = true;

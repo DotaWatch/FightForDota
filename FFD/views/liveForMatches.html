@@ -1,1217 +1,20 @@
 <!DOCTYPE html>
-<!-- saved from url=(0044)http://www.dota2.com/watch/76561198125568794 -->
 <html class=" -webkit-">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-<title>Dota - 观战</title>
-
+<title>Live For Dota</title>
 <link rel="shortcut icon" href="http://cdn.dota2.com/apps/dota2/images/favicon.ico">
-
 <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-
-<style media="" data-href="../public/stylesheets/static/reset.css">/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-    display: block;
-}
-body {
-    line-height: 1;
-}
-ol, ul {
-    list-style: none;
-}
-blockquote, q {
-    quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-</style>
-<style media="" data-href="../public/stylesheets/watchCSS/global.css?v=b3504183">
-    *, html, body, td {
-        font-family:arial, helvetica, sans-serif;
-    }
-
-    body {
-        margin:0;
-        padding:0;
-        background-color:#2d2d2b;
-        color:#939393;
-    }
-
-    .NoSelect {
-        -webkit-touch-callout: none;
-        -webkit-user-select: none;
-        -khtml-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        -webkit-user-select: none;
-    }
-
-    #liveFeedHeader {
-        width:700px;
-        background-color:#000000;
-        padding:10px;
-    }
-
-    .watchLiveLink, .watchLiveLink:hover, .watchLiveLink:active, .watchLiveLink:visited {
-        font-size:16px;
-        font-weight:bold;
-        color:#ffa800;
-    }
-
-    .teamNameLink, .teamNameLink:hover, .teamNameLink:active, .teamNameLink:visited {
-        text-decoration:none;
-    }
-
-    #userInfo {
-        position:absolute;
-        top:0px;
-        right:0px;
-        width:auto;
-        background-color:black;
-        padding:4px 10px;
-        font-size:11px;
-        color:#ffffff;
-        line-height:16px;
-        text-align:left;
-    }
-
-    .menu
-    {
-        list-style-type:none;
-        padding:0px;
-        margin:0px;
-        border:0;
-        margin-left:73px;
-    }
-    .menu li
-    {
-        float:left;
-        padding-left: 6px;
-        padding-right: 6px;
-        padding-top:21px;
-        margin-right:8px;
-        color:#cccccc;
-        font-size: 14px;
-        color: #b8b6b4;
-        text-transform: uppercase;
-    }
-
-    .menu a, .menu a:active, .menu a:visited, .menu a:link, .menu a:focus
-    {
-        color:#959595;
-        text-decoration:none;
-    }
-
-    a, a:active, a:visited, a:focus
-    {
-        color:#959595;
-        text-decoration:none;
-    }
-
-    a:hover
-    {
-        color:#ffffff;
-        text-decoration:none;
-        -webkit-transition: color .15s ease-in-out;
-        -moz-transition: color .15s ease-in-out;
-        -o-transition: color .15s ease-in-out;
-        transition: color .15s ease-in-out;
-    }
-
-    a.intmenu,a.intmenu:link,a.intmenu:visited,a.intmenu:active,a.intmenu:hover {
-        display:inline-block;
-        padding:21px 6px 0px 6px;
-        margin-right:8px;
-        font-size:14px;
-        color:#b8b6b4;
-        text-transform:uppercase;
-    }
-    a.intmenu:hover {
-        color:#ffffff;
-    }
-
-
-    #centerContent {
-        width:958px;
-        margin:0;
-        padding:0;
-        text-align:left;
-        font-size:12px;
-        line-height:18px;
-    }
-
-    .centered {
-        text-align:center;
-    }
-
-    form {
-        margin:0;
-        padding:0;
-    }
-
-    .perf_timing_area {
-        position: relative;
-        width: 936px;
-        margin: 0px auto 48px auto;
-        text-align: center;
-        color: #B0AEAC;
-    }
-
-    .perf_timing_link {
-    }
-
-    .perf_timing_data {
-        text-align: left;
-        background-color: #000000;
-        padding: 8px;
-    }
-</style>
-<style media="" data-href="../public/stylesheets/watchCSS/global_schinese.css?v=gwxd-6E4z4E7">html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}body{background-color:#000}@font-face{font-family:'Radiance';src:url("http://cdn.dota2.com/apps/dota2/fonts/radiance.eot");src:url("http://cdn.dota2.com/apps/dota2/fonts/radiance.eot?#iefix") format("embedded-opentype"),url("http://cdn.dota2.com/apps/dota2/fonts/radiance.woff") format("woff"),url("http://cdn.dota2.com/apps/dota2/fonts/radiance.ttf") format("truetype"),url("http://cdn.dota2.com/apps/dota2/fonts/radiance.svg#ywftsvg") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:'Radiance-SemiBold';src:url("http://cdn.dota2.com/apps/dota2/fonts/radiance-semibold.eot");src:url("http://cdn.dota2.com/apps/dota2/fonts/radiance-semibold.eot?#iefix") format("embedded-opentype"),url("http://cdn.dota2.com/apps/dota2/fonts/radiance-semibold.woff") format("woff"),url("http://cdn.dota2.com/apps/dota2/fonts/radiance-semibold.ttf") format("truetype"),url("http://cdn.dota2.com/apps/dota2/fonts/radiance-semibold.svg#ywftsvg") format("svg");font-weight:normal;font-style:normal}body{font-family:"YouYuan","Microsoft YaHei","Radiance",Verdana}.DotaFont{font-family:"YouYuan","Microsoft YaHei","Radiance",Verdana}
-</style>
-<style media="" data-href="../public/stylesheets/watchCSS/publicheader.css?v=n3QrQzPd1_eP">
-#navBarBGRepeat {
-    width:100%;
-    height:68px;
-    position:relative;
-    margin-bottom:1px;
-    z-index: 10001;
-    background-image: linear-gradient( to top, #171717, #111111, #040404, #010101 );
-}
-
-#navBarShadow {
-    position:absolute;
-    width:100%;
-    height:29px;
-    top:68px;
-    left:0px;
-    background-image:url('../public/images/watchImg/header_bg_shadow.png');
-    background-repeat:repeat-x;
-    z-index:100;
-    pointer-events:none;
-}
-
-#navBarBG {
-    width:100%;
-    height:68px;
-    text-align:center;
-}
-
-#navBar {
-    width: 938px;
-    height: 69px;
-    padding: 0;
-    margin: 0 auto;
-    text-align: left;
-}
-
-#navBar .navBarItem {
-    position: relative;
-    display: inline-block;
-    margin-right: 26px;
-    line-height: 18px;
-}
-
-#navBar a.navBarItem {
-    text-transform:uppercase;
-    letter-spacing:4px;
-    font-size:12px;
-    color:#908d8b;
-}
-
-#navBar a.navBarItem:hover {
-    color:#ffffff;
-}
-
-#navBar img.dn_arrow {
-    position: relative;
-    width: 10px;
-    height: 6px;
-    border: 0;
-    left: -24px;
-    top:-1px;
-}
-
-#navBar div.external_img {
-}
-
-a.navBarItem:link, a.navBarItem:active, a.navBarItem:visited {
-    text-decoration:none;
-    color: #908d8b;
-}
-
-a.navBarItem:hover {
-    color: #ffffff;
-}
-
-#navLoginAndLanguage {
-    position:absolute;
-    width:938px;
-    text-align:right;
-    top:5px;
-    padding-right:10px;
-    font-size:11px;
-}
-
-#navLoginAndLanguage a, #navLoginAndLanguage a:hover, #navLoginAndLanguage a:visited, #navLoginAndLanguage a:active {
-    color:#908d8b;
-    text-decoration:none;
-    font-size:11px;
-}
-
-#navLoginAndLanguage a:hover {
-    color:#ffffff;
-}
-
-#languageSelector {
-    float:right;
-}
-
-#languageList {
-    padding:3px 2px;
-    border:solid #777777 1px;
-    background-color:#333333;
-    text-align:left;
-    z-index:999999;
-    position:absolute;
-    right:10px;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
-    -moz-box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
-    -webkit-box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
-}
-
-#languageList a {
-    display:block;
-    padding:3px 6px;
-}
-
-#languageList a:hover {
-    background-color:#555555;
-}
-
-#adminSelector {
-    float:right;
-}
-
-#adminList {
-    width: 130px;
-    padding:3px 2px;
-    border:solid #777777 1px;
-    background-color:#333333;
-    text-align:left;
-    z-index:100;
-    position:absolute;
-    right:20px;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
-    -moz-box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
-    -webkit-box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
-}
-
-#adminList a {
-    display:block;
-    padding:3px 6px;
-}
-
-#adminList a:hover {
-    background-color:#555555;
-}
-
-#supportSelector {
-    float:right;
-}
-
-#supportList {
-    padding:3px 2px;
-    border:solid #777777 1px;
-    background-color:#333333;
-    text-align:left;
-    z-index:100;
-    position:absolute;
-    right:94px;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
-    -moz-box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
-    -webkit-box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
-}
-
-#supportList a {
-    display:block;
-    padding:3px 6px;
-}
-
-#supportList a:hover {
-    background-color:#555555;
-}
-
-.menuSubItemList {
-    min-width: 200px;
-    padding:3px 2px;
-    border:solid #555 1px;
-    background-color:#111;
-    text-align:left;
-    z-index:999999;
-    position:absolute;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
-    -moz-box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
-    -webkit-box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
-}
-
-.menuSubItemList a {
-    display:block;
-    padding: 6px 8px;
-    color: #AAA !important;
-    font-size: small;
-    text-decoration:none;
-}
-
-.menuSubItemList a:hover {
-    color: white !important;
-    background-color:#555;
-    text-decoration:none;
-}
-
-.navItem {
-    height: 70px;
-    margin-top: 21px;
-    display: inline-block;
-}
-
-.navItem sup {
-    color: #a83b28;
-    font-size: 0.7em;
-    vertical-align: top;
-    position: relative;
-    top: -8px;
-}
-
-.navItemDotaLogo {
-    width: 216px;
-}
-
-.navItem .DotaLogo {
-    position: absolute;
-    margin-top: -21px;
-    top: 0;
-    opacity: .8;
-}
-
-.navItem .DotaLogo:hover {
-    opacity: 1;
-}
-
-@font-face {
-    font-family: 'Radiance';
-    src: url('http://cdn.dota2.com/apps/dota2/fonts/radiance.eot');
-    src: url('http://cdn.dota2.com/apps/dota2/fonts/radiance.eot?#iefix') format('embedded-opentype'),
-    url('http://cdn.dota2.com/apps/dota2/fonts/radiance.woff') format('woff'),
-    url('http://cdn.dota2.com/apps/dota2/fonts/radiance.ttf') format('truetype'),
-    url('http://cdn.dota2.com/apps/dota2/fonts/radiance.svg#ywftsvg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Radiance-Bold';
-    src: url('http://cdn.dota2.com/apps/dota2/fonts/radiance-bold.eot');
-    src: url('http://cdn.dota2.com/apps/dota2/fonts/radiance-bold.eot?#iefix') format('embedded-opentype'),
-    url('http://cdn.dota2.com/apps/dota2/fonts/radiance-bold.woff') format('woff'),
-    url('http://cdn.dota2.com/apps/dota2/fonts/radiance-bold.ttf') format('truetype'),
-    url('http://cdn.dota2.com/apps/dota2/fonts/radiance-bold.svg#ywftsvg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Radiance-SemiBold';
-    src: url('http://cdn.dota2.com/apps/dota2/fonts/radiance-semibold.eot');
-    src: url('http://cdn.dota2.com/apps/dota2/fonts/radiance-semibold.eot?#iefix') format('embedded-opentype'),
-    url('http://cdn.dota2.com/apps/dota2/fonts/radiance-semibold.woff') format('woff'),
-    url('http://cdn.dota2.com/apps/dota2/fonts/radiance-semibold.ttf') format('truetype'),
-    url('http://cdn.dota2.com/apps/dota2/fonts/radiance-semibold.svg#ywftsvg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'goudy_trajan_boldbold';
-    src: url('http://cdn.dota2.com/apps/dota2/fonts/goudytrajan-bold-pro-webfont.eot');
-    src: url('http://cdn.dota2.com/apps/dota2/fonts/goudytrajan-bold-pro-webfont.eot?#iefix') format('embedded-opentype'),
-    url('http://cdn.dota2.com/apps/dota2/fonts/goudytrajan-bold-pro-webfont.woff') format('woff'),
-    url('http://cdn.dota2.com/apps/dota2/fonts/goudytrajan-bold-pro-webfont.ttf') format('truetype'),
-    url('http://cdn.dota2.com/apps/dota2/fonts/goudytrajan-bold-pro-webfont.svg#goudy_trajan_boldbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'goudy_trajan_mediummedium';
-    src: url('http://cdn.dota2.com/apps/dota2/fonts/goudytrajan-medium-pro-webfont.eot');
-    src: url('http://cdn.dota2.com/apps/dota2/fonts/goudytrajan-medium-pro-webfont.eot?#iefix') format('embedded-opentype'),
-    url('http://cdn.dota2.com/apps/dota2/fonts/goudytrajan-medium-pro-webfont.woff') format('woff'),
-    url('http://cdn.dota2.com/apps/dota2/fonts/goudytrajan-medium-pro-webfont.ttf') format('truetype'),
-    url('http://cdn.dota2.com/apps/dota2/fonts/goudytrajan-medium-pro-webfont.svg#goudy_trajan_mediummedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'goudy_trajan_regularregular';
-    src: url('http://cdn.dota2.com/apps/dota2/fonts/goudytrajan-regular-pro-webfont.eot');
-    src: url('http://cdn.dota2.com/apps/dota2/fonts/goudytrajan-regular-pro-webfont.eot?#iefix') format('embedded-opentype'),
-    url('http://cdn.dota2.com/apps/dota2/fonts/goudytrajan-regular-pro-webfont.woff') format('woff'),
-    url('http://cdn.dota2.com/apps/dota2/fonts/goudytrajan-regular-pro-webfont.ttf') format('truetype'),
-    url('http://cdn.dota2.com/apps/dota2/fonts/goudytrajan-regular-pro-webfont.svg#goudy_trajan_regularregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-#mcgcflushresponse li .Language {
-    padding-right: 10px;
-}
-
-#mcgcflushresponse .Done {
-    color: rgb(100,100,100);
-}
-
-#mcgcflushresponse .Title {
-    padding-bottom: 10px;
-}
-</style>
-<style media="" data-href="../public/stylesheets/watchCSS/tv.css?v=tdFgpcAP6XzV">html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-user-select:none}@-webkit-keyframes FadeOutThenZeroWidth{0%{opacity:1}25%{opacity:0}100%{opacity:0;-webkit-flex:0 0 0;flex:0 0 0}}@keyframes FadeOutThenZeroWidth{0%{opacity:1}25%{opacity:0}100%{opacity:0;-webkit-flex:0 0 0;-ms-flex:0 0 0;flex:0 0 0}}.FlexColumnHideAnimation{-webkit-animation:FadeOutThenZeroWidth 0.5s forwards;animation:FadeOutThenZeroWidth 0.5s forwards}@-webkit-keyframes SpinnerRotation{from{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@keyframes SpinnerRotation{from{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}#DummyColors_js .Radiant{border-top-color:#5d7f2f;background-color:#7ba83e;color:#608330}#DummyColors_js .Dire{border-top-color:#983425;color:#a13728;background-color:#ca4532}.BottomBorder_js{border-bottom-width:1px;border-bottom-color:#2b2929;border-bottom-style:solid}.TopBorder_js{border-top-width:1px;border-top-color:#2b2929;border-top-style:solid}.Loaded_js{opacity:1 !important}#navBar a.navBarItem img.bottom{opacity:1 !important}#navBar img{transition:opacity 0.1s ease !important}.CheckboxContainer{display:inline-block;padding-right:13px}[type="Checkbox"]:not(:checked),[type="Checkbox"]:checked{position:absolute;opacity:0}[type="Checkbox"]:not(:checked)+label,[type="Checkbox"]:checked+label{position:relative;padding-left:25px;cursor:pointer;color:#675f60;white-space:nowrap}[type="Checkbox"]:not(:checked)+label:before,[type="Checkbox"]:checked+label:before{content:'';position:absolute;left:0;top:2px;width:17px;height:17px;border:2px solid #292b2a;background:#000;border-radius:0}[type="Checkbox"]:not(:checked)+label:after,[type="Checkbox"]:checked+label:after{content:'\2713 ';position:absolute;left:4px;font-size:14px;color:#c0b8b4;transition:all 0.2s;margin-top:3px;height:0}[type="Checkbox"]:not(:checked)+label:after{opacity:0;-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0)}[type="Checkbox"]:checked+label:after{opacity:1;-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1)}[type="Checkbox"]:disabled:not(:checked)+label:before,[type="Checkbox"]:disabled:checked+label:before{box-shadow:none;border-color:#bbb;background-color:#ddd}[type="Checkbox"]:disabled:checked+label:after{color:#999}[type="Checkbox"]:disabled+label{color:#aaa}label:hover{color:#746b6c !important}label:hover:before{border:2px solid #353837 !important}body{background-color:#000;overflow-x:auto;overflow-y:auto;-webkit-font-smoothing:antialiased}body:not(.Mobile){min-width:1200px}body.MinPageWidth:not(.Mobile){min-width:1200px}textarea,input{outline:none;resize:none}img{opacity:0;transition:opacity 0.8s ease}.AutoLoad{opacity:0;transition:opacity 0.8s ease}.TournamentOnly[data-istournamentgame="0"]{display:none}::-webkit-scrollbar{width:.75em;height:.75em}::-webkit-scrollbar-track{background-color:#1a1f1f}::-webkit-scrollbar-thumb{background-color:#626265}.Glow{text-shadow:0px 0px 10px #1576fb;color:#fff !important}.TransparentBackground{background:transparent !important}.InnerShadow{box-shadow:inset 0 0 10px #000000}.TeamName{color:#beb7b4}.RadiantDireLabel{color:#686362}.HeroWithTeamGradiantAndLabel{position:relative}.HeroWithTeamGradiantAndLabel .Label_Base{color:#3e3e3f;text-align:center;font-weight:600;text-transform:uppercase;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;letter-spacing:1px}.HeroWithTeamGradiantAndLabel .PickBanLabel{padding-bottom:5%;display:none}.HeroWithTeamGradiantAndLabel .HeroNameLabel{padding-top:5%}.HeroWithTeamGradiantAndLabel .TeamGradiantRadiant{background-image:linear-gradient(#3d521f, #55742c)}.HeroWithTeamGradiantAndLabel .TeamGradiantDire{background-image:linear-gradient(#501c1c, #7b2b2a)}.HeroWithTeamGradiantAndLabel .TeamGradiant{height:0;width:100%;padding-bottom:6%;z-index:-1;margin-top:-1%}.ImageBackground{width:100%;height:0;padding-bottom:100%;background-color:#090b0b}.ImageBackground1x1{padding-bottom:100% !important}.ImageBackground4x3{padding-bottom:76% !important}.ImageBackground3x4{padding-bottom:133.333% !important}.ImageBackground16x9{padding-bottom:56.25% !important}.ImageBackground127x71{padding-bottom:55.906% !important}.ImageBackgroundVeryWide{padding-bottom:22.134% !important}.ImageBackground{position:relative;background-color:#090b0b;width:100%;height:0;padding-bottom:100%}.ImageBackground img{width:100%}.DarkGrayBackgroundColor{background-color:#161818 !important}.PointerCursor{cursor:pointer}.HeroImageContainer{position:relative}.RespawnTimeContainer{opacity:0;position:absolute;z-index:1;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;left:0;top:0;width:100%;height:100%}.RespawnTimeContainer .RespawnTime{font-size:1.3vw;color:white}.FlexHidden{-webkit-flex:0 0 0 !important;-ms-flex:0 0 0 !important;flex:0 0 0 !important}.Hidden{display:none !important}.Behind{z-index:-1}.FadeAnimation{transition:opacity 0.25s ease-in-out;opacity:0}.Opaque{opacity:1 !important}.Transparent{opacity:0}.NoVerticalScroll{overflow-y:hidden !important}.HealthBarContainer{position:relative;border-style:solid;border-width:1px}.ManaContainer{border-color:#476b96}.ManaContainer .LeftmostText{color:#6497d4}.HealthBarProgress{position:absolute;left:0;top:0;bottom:0}.HealthBarContainerBig .LeftmostText{padding-left:3px}.HealthBarContainerBig .RegenRate{position:absolute;right:3px}.TallHealthBar{height:21px}.HealthBarText{position:relative;font-weight:100;z-index:1}.ManaTextColor{color:#456993}.RefreshButton{padding:10px 6px;display:inline-block;width:15px;height:15px}.RefreshIcon{width:100%;height:100%;fill:#bbb}.RefreshButton:hover .RefreshIcon{fill:#eee}.BrowserFullscreenToggle{margin:0 17px}.FullscreenIconFill{fill:#848280}.FullscreenIconFill:hover{fill:#fff}.TinySpinner{height:30px;width:30px;margin:0px auto;position:relative;-webkit-animation:SpinnerRotation 0.9s infinite linear;animation:SpinnerRotation 0.9s infinite linear;border-left:2.72727px solid rgba(255,255,255,0.1);border-right:2.72727px solid rgba(255,255,255,0.1);border-bottom:2.72727px solid rgba(255,255,255,0.1);border-top:2.72727px solid rgba(255,255,255,0.7);border-radius:100%;top:50%;margin-top:-15px;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.SmallSpinner{height:60px;width:60px;margin:0px auto;position:relative;-webkit-animation:SpinnerRotation 0.9s infinite linear;animation:SpinnerRotation 0.9s infinite linear;border-left:5.45455px solid rgba(255,255,255,0.1);border-right:5.45455px solid rgba(255,255,255,0.1);border-bottom:5.45455px solid rgba(255,255,255,0.1);border-top:5.45455px solid rgba(255,255,255,0.7);border-radius:100%;top:50%;margin-top:-30px;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.LargeSpinner{height:100px;width:100px;margin:0px auto;position:relative;-webkit-animation:SpinnerRotation 0.9s infinite linear;animation:SpinnerRotation 0.9s infinite linear;border-left:9.09091px solid rgba(255,255,255,0.1);border-right:9.09091px solid rgba(255,255,255,0.1);border-bottom:9.09091px solid rgba(255,255,255,0.1);border-top:9.09091px solid rgba(255,255,255,0.7);border-radius:100%;top:50%;margin-top:-50px;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.MainContainer{opacity:0;transition:opacity 2s ease;position:absolute;height:100vh;top:0;right:0;bottom:0;left:0}.MainFlexContainer{padding-top:39px;position:absolute;top:0;bottom:0;left:0;right:0;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap}body.Mobile{overflow-x:hidden !important;overflow-y:hidden !important}.Mobile .MainFlexContainer{padding-top:0 !important}.Mobile .MainFlexContainer_ColumnB{-webkit-flex:0 0 auto !important;-ms-flex:0 0 auto !important;flex:0 0 auto !important;min-width:0}.Mobile .MainFlexContainer_ColumnC{-webkit-flex:2;-ms-flex:2;flex:2;overflow-y:hidden}.Mobile .OverviewHeader,.Mobile .SpectatorStats,.Mobile .Minimap,.Mobile .Panel_TournamentBox,.Mobile .MiniNav,.Mobile .StreamDataPanelContainer,.Mobile .Panel_TournamentCheer{display:none !important}.Mobile .MainFlexContainer{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:column nowrap;-ms-flex-flow:column nowrap;flex-flow:column nowrap;overflow-x:hidden}.MainFlexContainer_ColumnA{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:column nowrap;-ms-flex-flow:column nowrap;flex-flow:column nowrap;overflow-x:hidden;-webkit-flex:0 0 17.5%;-ms-flex:0 0 17.5%;flex:0 0 17.5%;overflow:hidden}.MainFlexContainer_ColumnB{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:column nowrap;-ms-flex-flow:column nowrap;flex-flow:column nowrap;overflow-x:hidden;overflow:hidden}.MainFlexContainer_ColumnC{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:column nowrap;-ms-flex-flow:column nowrap;flex-flow:column nowrap;overflow-x:hidden;-webkit-flex:0 0 17.5%;-ms-flex:0 0 17.5%;flex:0 0 17.5%}.DayNightContainer{position:absolute;height:40px;top:0;overflow:hidden;left:0;right:0}.DayNightContainer .DayNight{position:relative;width:40px;height:40px;margin:-20px auto 0 auto;z-index:1}.DayNightContainer .DayNight div{-webkit-backface-visibility:hidden;position:relative;width:40px;height:40px;border-radius:50%;background-image:linear-gradient(-90deg, #9f7f1c 50%, transparent 50%, transparent),linear-gradient(270deg, #9f7f1c 50%, #41607c 50%, #41607c)}.LeftArrow:after{color:#848280;font-size:23px}.LeftArrow:hover:after{color:#fff !important}.LeftArrow:after{content:'\25c0 '}.LeftArrow[data-hidden="1"]:after{content:'\25b6 '}.RightArrow:after{color:#848280;font-size:23px}.RightArrow:hover:after{color:#fff !important}.RightArrow:after{content:'\25b6 '}.RightArrow[data-hidden="1"]:after{content:'\25c0 '}.BrightenImageOnHover:hover{-webkit-filter:contrast(0);filter:contrast(0)}.OverviewHeader{position:absolute;width:100%;background-color:#101313;height:39px;z-index:2;min-width:1200px}.OverviewHeader .Content{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-align-items:center;-ms-flex-align:center;align-items:center;left:0;top:0;margin-left:17.5%;margin-right:17.5%;width:65%;height:100%;transition:opacity 0.5s ease,margin-left 0.5s ease,margin-right 0.5s ease,width 0.5s ease !important}.OverviewHeader .Content.NoLeftMargin{margin-left:0 !important;width:82.5%}.OverviewHeader .Content.NoRightMargin{margin-right:0 !important;width:82.5%}.OverviewHeader .Content[data-bothhidden="1"]{width:100% !important}.OverviewHeader .Content .LeftArrow{-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;margin:0 7px}.OverviewHeader .Content .DotaLogo{-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;margin:0 7px}.OverviewHeader .Content .BackToWatch{-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;margin:0 7px}.OverviewHeader .Content .BetaLabel{-webkit-flex:1 0 0;-ms-flex:1 0 0;flex:1 0 0;color:#555251;font-size:15px;text-align:left;font-weight:800;letter-spacing:1px;white-space:nowrap;margin-right:7px}.OverviewHeader .Content .BetaLabel .Highlight{color:#752a0e}.OverviewHeader .Content .TournamentHubLogo{padding:0 14px;border-right:1px solid #2f3030;display:none}.OverviewHeader .Content .RightArrow{-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;margin:0 7px}.OverviewHeader .Content .FlexContainer{width:100%;display:-webkit-flex;display:-ms-flexbox;display:flex;padding-top:18px}.OverviewHeader .TeamName{font-size:1.625em}.OverviewHeader .RadiantDireLabel{font-size:0.88em}.OverviewHeader .TeamLogo{width:50px;opacity:0}.OverviewHeader .TeamKills{font-size:2em;color:#beb7b4}.OverviewHeader .MatchTime{color:#686362}.OverviewHeader .Column_Left{-webkit-flex:1 1;-ms-flex:1 1;flex:1 1;visibility:hidden}.OverviewHeader .Column_Middle{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-flex:1 0;-ms-flex:1 0;flex:1 0;min-width:40%;padding:0 10px;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.OverviewHeader .Column_Middle .ColumnA{-webkit-flex:1 0;-ms-flex:1 0;flex:1 0;text-align:right}.OverviewHeader .Column_Middle .ColumnB{-webkit-flex:1 0;-ms-flex:1 0;flex:1 0;text-align:center}.OverviewHeader .Column_Middle .ColumnC{-webkit-flex:1 0;-ms-flex:1 0;flex:1 0;text-align:center}.OverviewHeader .Column_Middle .ColumnD{-webkit-flex:1 0;-ms-flex:1 0;flex:1 0;text-align:center}.OverviewHeader .Column_Middle .ColumnE{-webkit-flex:1 0;-ms-flex:1 0;flex:1 0}.OverviewHeader .Column_Middle .ColumnF{-webkit-flex:1 0;-ms-flex:1 0;flex:1 0;text-align:center}.OverviewHeader .Column_Middle .ColumnG{-webkit-flex:1 0;-ms-flex:1 0;flex:1 0;text-align:left}.OverviewHeader .Column_Right{-webkit-flex:1 1;-ms-flex:1 1;flex:1 1;visibility:hidden}.Panel_OverviewHeader_LogoSquare{width:29.25px}.Panel_OverviewHeader_LogoWide{position:absolute;right:0;height:29.25px}.Popped{opacity:0.95;transition:opacity 0.2s ease-in-out}.Popped .PopButtonContainer .UpButton{display:none !important}.Popped .PopButtonContainer .DownButton{width:0;height:0;border-left:7px solid transparent;border-right:7px solid transparent;border-top:12px solid #848280;display:block !important}.Popped .PopButtonContainer .DownButton:hover{border-top-color:#fff}.Popped .PicksBansContainer{-webkit-flex-flow:column nowrap !important;-ms-flex-flow:column nowrap !important;flex-flow:column nowrap !important}.Popped .PickBanItem{-webkit-flex:1 0 20% !important;-ms-flex:1 0 20% !important;flex:1 0 20% !important;max-width:20% !important}.Popped .Items{margin-bottom:1%}.Popped .Legend .Block{width:2% !important;padding-bottom:2% !important}.MiniNav{-webkit-flex:0 0 44px;-ms-flex:0 0 44px;flex:0 0 44px;background-color:#111312;line-height:44px;transition:margin-top 0.2s ease-in-out;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;z-index:2}.MiniNav .Links{-webkit-flex:1 0 auto;-ms-flex:1 0 auto;flex:1 0 auto;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap}.MiniNav .NavLink{-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;height:44px;vertical-align:middle;padding-left:20px;color:#576866}.MiniNav .NavLink:hover{color:#eee}.MiniNav .GraphComboBoxContainer{display:none;-webkit-flex:0 0 15%;-ms-flex:0 0 15%;flex:0 0 15%;margin:8px 10px;min-width:160px}.MiniNav .GraphComboBoxContainer .ComboBox{height:28px;line-height:28px}.MiniNav .GraphComboBoxContainer .ComboBox .Text{font-size:15px}.MiniNav .GraphComboBoxContainer .ComboBox .Arrow{top:8px}.MiniNav .ComboDropdownContainer{margin-top:7px}.MiniNav .ComboDropdownContainer .ComboDropdown li{font-size:15px}.MiniNav .Disabled,.MiniNav .Disabled:hover{color:#293030;cursor:default}.MiniNav .ViewerCount{-webkit-flex:0 1 auto;-ms-flex:0 1 auto;flex:0 1 auto;-webkit-align-self:flex-end;-ms-flex-item-align:end;align-self:flex-end;color:#726d6c;font-size:.75em}.MiniNav .ViewerCount .Text{padding-right:8px;border-right-width:1px;border-right-style:solid;border-right-color:#726d6c}.MiniNav .ActivePanelOptions{-webkit-flex:0 1 auto;-ms-flex:0 1 auto;flex:0 1 auto;-webkit-align-self:flex-end;-ms-flex-item-align:end;align-self:flex-end;display:none;overflow:hidden;white-space:nowrap}.MiniNav .MatchTime{-webkit-flex:0 1 auto;-ms-flex:0 1 auto;flex:0 1 auto;-webkit-align-self:flex-end;-ms-flex-item-align:end;align-self:flex-end;padding-left:8px;color:#beb7b4;font-size:.75em;min-width:40px;text-align:right}.MiniNav .PopButtonContainer{-webkit-flex:0 1 auto;-ms-flex:0 1 auto;flex:0 1 auto;-webkit-align-self:flex-end;-ms-flex-item-align:end;align-self:flex-end;padding:2px 0 0 15px;cursor:pointer;min-width:38px;padding-bottom:17px}.MiniNav .PopButtonContainer .DownButton{display:none}.MiniNav .PopButtonContainer .UpButton{width:0;height:0;border-left:7px solid transparent;border-right:7px solid transparent;border-bottom:12px solid #848280;display:block}.MiniNav .PopButtonContainer .UpButton:hover{border-bottom-color:#fff}.DataDependentPanel .LoadingContainer{position:relative}.DataDependentPanel .Content{position:relative;transition:opacity 0.5s ease;opacity:0}.ComboBox{position:relative;padding-left:10px;background:#1e2020;height:39px;line-height:40px;font-size:18px;cursor:pointer}.ComboBox .Shortcut{color:#686362}.ComboBox .Text{color:#beb7b4}.ComboBox .Arrow{position:absolute;top:14px;right:11px;width:22px;height:14px}.ComboBox .Arrow svg{height:14px}.ComboBox .Arrow svg .Line{stroke:#555251}.ComboBox .Arrow svg .Shadow{text-shadow:2px 2px #000}.ComboBox:hover{background:#2a2d2d}.ComboDropdownContainer{position:relative;width:100%;height:0}.ComboDropdown{z-index:100;display:none;position:absolute;background:#686362;line-height:40px;width:100%;box-shadow:0 0 10px #000000}.ComboDropdown li{padding:2px 10px;cursor:pointer;background:#1e2020;height:39px;font-size:20px}.ComboDropdown li .Shortcut{color:#686362}.ComboDropdown li:hover{background:#2a2d2d}.SpectatorStats{-webkit-flex:2;-ms-flex:2;flex:2;background-color:#000}.SpectatorStats .Content{padding:16px 16px}.SpectatorStats .ComboBox{margin:30px 0}.SpectatorStats .ComboDropdown{margin-top:-24px}.SpectatorStats .Players{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:column nowrap;-ms-flex-flow:column nowrap;flex-flow:column nowrap;overflow-x:hidden;overflow-y:hidden}.SpectatorStats .Radiant{background:linear-gradient(to right, #1e290f 0%, #000000 100%)}.SpectatorStats .Radiant:hover{background:linear-gradient(to right, #394e1d 0%, #000000 100%)}.SpectatorStats .Dire{background:linear-gradient(to right, #321110 0%, #000000 100%)}.SpectatorStats .Dire:hover{background:linear-gradient(to right, #591e1c 0%, #000000 100%)}.SpectatorStats .BorderBottom{border-bottom-width:1px;border-bottom-color:#2b2929;border-bottom-style:solid}.SpectatorStats .Panel_PlayerStat{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;height:53px;border-top-width:1px;border-top-color:#2b2929;border-top-style:solid;cursor:pointer;white-space:nowrap}.SpectatorStats .Panel_PlayerStat .Hero{cursor:pointer;-webkit-flex:0 0 87px;-ms-flex:0 0 87px;flex:0 0 87px;display:inline-block;position:relative;padding:4px;opacity:1}.SpectatorStats .Panel_PlayerStat .PlayerName{-webkit-flex:1;-ms-flex:1;flex:1;color:#beb7b4;font-size:17px;line-height:54px;padding:0 8px;text-overflow:ellipsis;overflow:hidden}.SpectatorStats .Panel_PlayerStat .Stat{-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;color:#beb7b4;font-size:17px;line-height:54px;padding-right:4px}.MainFlexContainer_ColumnB{min-width:538px;-webkit-flex:1;-ms-flex:1;flex:1;background-color:#000}.StreamDataPanelContainer{position:relative;-webkit-flex:1;-ms-flex:1;flex:1}.StreamDataPanelItemContainer{position:absolute;top:0;left:0;width:100%;height:100%}.StreamDataPanelScrollableContainer{height:100%;overflow-x:hidden;overflow-y:auto;background-color:#111312}.Panel_Players{background-color:#101313;margin:auto;height:100%}.Panel_PlayerDetails{position:relative;opacity:0;transition:opacity 0.5s ease;background-color:#010204}.Panel_PlayerDetails .GoldContainer{color:#ac7e17}.Panel_PlayerDetails .AbilitiesContainer{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap}.Panel_PlayerDetails .PlayerName{margin-bottom:7px;color:#beb7b4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.Panel_PlayerDetails .LevelText{color:#777271}.Panel_PlayerDetails .HeroName{color:#404041;white-space:nowrap;text-transform:uppercase;padding-left:2%;letter-spacing:2px}.Panel_PlayerDetails_RowA{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;background-color:#101313;margin-bottom:11px;padding:1% 3% 3% 3%}.Panel_PlayerDetails_RowA .ColumnRightMargin{margin-right:2%}.Panel_PlayerDetails_RowA .ColumnA{-webkit-flex:1;-ms-flex:1;flex:1}.Panel_PlayerDetails_RowA .ColumnA .HeroImage{max-width:100%}.Panel_PlayerDetails_RowA .ColumnB{-webkit-flex:2;-ms-flex:2;flex:2}.Panel_PlayerDetails_RowA .ColumnB .Heading{margin-top:7px}.Panel_PlayerDetails_RowA .ColumnB .HealthContainer{margin-bottom:8px}.Panel_PlayerDetails_RowA .ColumnB .ManaContainer{margin-bottom:17px}.Panel_PlayerDetails_RowA .ColumnB .AbilityRightPadding{margin-right:16px}.Panel_PlayerDetails_RowA .ColumnB .Attributes{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;margin-top:5%}.Panel_PlayerDetails_RowA .ColumnB .Attribute{-webkit-flex:1;-ms-flex:1;flex:1;position:relative;max-width:16.667%;text-align:center}.Panel_PlayerDetails_RowA .ColumnB .Attribute .PrimaryIcon{position:absolute;margin-left:1px}.Panel_PlayerDetails_RowA .ColumnB .Attribute .Values{color:#777271;font-weight:600;bottom:0;width:100%;margin-top:6px}.Panel_PlayerDetails_RowA .ColumnC{-webkit-flex:1;-ms-flex:1;flex:1}.Panel_PlayerDetails_RowA .ColumnC .Header{text-align:right;margin-top:6px}.Panel_PlayerDetails_RowA_ColumnD{-webkit-flex:1;-ms-flex:1;flex:1;color:#777271;font-weight:500;margin-top:-1.5%;overflow-y:hidden;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:column nowrap;-ms-flex-flow:column nowrap;flex-flow:column nowrap;overflow-x:hidden}.Panel_PlayerDetails_RowA_ColumnD .FirstStatRow{margin-top:4px}.Panel_PlayerDetails_RowA_ColumnD .StatRow{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-flex:1;-ms-flex:1;flex:1;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;border-bottom-width:1px;border-bottom-color:#2b2929;border-bottom-style:solid;padding:0 9%}.Panel_PlayerDetails_RowA_ColumnD .Abbrev{color:#404041}.Panel_PlayerDetails_RowA_ColumnD .StatItem{-webkit-flex:1;-ms-flex:1;flex:1;padding:0 4%}.Panel_PlayerDetails_ItemContainer{padding:3%;background-color:#1e2020}.Panel_PlayerDetails_ItemContainer .TextContainer{margin-top:-14px;width:100%;text-align:center}.Panel_PlayerDetails_ItemContainer .TextContainer .Text{text-align:center;color:#2b2929;background-color:#101313;padding:0 12px}.Panel_PlayerDetails_ItemContainer .Items{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap}.Panel_PlayerDetails_ItemContainer .Items .Item{-webkit-flex:1;-ms-flex:1;flex:1;min-width:33.333%;padding:1px;display:inline-block}.Panel_PlayerDetails_StashItemContainer{padding:3%;margin-top:15px;border:1px solid #2b2929}.Panel_PlayerDetails_StashItemContainer .TextContainer{margin-top:-14px;width:100%;text-align:center}.Panel_PlayerDetails_StashItemContainer .TextContainer .Text{text-align:center;color:#2b2929;background-color:#101313;padding:0 12px}.Panel_PlayerDetails_StashItemContainer .Items{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap}.Panel_PlayerDetails_StashItemContainer .Items .Item{-webkit-flex:1;-ms-flex:1;flex:1;min-width:33.333%;padding:1px;display:inline-block}.Panel_PlayerDetails_RowB{background-color:#101313;margin-bottom:11px;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap}.Panel_PlayerDetails_RowB .HeroIcon{-webkit-flex:1;-ms-flex:1;flex:1;max-width:32px;margin-right:15px}.Panel_PlayerDetails_RowB .Text{position:relative;-webkit-flex:1;-ms-flex:1;flex:1}.Panel_PlayerDetails_RowB_EnemyColumn{-webkit-flex:1;-ms-flex:1;flex:1;font-weight:400;display:none;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap}.Panel_PlayerDetails_RowB .Abbrev{color:#404041}.Panel_PlayerDetails_RowB .Padding{padding:2px}.Panel_PlayerDetails_RowB_ColumnA{-webkit-flex:1;-ms-flex:1;flex:1;font-weight:400;display:none}.Panel_PlayerDetails_RowB_ColumnB{-webkit-flex:1;-ms-flex:1;flex:1;font-weight:400;display:none}.SelfKillsAndAssistsOnEnemy{color:#777271}.EnemyKillsAndAssistsOnSelf{color:#404041}.AbilityContainer{-webkit-flex:1;-ms-flex:1;flex:1;position:relative;display:inline-block;max-width:16.6667%}.AbilityContainer .Levels{text-align:center;width:100%;margin:3% 0}.AbilityContainer .Levels .AbilityLevel{height:0;width:7.5%;padding-bottom:7.5%;display:inline-block;border-radius:3px}.AbilityContainer .Levels .EmptyLevel{background:#464544}.AbilityContainer .Levels .LeveledLevel{background:#777271}.AbilityContainer .ManaCost{margin-top:6px;color:#3a597c;font-weight:600;text-align:center;width:100%}.Panel_PlayerDetails_RowB{background-color:#101313;margin-bottom:11px;padding:16px}.Panel_PlayerDetails_RowC{background-color:#101313;margin-bottom:11px;padding:16px}.AbilityBlockContainer{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;margin-bottom:24px}.AbilityBlockContainer .ColumnA{-webkit-flex:0 0 7%;-ms-flex:0 0 7%;flex:0 0 7%;margin-right:12px}.AbilityBlockContainer .ColumnB{-webkit-flex:1;-ms-flex:1;flex:1}.AbilityBlockContainer .Blocks{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap}.AbilityBlockContainer .Name{color:#777271;text-transform:uppercase;font-size:1.0em;margin-bottom:10px;font-weight:600}.AbilityBlockContainer .BlockContainer{-webkit-flex:1;-ms-flex:1;flex:1;margin:3px}.AbilityBlockContainer .BlockContainer .Block{height:0;color:#beb7b4;background-color:#181919;padding-bottom:100%;display:inline-block;width:100%;text-align:center}.AbilityBlockContainer .BlockContainer .Leveled{border:1px solid #beb7b4}.AbilityBlockContainer .BlockContainer .LevelReached{background-color:#262828}.Panel_PlayerDetails_RowD{background-color:#101313;margin-bottom:11px;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;padding:16px}.Panel_PlayerDetails_RowD .Icon{-webkit-flex:0 0 7%;-ms-flex:0 0 7%;flex:0 0 7%;text-align:center;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin-right:12px;max-width:7%}.Panel_PlayerDetails_RowD .Items{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-flex:1;-ms-flex:1;flex:1}.ShoppingItemContainer{-webkit-flex:0 1 auto;-ms-flex:0 1 auto;flex:0 1 auto;position:relative;display:inline-block;width:5.75%}.ShoppingItemContainer .Time{margin-top:10%;text-align:center;color:#404041;font-weight:600}.ShoppingItemContainerRightMargin{margin-right:0.50%}.ShoppingItemContainerBottomMargin{padding-bottom:8px}.ShoppingItemSoldOverlay{position:absolute;left:0;right:0;top:0;bottom:0;z-index:1;background-color:#000;opacity:0.85}.VideoContainer{position:relative;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;width:100%}.VideoContainer .Sizer{padding-bottom:56.25%}.VideoContainer .VideoIFrame{position:absolute;width:100%;height:100%;left:0;top:0;right:0;bottom:0}.Panel_MatchStats{position:relative;opacity:0;transition:opacity 0.5s ease}.Panel_MatchStats iframe{position:absolute;left:0;right:0;top:0;bottom:0;padding:0 6px 0 13px;transition:opacity 0.15s ease-in-out}.Panel_MatchStats iframe[data-popping="1"]{opacity:0}.Panel_Draft{position:relative;opacity:0;transition:opacity 0.5s ease;height:100%}.Panel_Draft .Content{padding:0 18px}.Panel_Draft .PicksBansContainer{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap}.Panel_Draft .PicksBansSubContainer{-webkit-flex:0 0 50%;-ms-flex:0 0 50%;flex:0 0 50%;padding-right:4%}.Panel_Draft h1{text-align:center;color:#beb7b4;padding:0 0 2% 0;font-size:1.8em}.Panel_Draft .Items{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap}.Panel_Draft .PickBanItem{-webkit-flex:1 0 20%;-ms-flex:1 0 20%;flex:1 0 20%;max-width:20%;padding:0.9%;margin-bottom:15px}.Panel_Draft .Legend .Container{margin-right:3%}.Panel_Draft .Legend .RadiantDireLabel{color:#beb7b4}.Panel_Draft .Legend .Block{width:1.5%;padding-bottom:1.5%;height:0;display:inline-block;margin-right:0.5%}.Panel_Draft .Legend .Radiant .Block{background:#5d7f2f}.Panel_Draft .Legend .Dire .Block{background:#892f2e}.Panel_TournamentCheer.MinimalMode .Column .Container{display:none !important}.Panel_TournamentCheer.MinimalMode .HideShowButtons .ShowButton{display:block}.Panel_TournamentCheer.MinimalMode .HideShowButtons .HideButton{display:none}.Panel_TournamentCheer{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:column nowrap;-ms-flex-flow:column nowrap;flex-flow:column nowrap;overflow-x:hidden;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;position:relative;background:linear-gradient(to bottom, #000, #1b1d1f);overflow:hidden;-webkit-order:0;-ms-flex-order:0;order:0}.Panel_TournamentCheer .HideShowButtons{position:absolute;top:11px;right:5px;cursor:pointer;min-width:38px}.Panel_TournamentCheer .HideShowButtons .ShowButton{display:none;width:0;height:0;border-left:7px solid transparent;border-right:7px solid transparent;border-top:12px solid #848280}.Panel_TournamentCheer .HideShowButtons .ShowButton:hover{border-top-color:#fff}.Panel_TournamentCheer .HideShowButtons .HideButton{width:0;height:0;border-left:7px solid transparent;border-right:7px solid transparent;border-bottom:12px solid #848280;display:block}.Panel_TournamentCheer .HideShowButtons .HideButton:hover{border-bottom-color:#fff}.Panel_TournamentCheer .Column{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:column nowrap;-ms-flex-flow:column nowrap;flex-flow:column nowrap;overflow-x:hidden}.Panel_TournamentCheer .Column .Title{letter-spacing:2px;text-transform:uppercase;text-align:center;color:#7b7675;padding:9px 0;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto}.Panel_TournamentCheer .Column .Container{position:relative}.Panel_TournamentCheer .Column .Container .MessagePanel{display:none;position:absolute;top:0;right:0;bottom:0;left:0;z-index:3;background:rgba(0,0,0,0.9)}.Panel_TournamentCheer .Column .Container .MessagePanel .CloseButton{z-index:2;position:absolute;top:10px;right:10px}.Panel_TournamentCheer .Column .Container .MessagePanel .Aligner{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;position:absolute;width:100%;height:100%}.Panel_TournamentCheer .Column .Container .MessagePanel .Aligner .Msg{-webkit-flex:1;-ms-flex:1;flex:1;color:#dce0df;margin-bottom:19px}.Panel_TournamentCheer .Column .Container .MessagePanel .Aligner .Button{background:#2c3434;color:#b9bebd;height:32px;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}.Panel_TournamentCheer .Column .Container .MessagePanel .Aligner .Button:hover{background:#384242;color:#e1e3e2}.Panel_TournamentCheer .Column .Container .Desc{text-align:center;color:#555553;padding:9px 0;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:.9em}.Panel_TournamentCheer .Column .Container .TeamRow{-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;padding:2%;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap}.Panel_TournamentCheer .Column .Container .TeamRow .CheerButtonContainer{-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto}.Panel_TournamentCheer .Column .Container .TeamRow .CheerButtonContainer .Button{position:relative;width:40px;height:40px;border-radius:5px;background:linear-gradient(to bottom, #323232, #3e3e3e, #494949);float:left;box-shadow:inset 2px 2px 2px rgba(255,255,255,0.1),inset -2px -2px 2px rgba(0,0,0,0.1);cursor:pointer}.Panel_TournamentCheer .Column .Container .TeamRow .CheerButtonContainer .Button:active{background:linear-gradient(to bottom, #323232, #3e3e3e, #494949);box-shadow:none}.Panel_TournamentCheer .Column .Container .TeamRow .CheerButtonContainer .Button:active .Shine{margin-top:2.8px;box-shadow:none}.Panel_TournamentCheer .Column .Container .TeamRow .CheerButtonContainer .Button:active .PressedShadow{box-shadow:inset 0px 6px 12px -6px #000;opacity:1.0;position:absolute;width:100%;height:100%}.Panel_TournamentCheer .Column .Container .TeamRow .CheerButtonContainer .Button:active .ImageAligner .ImageContainer{margin-top:2.8px;opacity:0.8}.Panel_TournamentCheer .Column .Container .TeamRow .CheerButtonContainer .Button:hover:not(:active){background:linear-gradient(to bottom, #3f3f3f, #4b4b4b, #565656)}.Panel_TournamentCheer .Column .Container .TeamRow .CheerButtonContainer .Button:hover:not(:active) .Shine{background:linear-gradient(to bottom, #4f4f4f, #5a5a5a)}.Panel_TournamentCheer .Column .Container .TeamRow .CheerButtonContainer .Button:hover:not(:active) .ImageAligner .ImageContainer{opacity:1.0}.Panel_TournamentCheer .Column .Container .TeamRow .CheerButtonContainer .Button .PressedShadow{opacity:0.0}.Panel_TournamentCheer .Column .Container .TeamRow .CheerButtonContainer .Button .Shine{position:absolute;background:linear-gradient(to bottom, #424242, #4d4d4d);height:24px;width:40px;border-top-right-radius:5px;border-top-left-radius:5px;border-bottom-right-radius:10.664px;border-bottom-left-radius:10.664px;box-shadow:inset 0px 2px 2px rgba(255,255,255,0.1)}.Panel_TournamentCheer .Column .Container .TeamRow .CheerButtonContainer .Button .ImageAligner{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;width:100%;height:40px}.Panel_TournamentCheer .Column .Container .TeamRow .CheerButtonContainer .Button .ImageAligner .ImageContainer{width:36px;height:36px;opacity:0.9}.Panel_TournamentCheer .Column .Container .TeamRow .CheerButtonContainer .Button .ImageAligner .ImageContainer .ImageBackground{background:transparent !important}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-flex:2;-ms-flex:2;flex:2;position:relative;padding-left:6px}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar{position:relative;background:#252525;-webkit-flex:0 0 4%;-ms-flex:0 0 4%;flex:0 0 4%;margin-right:2px}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Radiant_1{background:linear-gradient(to bottom, #35491b, #3d541f, #35491b);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Radiant_2{background:linear-gradient(to bottom, #384d1c, #405820, #384d1c);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Radiant_3{background:linear-gradient(to bottom, #3b511e, #435c22, #3b511e);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Radiant_4{background:linear-gradient(to bottom, #3e551f, #466023, #3e551f);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Radiant_5{background:linear-gradient(to bottom, #415921, #496425, #415921);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Radiant_6{background:linear-gradient(to bottom, #445e22, #4c6926, #445e22);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Radiant_7{background:linear-gradient(to bottom, #476224, #4f6d28, #476224);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Radiant_8{background:linear-gradient(to bottom, #4b6625, #537129, #4b6625);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Radiant_9{background:linear-gradient(to bottom, #4e6a27, #56752b, #4e6a27);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Radiant_10{background:linear-gradient(to bottom, #516e28, #59792c, #516e28);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Radiant_11{background:linear-gradient(to bottom, #54732a, #5c7e2e, #54732a);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Radiant_12{background:linear-gradient(to bottom, #57772b, #5f822f, #57772b);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Radiant_13{background:linear-gradient(to bottom, #5a7b2d, #628631, #5a7b2d);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Radiant_14{background:linear-gradient(to bottom, #5e7f2e, #668a32, #5e7f2e);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Radiant_15{background:linear-gradient(to bottom, #618330, #698e34, #618330);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Radiant_16{background:linear-gradient(to bottom, #648831, #6c9335, #648831);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Radiant_17{background:linear-gradient(to bottom, #678c33, #6f9737, #678c33);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Radiant_18{background:linear-gradient(to bottom, #6a9034, #729b38, #6a9034);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Radiant_19{background:linear-gradient(to bottom, #6d9436, #759f3a, #6d9436);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Radiant_20{background:linear-gradient(to bottom, #719938, #79a43c, #719938);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Dire_1{background:linear-gradient(to bottom, #4a1918, #561d1c, #4a1918);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Dire_2{background:linear-gradient(to bottom, #501b19, #5c1f1d, #501b19);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Dire_3{background:linear-gradient(to bottom, #561d1a, #62211e, #561d1a);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Dire_4{background:linear-gradient(to bottom, #5d1f1c, #69231f, #5d1f1c);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Dire_5{background:linear-gradient(to bottom, #63211d, #6f2520, #63211d);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Dire_6{background:linear-gradient(to bottom, #6a241f, #762822, #6a241f);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Dire_7{background:linear-gradient(to bottom, #702620, #7c2a23, #702620);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Dire_8{background:linear-gradient(to bottom, #762821, #822c24, #762821);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Dire_9{background:linear-gradient(to bottom, #7d2a22, #892e25, #7d2a22);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Dire_10{background:linear-gradient(to bottom, #832c23, #8f3026, #832c23);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Dire_11{background:linear-gradient(to bottom, #8a2f25, #963328, #8a2f25);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Dire_12{background:linear-gradient(to bottom, #903126, #9c3529, #903126);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Dire_13{background:linear-gradient(to bottom, #973327, #a3372a, #973327);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Dire_14{background:linear-gradient(to bottom, #9d3528, #a9392b, #9d3528);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Dire_15{background:linear-gradient(to bottom, #a33729, #af3b2c, #a33729);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Dire_16{background:linear-gradient(to bottom, #aa3a2b, #b63e2e, #aa3a2b);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Dire_17{background:linear-gradient(to bottom, #b03c2c, #bc402f, #b03c2c);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Dire_18{background:linear-gradient(to bottom, #b73e2d, #c34230, #b73e2d);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Dire_19{background:linear-gradient(to bottom, #bd402e, #c94431, #bd402e);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .Active_Dire_20{background:linear-gradient(to bottom, #c6412e, #d04733, #c6412e);position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;z-index:2}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .PeakIndicator{opacity:0;position:absolute;z-index:1;top:0;right:0;bottom:0;left:0;width:100%;height:100%}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .RadiantPeak{background:#546739}.Panel_TournamentCheer .Column .Container .TeamRow .BarContainer .Bar .DirePeak{background:#634743}.Chat{background-color:#000;padding:6px;-webkit-flex:1;-ms-flex:1;flex:1;-webkit-order:1;-ms-flex-order:1;order:1}.Panel_TournamentBox{-webkit-align-self:flex-end;-ms-flex-item-align:end;align-self:flex-end;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;width:100%;position:relative;-webkit-order:2;-ms-flex-order:2;order:2}.Panel_TournamentBox .Content{position:relative;padding:5% 2%;background-image:url("http://cdn.dota2.com/apps/dota2/images/tv/tournamentbox_bg.jpg")}.Panel_TournamentBox .Content li{position:relative;list-style-type:none;text-align:center}.Panel_TournamentBox .Content li .TeamLogo{display:inline-block;padding:1%;width:20%;padding-bottom:20%;height:0}.Panel_TournamentBox .Content li .TeamLogo img{width:100%}.Panel_TournamentBox .Content li .Team1{margin-right:5%}.Panel_TournamentBox .Content li .Team2{margin-left:5%}.Panel_TournamentBox .Content li .Vs{position:absolute;top:0;left:0;right:0;bottom:0;text-align:center;color:#62574d;font-size:20px;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;letter-spacing:2.5px}.Panel_TournamentBox .Content .GamesInProgress li{background:rgba(46,45,45,0.1);box-shadow:2px 2px 8px #000,inset 2px 2px 2px rgba(255,255,255,0.1),inset -2px -2px 2px rgba(0,0,0,0.1);margin-bottom:11px;cursor:pointer;margin-bottom:5%}.Panel_TournamentBox .Content .GamesInProgress li:hover{background:rgba(98,95,95,0.1)}.Panel_TournamentBox .Content .GamesComingUp li{background:rgba(0,0,0,0.37);box-shadow:inset 2px 2px 2px #1a1b1a,inset -2px -2px 2px #1d1e1e;margin-bottom:11px}.Panel_TournamentBox .Content h1{color:#9b8a66;text-transform:uppercase;font-size:1.35em;text-align:center;margin-bottom:13px;letter-spacing:2px}.Panel_TournamentBox.TournamentOnly[data-istournamentgame="1"]{display:none}.ChatChannel{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:column nowrap;-ms-flex-flow:column nowrap;flex-flow:column nowrap;overflow-x:hidden;-webkit-flex:1;-ms-flex:1;flex:1}.ChatChannel .Messages{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:column nowrap;-ms-flex-flow:column nowrap;flex-flow:column nowrap;overflow-x:hidden;-webkit-order:1;-ms-flex-order:1;order:1;-webkit-flex:1;-ms-flex:1;flex:1;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;overflow-x:hidden;overflow-y:auto}.ChatChannel .MessageList{list-style-type:none;padding-left:25px}.ChatChannel .MessageList li{padding:12px 0;line-height:22px}.ChatChannel .MessageList li .Timestamp{color:#404041}.ChatChannel .MessageList li .Username{color:#beb7b4;padding-left:15px}.ChatChannel .MessageList li .Message{color:#777271}.ChatChannel .MessageBox{position:relative;-webkit-order:2;-ms-flex-order:2;order:2;background-color:#000;-webkit-flex:0 0 50px;-ms-flex:0 0 50px;flex:0 0 50px}.ChatChannel .MessageBoxText{width:100%;color:#404041;background-color:#000;font-size:18px;padding:9px;border:2px solid #151516}.ChatChannel .MessageBox .EmoticonsButton{position:absolute;z-index:2;top:10px;right:10px;cursor:pointer}.SmileyFace{position:relative;display:inline-block;width:24px;height:24px;border-radius:40px;border-style:solid;border-width:1px;border-color:#343435}.SmileyFace:before{content:"";position:absolute;top:6px;left:50%;width:8px;height:2px;margin-left:-6px;border-left:2px solid black;border-right:2px solid black;border-color:#343435}.SmileyFace:after{content:"";position:absolute;top:12px;left:50%;width:10px;height:5px;margin-left:-7px;border-bottom:2px solid black;border-left:2px solid black;border-right:2px solid black;border-radius:0 0 8px 8px;border-color:#343435}#EmoticonsPanel{z-index:1;position:absolute;padding:10px;width:160px;height:160px;background-color:#000;border:2px solid #151516}#EmoticonsPanel .Footer{position:absolute;bottom:0;left:0;right:0;height:36px;padding:10px;border-top-style:solid;border-top-width:2px;border-top-color:#151516;text-align:center}#EmoticonsPanelSpinner{position:absolute;left:0;right:0;top:0;padding-top:42px;bottom:15px;z-index:-1;opacity:0;transition:opacity 0.5s ease}.EmoticonsPanelInfoMsg{padding:15px;bottom:15px;z-index:-1;font-size:15px;color:#aaa;display:none}#EmoticonsPanel_Emoticons a{opacity:0.6}#EmoticonsPanel_Emoticons a:hover{opacity:1.0}.Emoticon{display:inline-block;z-index:1;width:32px;height:32px}.SpectatorOptions{display:none;border:1px solid #282828;color:#282828;font-size:1.5em;margin:0 16px;padding:9px}.SpectatorOptions img{width:21px;height:21px}.SpectatorOptions span{margin-left:7px}.Minimap{transition:opacity 0.8s ease;background:#000;padding:16px;position:relative;opacity:0;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto}.Minimap .Background{z-index:-1;opacity:1 !important}.Minimap canvas{position:absolute;padding:12px;top:0;left:0}.GreenRadialGradient{background:radial-gradient(#53712a, #4b6726, #2e4018)}.RedRadialGradient{background:radial-gradient(#7a2a29, #652322, #4e1b1a)}.BlueRadialGradient{background:radial-gradient(#385577, #334d6d 30%, #253950)}.WaitingPanel{position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;background:#000;z-index:2;opacity:0;transition:opacity 0.5s ease}.NonStreamerTeam .UltStatusContainer{opacity:0}.NonStreamerTeam:hover{cursor:default !important;background-color:#151919 !important}.NonStreamerTeam .Column_Gold{opacity:0}[data-dead="1"] .HealthContainer,[data-dead="1"] .ManaContainer,.NonStreamerTeam .HealthContainer,.NonStreamerTeam .ManaContainer{border-color:#2c2e2d !important}[data-dead="1"] .HealthPoints,[data-dead="1"] .ManaPoints,[data-dead="1"] .Points,[data-dead="1"] .PointsSplitter,[data-dead="1"] .MaxPoints,[data-dead="1"] .RegenRate,[data-dead="1"] .ManaCost,.NonStreamerTeam .HealthPoints,.NonStreamerTeam .ManaPoints,.NonStreamerTeam .Points,.NonStreamerTeam .PointsSplitter,.NonStreamerTeam .MaxPoints,.NonStreamerTeam .RegenRate,.NonStreamerTeam .ManaCost{color:#2d2f2e !important}[data-dead="1"] .GoldContainer{color:#2c2e2d !important}[data-dead="1"] img{-webkit-filter:grayscale(100%);filter:grayscale(100%);transition:.5s -webkit-filter ease-in-out, .5s filter ease-in-out;opacity:0.5 !important}[data-dead="1"] .RespawnTimeContainer{opacity:1}[data-dead="1"] .HealthBarProgress{background:radial-gradient(#2a2c2b, #282a29, #1e201f)}.NonStreamerTeam .HealthBarProgress{display:none !important}.Panel_Players_Instance{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;width:50%;float:left;min-height:20%;white-space:nowrap}.Panel_Players_Instance:hover{background-color:#1a1f1f;cursor:pointer}.Panel_Players_Instance .ColumnA{-webkit-flex:1.25;-ms-flex:1.25;flex:1.25;padding:10px;margin:auto}.Panel_Players_Instance .ColumnA .HeroImage{max-width:100%}.Panel_Players_Instance .ColumnB{font-size:16px;-webkit-flex:2;-ms-flex:2;flex:2;padding:10px;margin:auto;overflow:hidden;text-overflow:ellipsis}.Panel_Players_Instance .ColumnB .PlayerName{font-weight:bold}.Panel_Players_Instance .ColumnC{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:column nowrap;-ms-flex-flow:column nowrap;flex-flow:column nowrap;overflow-x:hidden;-webkit-flex:1.3;-ms-flex:1.3;flex:1.3;margin:auto;padding:10px}.Panel_Players_Instance .ColumnC .HealthContainer{-webkit-flex:1;-ms-flex:1;flex:1;min-height:11px;margin-bottom:5px;position:relative;border-style:solid;border-width:1px}.Panel_Players_Instance .ColumnC .ManaContainer{-webkit-flex:1;-ms-flex:1;flex:1;min-height:11px;margin-top:5px;position:relative}.Panel_Players_Instance .ColumnD{-webkit-flex:0.8;-ms-flex:0.8;flex:0.8;margin:auto}.Panel_Players_Instance .ColumnD .HealthPoints{margin-bottom:10px}.Panel_Players_Instance .ColumnD .ManaPoints{margin-top:10px}.Panel_Players_Instance .Column_Gold{-webkit-flex:2;-ms-flex:2;flex:2;margin:auto;padding-left:20px;line-height:11px}.Panel_Players_Instance .Column_Gold .NetGold{margin-bottom:5px}.Panel_Players_Instance .Column_Gold .GoldAbbrev{font-size:.8em;color:#606060}.Panel_Players_Instance .ColumnE{-webkit-flex:1.7;-ms-flex:1.7;flex:1.7;margin:auto}.Panel_Players_Instance .ColumnE .Items{padding:3%;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap;width:100%}.Panel_Players_Instance .ColumnE .Items .TextContainer{margin-top:-14px;width:100%;text-align:center}.Panel_Players_Instance .ColumnE .Items .TextContainer .Text{text-align:center;color:#2b2929;background-color:#101313;padding:0 12px}.Panel_Players_Instance .ColumnE .Items .Items{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap}.Panel_Players_Instance .ColumnE .Items .Items .Item{-webkit-flex:1;-ms-flex:1;flex:1;min-width:33.333%;padding:1px;display:inline-block}.Panel_Players_Instance .ColumnF{-webkit-flex:1;-ms-flex:1;flex:1;margin:auto}.Panel_Players_Instance .ColumnF .UltStatusContainer{position:relative;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;height:20px;padding-left:25%}.Panel_Players_Instance .ColumnF .UltStatusContainer[data-ultstatus="ultready"]{margin-left:-2px}.Panel_Players_Instance .ColumnF .UltStatusContainer[data-ultstatus="ultready"] .BG{width:0;height:0;border:10px solid transparent;border-bottom-color:#5D8038;position:absolute;top:-10px}.Panel_Players_Instance .ColumnF .UltStatusContainer[data-ultstatus="ultready"] .BG:after{content:'';position:absolute;left:-10px;top:10px;width:0;height:0;border:10px solid transparent;border-top-color:#5D8038}.Panel_Players_Instance .ColumnF .UltStatusContainer[data-ultstatus="ultready"] .FG{width:0;height:0;border:8px solid transparent;border-bottom-color:#2F3F1C;position:absolute;top:-8px;margin:2px 0 0 2px;z-index:1}.Panel_Players_Instance .ColumnF .UltStatusContainer[data-ultstatus="ultready"] .FG:after{content:'';position:absolute;left:-8px;top:8px;width:0;height:0;border:8px solid transparent;border-top-color:#2F3F1C}.Panel_Players_Instance .ColumnF .UltStatusContainer[data-ultstatus="ultready"] .Text{opacity:0}.Panel_Players_Instance .ColumnF .UltStatusContainer[data-ultstatus="notenoughmana"]{margin-left:-2px}.Panel_Players_Instance .ColumnF .UltStatusContainer[data-ultstatus="notenoughmana"] .BG{width:0;height:0;border:10px solid transparent;border-bottom-color:#486D98;position:absolute;top:-10px}.Panel_Players_Instance .ColumnF .UltStatusContainer[data-ultstatus="notenoughmana"] .BG:after{content:'';position:absolute;left:-10px;top:10px;width:0;height:0;border:10px solid transparent;border-top-color:#486D98}.Panel_Players_Instance .ColumnF .UltStatusContainer[data-ultstatus="notenoughmana"] .FG{width:0;height:0;border:8px solid transparent;border-bottom-color:#2C415B;position:absolute;top:-8px;margin:2px 0 0 2px;z-index:1}.Panel_Players_Instance .ColumnF .UltStatusContainer[data-ultstatus="notenoughmana"] .FG:after{content:'';position:absolute;left:-8px;top:8px;width:0;height:0;border:8px solid transparent;border-top-color:#2C415B}.Panel_Players_Instance .ColumnF .UltStatusContainer[data-ultstatus="notenoughmana"] .Text{opacity:0}.Panel_Players_Instance .ColumnF .UltStatusContainer[data-ultstatus="oncooldown"]{margin-top:-11px;margin-left:-6px}.Panel_Players_Instance .ColumnF .UltStatusContainer[data-ultstatus="oncooldown"] .BG{width:0;height:0;border:15px solid transparent;border-bottom-color:#fff;position:absolute;top:-15px}.Panel_Players_Instance .ColumnF .UltStatusContainer[data-ultstatus="oncooldown"] .BG:after{content:'';position:absolute;left:-15px;top:15px;width:0;height:0;border:15px solid transparent;border-top-color:#fff}.Panel_Players_Instance .ColumnF .UltStatusContainer[data-ultstatus="oncooldown"] .FG{width:0;height:0;border:15px solid transparent;border-bottom-color:#101313;position:absolute;top:-15px}.Panel_Players_Instance .ColumnF .UltStatusContainer[data-ultstatus="oncooldown"] .FG:after{content:'';position:absolute;left:-15px;top:15px;width:0;height:0;border:15px solid transparent;border-top-color:#101313}.Panel_Players_Instance .ColumnF .UltStatusContainer[data-ultstatus="oncooldown"] .Text{opacity:1;z-index:1;font-size:14px;padding-top:9px;width:30px;text-align:center}.perf_timing_area{position:absolute !important;z-index:9999}@media screen and (max-width: 1600px){.ChatChannel .MessageList{padding-left:12px;font-size:13px}.ChatChannel .MessageList li{padding:0px 0;line-height:18px}.ChatChannel .MessageList li .Username{padding-left:5px}.Emoticon{width:16px;height:16px}}@media screen and (min-width: 1601px){.Panel_OverviewHeader_LogoSquare{width:9.75px !important}.Panel_OverviewHeader_LogoWide{width:253px;height:56px}.ValveFooter{display:none}}
-</style>
-<style media="" data-href="../public/stylesheets/watchCSS/tooltips.css?v=ZEBLFyNbV5Iq">.itemIconWithTooltip {
-    position:relative;
-}
-.iconTooltip {
-    position: absolute;
-    text-align: left;
-    float: left;
-    border: solid #000 1px;
-    background-color: #111;
-    width: 337px;
-    padding: 20px;
-    background: -moz-linear-gradient(top, #2e2e2d, #000000);
-    z-index: 100;
-}
-
-.iconTooltip img {
-    opacity: 1 !important;
-}
-
-.iconTooltip div:empty, .iconTooltip:hover {
-    display: none !important;
-}
-
-/* specific tooltip style changes for item/ability/hero types */
-.iconTooltip_item {
-}
-.iconTooltip_ability {
-}
-.iconTooltip_hero {
-    width:auto;
-    text-align:center;
-}
-.iconTooltip .itemIcon {
-    float:left;
-    width:74px;
-    height:56px;
-    margin-right:4px;
-}
-.iconTooltip .itemName {
-    margin:7px 0px 3px 82px;
-    color:#ffffff;
-    font-size:18px;
-    font-family:KoreanFont,georgia,serif;
-    text-transform:uppercase;
-}
-.iconTooltip .itemCMB {
-    padding: 4px 0;
-}
-.iconTooltip .abilityName {
-    margin:7px 0px 6px 0px;
-    font-weight:normal;
-    color:#ffffff;
-    font-size:18px;
-    font-family:KoreanFont,georgia,serif;
-    text-transform:uppercase;
-}
-.iconTooltip .abilityCMB {
-    padding: 4px 0;
-}
-.iconTooltip .quality_rare {
-    color:#1a87f9;
-}
-.iconTooltip .quality_artifact {
-    color:#e29b01;
-}
-.iconTooltip .quality_secret_shop {
-    color:#ffffff;
-}
-.iconTooltip .quality_consumable {
-    color:#1d80e7;
-}
-.iconTooltip .quality_common {
-    color:#2bab01;
-}
-.iconTooltip .quality_epic {
-    color:#b812f9;
-}
-.iconTooltip .quality_component {
-    color:#ffffff;
-}
-.iconTooltip .goldIcon {
-    float:left;
-    margin:2px 4px 0 0;
-}
-.iconTooltip .goldCost {
-    font-weight:bold;
-    color:#f5c433;
-    font-size:15px;
-}
-.iconTooltip .description {
-    font-weight:bold;
-    color:#c0c0c0;
-    font-size:14px;
-    line-height:21px;
-    margin-top:9px;
-    padding-left:2px;
-    margin-bottom: 13px;
-}
-.iconTooltip .notes {
-    font-weight:bold;
-    color:#6fe771;
-    font-size:14px;
-    line-height:21px;
-    padding-left:2px;
-    padding-bottom: 8px;
-}
-.iconTooltip .attribVal {
-    color:#fbb040;
-}
-.iconTooltip .attribs {
-    font-weight:bold;
-    color:#7a7a7a;
-    font-size:15px;
-    line-height:21px;
-    margin:6px 0 0 11px;
-    padding-left:2px;
-}
-.iconTooltip .attribValText
-{
-    color:#c0c0c0;
-}
-.iconTooltip .lore {
-    clear:right;
-    color:#afafaf;
-    font-size:11px;
-    line-height:18px;
-    padding:4px 0 4px 2px;
-}
-.iconTooltip .mana {
-    float:right;
-    width:168px;
-}
-.iconTooltip .cooldownMana {
-    color:#fbb040;
-    font-size:13px;
-    margin:8px 0 10px 0;
-    line-height:22px;
-    height:22px;
-    padding-left:2px;
-}
-.iconTooltip .manaImg, .iconTooltip .cooldownImg {
-    margin:0 6px 0 0;
-    display:block;
-    float:left;
-}
-.iconTooltip .abilityHR1, .iconTooltip .abilityHR2 {
-    background-repeat:no-repeat;
-    height:2px;
-    min-width:320px;
-    margin:5px 0px;
-    background-image:url("../public/images/watchImg/abil_hr_1.png'");
-}
-.iconTooltip .abilityHR2 {
-    background-image:url("../public/images/watchImg/abil_hr_2.png'");
-}
-.iconTooltip .abilityTarget {
-    color:#ffffff;
-    font-size:14px;
-    font-family:KoreanFont,arial, helvetica, sans-serif;
-    font-weight:bold;
-    line-height:20px;
-    padding: 7px 0;
-}
-.iconTooltip .abilityTarget .attribVal {
-    color:#ffffff;
-}
-.iconTooltip .abilityDmg .attribVal, .iconTooltip .abilityAttrib .attribVal {
-    color:#888888;
-}
-.iconTooltip .abilityDesc {
-    color:#c6c6c6;
-    line-height:20px;
-    font-size:14px;
-    margin-bottom:6px;
-    font-weight:bold;
-    padding:4px 0;
-}
-.iconTooltip .abilityNotes {
-    color:#6fe771;
-    line-height:20px;
-    font-size:14px;
-    margin-bottom:6px;
-    font-weight:bold;
-}
-.iconTooltip .abilityDmg, .iconTooltip .abilityAttrib {
-    font-size:14px;
-    font-family:KoreanFont,arial, helvetica, sans-serif;
-    font-weight:bold;
-    line-height:20px;
-    color:#c6c6c6;
-    padding: 4px 0;
-}
-.iconTooltip .abilityCMB .mana,.iconTooltip .abilityCMB .cooldown {
-    color:#777777;
-    font-family:KoreanFont,arial, helvetica, sans-serif;
-    font-weight:normal;
-}
-.iconTooltip .abilityLore {
-    color:#a8a8a8;
-    font-family:KoreanFont,arial, helvetica, sans-serif;
-    font-size:11px;
-    line-height:16px;
-    text-align:left;
-}
-.iconTooltip .abilityCMB .cooldownMana
-{
-    margin:6px 0px 2px 0px;
-}
-
-/* hero tips */
-.iconTooltip .heroPrimaryStats {
-    width:180px;
-    height:62px;
-    position:relative;
-    margin:0 auto;
-    overflow:visible;
-}
-.iconTooltip .overviewIcon_Primary {
-    position:absolute;
-    left:-1px;
-    /*top:83px;*/
-    z-index:4;
-}
-.iconTooltip .overviewIcon_Int {
-    position:absolute;
-    left:1px;
-    top:2px;
-    z-index:5;
-}
-.iconTooltip .overviewIcon_Agi {
-    position:absolute;
-    left:1px;
-    top:23px;
-    z-index:5;
-}
-.iconTooltip .overviewIcon_Str {
-    position:absolute;
-    left:1px;
-    top:44px;
-    z-index:5;
-}
-.iconTooltip .overviewIcon_Attack {
-    position:absolute;
-    left:104px;
-    top:2px;
-}
-.iconTooltip .overviewIcon_Speed {
-    position:absolute;
-    left:97px;
-    top:23px;
-}
-.iconTooltip .overviewIcon_Defense {
-    position:absolute;
-    left:102px;
-    top:44px;
-}
-.iconTooltip .overview_StatVal {
-    position:absolute;
-    font-size:14px;
-    font-weight:bold;
-}
-.iconTooltip .overview_IntVal {
-    top:2px;
-    left:21px;
-}
-.iconTooltip .overview_AgiVal {
-    top:23px;
-    left:21px;
-}
-.iconTooltip .overview_StrVal {
-    top:44px;
-    left:21px;
-}
-.iconTooltip .overview_AttackVal {
-    top:2px;
-    left:133px;
-}
-.iconTooltip .overview_SpeedVal {
-    top:23px;
-    left:133px;
-}
-.iconTooltip .overview_DefenseVal {
-    top:44px;
-    left:133px;
-}
-.iconTooltip .primaryVal {
-    color:#fefefe;
-}
-.iconTooltip .heroName {
-    text-align:center;
-    padding-bottom:2px;
-    font-family:KoreanFont,georgia,serif;
-    font-weight:normal;
-    /*text-transform:uppercase;*/
-    letter-spacing:2px;
-    font-size:16px;
-    color:#d9d9d9;
-}
-.iconTooltip .heroRoles {
-    text-align:center;
-    color:#939393;
-    font-family:KoreanFont,arial,helvetica,sans-serif;
-    font-size:12px;
-    padding:4px 0 6px 0;
-}
-.iconTooltip .heroAttackCability {
-    color:#ffffff;
-}
-.iconTooltip .BaseArrow {
-    display:block !important;
-    position:absolute;
-    width:29px;
-    height:34px;
-    top:20px;
-    z-index:101;
-}
-.iconTooltip .ArrowLeft:after {
-    right: 100%;
-    top: 50%;
-    border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none;
-    border-color: rgba(17, 17, 17, 0);
-    border-right-color: #111;
-    border-width: 20px;
-    margin-top: -19px;
-}
-.iconTooltip .ArrowRight:after {
-    left: 100%;
-    top: 50%;
-    border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none;
-    border-color: rgba(17, 17, 17, 0);
-    border-left-color: #111;
-    border-width: 20px;
-    margin-top: -19px;
-    margin-left: -29px;
-}
-
-</style>
-
-<script type="text/javascript" src="../public/images/watchImg/jquery-2.1.3.min.js"></script>
-<script type="text/javascript">$J = jQuery;</script><script type="text/javascript" src="../public/images/watchImg/shared_global.js"></script>
-<script type="text/javascript" src="../public/images/watchImg/tooltips.js"></script>
-
-<style class="keyframe-style" id="boost-keyframe" type="text/css"> .boostKeyframe{transform:scale3d(1,1,1);}</style><style media="" data-href="../public/stylesheets/watchCSS/tooltips.css?v=mIglP2q-7ajT">.itemIconWithTooltip {
-    position:relative;
-}
-.iconTooltip {
-    position: absolute;
-    text-align: left;
-    float: left;
-    border: solid #000 1px;
-    background-color: #111;
-    width: 337px;
-    padding: 20px;
-    background: -moz-linear-gradient(top, #2e2e2d, #000000);
-    z-index: 100;
-}
-
-.iconTooltip img {
-    opacity: 1 !important;
-}
-
-.iconTooltip div:empty, .iconTooltip:hover {
-    display: none !important;
-}
-
-/* specific tooltip style changes for item/ability/hero types */
-.iconTooltip_item {
-}
-.iconTooltip_ability {
-}
-.iconTooltip_hero {
-    width:auto;
-    text-align:center;
-}
-.iconTooltip .itemIcon {
-    float:left;
-    width:74px;
-    height:56px;
-    margin-right:4px;
-}
-.iconTooltip .itemName {
-    margin:7px 0px 3px 82px;
-    color:#ffffff;
-    font-size:18px;
-    font-family:KoreanFont,georgia,serif;
-    text-transform:uppercase;
-}
-.iconTooltip .itemCMB {
-    padding: 4px 0;
-}
-.iconTooltip .abilityName {
-    margin:7px 0px 6px 0px;
-    font-weight:normal;
-    color:#ffffff;
-    font-size:18px;
-    font-family:KoreanFont,georgia,serif;
-    text-transform:uppercase;
-}
-.iconTooltip .abilityCMB {
-    padding: 4px 0;
-}
-.iconTooltip .quality_rare {
-    color:#1a87f9;
-}
-.iconTooltip .quality_artifact {
-    color:#e29b01;
-}
-.iconTooltip .quality_secret_shop {
-    color:#ffffff;
-}
-.iconTooltip .quality_consumable {
-    color:#1d80e7;
-}
-.iconTooltip .quality_common {
-    color:#2bab01;
-}
-.iconTooltip .quality_epic {
-    color:#b812f9;
-}
-.iconTooltip .quality_component {
-    color:#ffffff;
-}
-.iconTooltip .goldIcon {
-    float:left;
-    margin:2px 4px 0 0;
-}
-.iconTooltip .goldCost {
-    font-weight:bold;
-    color:#f5c433;
-    font-size:15px;
-}
-.iconTooltip .description {
-    font-weight:bold;
-    color:#c0c0c0;
-    font-size:14px;
-    line-height:21px;
-    margin-top:9px;
-    padding-left:2px;
-    margin-bottom: 13px;
-}
-.iconTooltip .notes {
-    font-weight:bold;
-    color:#6fe771;
-    font-size:14px;
-    line-height:21px;
-    padding-left:2px;
-    padding-bottom: 8px;
-}
-.iconTooltip .attribVal {
-    color:#fbb040;
-}
-.iconTooltip .attribs {
-    font-weight:bold;
-    color:#7a7a7a;
-    font-size:15px;
-    line-height:21px;
-    margin:6px 0 0 11px;
-    padding-left:2px;
-}
-.iconTooltip .attribValText
-{
-    color:#c0c0c0;
-}
-.iconTooltip .lore {
-    clear:right;
-    color:#afafaf;
-    font-size:11px;
-    line-height:18px;
-    padding:4px 0 4px 2px;
-}
-.iconTooltip .mana {
-    float:right;
-    width:168px;
-}
-.iconTooltip .cooldownMana {
-    color:#fbb040;
-    font-size:13px;
-    margin:8px 0 10px 0;
-    line-height:22px;
-    height:22px;
-    padding-left:2px;
-}
-.iconTooltip .manaImg, .iconTooltip .cooldownImg {
-    margin:0 6px 0 0;
-    display:block;
-    float:left;
-}
-.iconTooltip .abilityHR1, .iconTooltip .abilityHR2 {
-    background-repeat:no-repeat;
-    height:2px;
-    min-width:320px;
-    margin:5px 0px;
-    background-image:url("F:/github/FightForDota/FFD/public/images/watchImg/abil_hr_1.png'");
-}
-.iconTooltip .abilityHR2 {
-    background-image:url("../public/images/watchImg/abil_hr_2.png'");
-}
-.iconTooltip .abilityTarget {
-    color:#ffffff;
-    font-size:14px;
-    font-family:KoreanFont,arial, helvetica, sans-serif;
-    font-weight:bold;
-    line-height:20px;
-    padding: 7px 0;
-}
-.iconTooltip .abilityTarget .attribVal {
-    color:#ffffff;
-}
-.iconTooltip .abilityDmg .attribVal, .iconTooltip .abilityAttrib .attribVal {
-    color:#888888;
-}
-.iconTooltip .abilityDesc {
-    color:#c6c6c6;
-    line-height:20px;
-    font-size:14px;
-    margin-bottom:6px;
-    font-weight:bold;
-    padding:4px 0;
-}
-.iconTooltip .abilityNotes {
-    color:#6fe771;
-    line-height:20px;
-    font-size:14px;
-    margin-bottom:6px;
-    font-weight:bold;
-}
-.iconTooltip .abilityDmg, .iconTooltip .abilityAttrib {
-    font-size:14px;
-    font-family:KoreanFont,arial, helvetica, sans-serif;
-    font-weight:bold;
-    line-height:20px;
-    color:#c6c6c6;
-    padding: 4px 0;
-}
-.iconTooltip .abilityCMB .mana,.iconTooltip .abilityCMB .cooldown {
-    color:#777777;
-    font-family:KoreanFont,arial, helvetica, sans-serif;
-    font-weight:normal;
-}
-.iconTooltip .abilityLore {
-    color:#a8a8a8;
-    font-family:KoreanFont,arial, helvetica, sans-serif;
-    font-size:11px;
-    line-height:16px;
-    text-align:left;
-}
-.iconTooltip .abilityCMB .cooldownMana
-{
-    margin:6px 0px 2px 0px;
-}
-
-/* hero tips */
-.iconTooltip .heroPrimaryStats {
-    width:180px;
-    height:62px;
-    position:relative;
-    margin:0 auto;
-    overflow:visible;
-}
-.iconTooltip .overviewIcon_Primary {
-    position:absolute;
-    left:-1px;
-    /*top:83px;*/
-    z-index:4;
-}
-.iconTooltip .overviewIcon_Int {
-    position:absolute;
-    left:1px;
-    top:2px;
-    z-index:5;
-}
-.iconTooltip .overviewIcon_Agi {
-    position:absolute;
-    left:1px;
-    top:23px;
-    z-index:5;
-}
-.iconTooltip .overviewIcon_Str {
-    position:absolute;
-    left:1px;
-    top:44px;
-    z-index:5;
-}
-.iconTooltip .overviewIcon_Attack {
-    position:absolute;
-    left:104px;
-    top:2px;
-}
-.iconTooltip .overviewIcon_Speed {
-    position:absolute;
-    left:97px;
-    top:23px;
-}
-.iconTooltip .overviewIcon_Defense {
-    position:absolute;
-    left:102px;
-    top:44px;
-}
-.iconTooltip .overview_StatVal {
-    position:absolute;
-    font-size:14px;
-    font-weight:bold;
-}
-.iconTooltip .overview_IntVal {
-    top:2px;
-    left:21px;
-}
-.iconTooltip .overview_AgiVal {
-    top:23px;
-    left:21px;
-}
-.iconTooltip .overview_StrVal {
-    top:44px;
-    left:21px;
-}
-.iconTooltip .overview_AttackVal {
-    top:2px;
-    left:133px;
-}
-.iconTooltip .overview_SpeedVal {
-    top:23px;
-    left:133px;
-}
-.iconTooltip .overview_DefenseVal {
-    top:44px;
-    left:133px;
-}
-.iconTooltip .primaryVal {
-    color:#fefefe;
-}
-.iconTooltip .heroName {
-    text-align:center;
-    padding-bottom:2px;
-    font-family:KoreanFont,georgia,serif;
-    font-weight:normal;
-    /*text-transform:uppercase;*/
-    letter-spacing:2px;
-    font-size:16px;
-    color:#d9d9d9;
-}
-.iconTooltip .heroRoles {
-    text-align:center;
-    color:#939393;
-    font-family:KoreanFont,arial,helvetica,sans-serif;
-    font-size:12px;
-    padding:4px 0 6px 0;
-}
-.iconTooltip .heroAttackCability {
-    color:#ffffff;
-}
-.iconTooltip .BaseArrow {
-    display:block !important;
-    position:absolute;
-    width:29px;
-    height:34px;
-    top:20px;
-    z-index:101;
-}
-.iconTooltip .ArrowLeft:after {
-    right: 100%;
-    top: 50%;
-    border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none;
-    border-color: rgba(17, 17, 17, 0);
-    border-right-color: #111;
-    border-width: 20px;
-    margin-top: -19px;
-}
-.iconTooltip .ArrowRight:after {
-    left: 100%;
-    top: 50%;
-    border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none;
-    border-color: rgba(17, 17, 17, 0);
-    border-left-color: #111;
-    border-width: 20px;
-    margin-top: -19px;
-    margin-left: -29px;
-}
-</style>
+<link rel="stylesheet" href="stylesheets/static/reset.css">
+<link rel="stylesheet" href="stylesheets/watchCSS/global.css">
+<link rel="stylesheet" href="stylesheets/watchCSS/global_schinese.css">
+<link rel="stylesheet" href="stylesheets/watchCSS/publicheader.css">
+<link rel="stylesheet" href="stylesheets/watchCSS/tv.css">
+<link rel="stylesheet" href="stylesheets/watchCSS/tooltips.css">
+<script type="text/javascript" src="images/watchImg/jquery-2.1.3.min.js"></script>
+<script type="text/javascript">$J = jQuery;</script><script type="text/javascript" src="images/watchImg/shared_global.js"></script>
+<script type="text/javascript" src="images/watchImg/tooltips.js"></script>
+<style class="keyframe-style" id="boost-keyframe" type="text/css"> .boostKeyframe{transform:scale3d(1,1,1);}</style>
 </head>
 
 <body class="MinPageWidth ">
@@ -1224,10 +27,10 @@ a.navBarItem:hover {
     <a href="javascript:void(0);" class="LeftArrow ToggleColumnVisibility_js" data-selector=".MainFlexContainer_ColumnA" data-parentclass="NoLeftMargin" data-hidden="0"></a>
     <span class="BetaLabel">DOTA 2视频直播</span>
 
-    <a class="DotaLogo BrightenImageOnHover" href="http://www.dota2.com/"><img class="Loaded_js" border="0" src="../public/images/watchImg/dota_logo.png"></a>
-    <a class="BackToWatch BrightenImageOnHover" href="http://www.dota2.com/watch/"><img class="Loaded_js" src="../public/images/watchImg/menu_icon.png"></a>
+    <a class="DotaLogo BrightenImageOnHover" href="http://www.dota2.com/"><img class="Loaded_js" border="0" src="images/watchImg/dota_logo.png"></a>
+    <a class="BackToWatch BrightenImageOnHover" href="http://www.dota2.com/watch/"><img class="Loaded_js" src="images/watchImg/menu_icon.png"></a>
 
-    <a href="http://www.dota2.com/international/" class="TournamentHubLogo"><img class="AutoLoad Loaded_js" src="../public/images/watchImg/logo_square_small.png"></a>
+    <a href="http://www.dota2.com/international/" class="TournamentHubLogo"><img class="AutoLoad Loaded_js" src="images/watchImg/logo_square_small.png"></a>
     <a href="javascript:void(0);" class="BrowserFullscreenToggle">
         <div class="EnterButton" data-showwhenfullscreenenabled="0">
             <svg class="FullscreenIconFill" width="20" height="20" viewBox="0 0 32 32">
@@ -1301,7 +104,7 @@ a.navBarItem:hover {
     </div>
 </div>
 </div>
-<!--对应网页剩余部分，采用CSS3的伸缩性布局：display：flex；minWidth：1200px-->
+<!--对应网页剩余部分，采用CSS3的伸缩性布局：display：flex；flex:column; minWidth：1200px-->
 <div class="MainFlexContainer MinPageWidth" style="z-index: 1;">
 <!--对应网页左列，display：flex；flex-flow：column nowrap；flex：0 0 17.5%-->
 <div class="MainFlexContainer_ColumnA">
@@ -1404,7 +207,7 @@ a.navBarItem:hover {
             <div class="Panel_PlayerStat Dire Panel_Dire_0_js" data-teamname="Dire" data-playerindex="0" data-dead="0" style="order: 2;">
 										<span class="Hero">
 											<div class="RespawnTimeContainer"><div class="DotaFont RespawnTime">1</div></div>
-											<div class="ImageBackground ImageBackground127x71 DarkGrayBackgroundColor"><img src="../public/images/watchImg/lone_druid_hphover.png" class="Loaded_js"></div>
+											<div class="ImageBackground ImageBackground127x71 DarkGrayBackgroundColor"><img src="images/watchImg/lone_druid_hphover.png" class="Loaded_js"></div>
 										</span>
 
                 <span class="PlayerName">Xenus</span>
@@ -1413,7 +216,7 @@ a.navBarItem:hover {
             <div class="Panel_PlayerStat Dire Panel_Dire_1_js BorderBottom" data-teamname="Dire" data-playerindex="1" data-dead="0" style="order: 1;">
 										<span class="Hero">
 											<div class="RespawnTimeContainer"><div class="DotaFont RespawnTime">1</div></div>
-											<div class="ImageBackground ImageBackground127x71 DarkGrayBackgroundColor"><img src="../public/images/watchImg/huskar_hphover.png" class="Loaded_js"></div>
+											<div class="ImageBackground ImageBackground127x71 DarkGrayBackgroundColor"><img src="images/watchImg/huskar_hphover.png" class="Loaded_js"></div>
 										</span>
 
                 <span class="PlayerName">Chibizёnok</span>
@@ -1422,7 +225,7 @@ a.navBarItem:hover {
             <div class="Panel_PlayerStat Dire Panel_Dire_2_js" data-teamname="Dire" data-playerindex="2" data-dead="0" style="order: 5;">
 										<span class="Hero">
 											<div class="RespawnTimeContainer"><div class="DotaFont RespawnTime"></div></div>
-											<div class="ImageBackground ImageBackground127x71 DarkGrayBackgroundColor"><img src="../public/images/watchImg/medusa_hphover.png" class="Loaded_js"></div>
+											<div class="ImageBackground ImageBackground127x71 DarkGrayBackgroundColor"><img src="images/watchImg/medusa_hphover.png" class="Loaded_js"></div>
 										</span>
 
                 <span class="PlayerName">Makson</span>
@@ -1431,7 +234,7 @@ a.navBarItem:hover {
             <div class="Panel_PlayerStat Dire Panel_Dire_3_js" data-teamname="Dire" data-playerindex="3" data-dead="1" style="order: 3;">
 										<span class="Hero">
 											<div class="RespawnTimeContainer"><div class="DotaFont RespawnTime">22</div></div>
-											<div class="ImageBackground ImageBackground127x71 DarkGrayBackgroundColor"><img src="../public/images/watchImg/gyrocopter_hphover.png" class="Loaded_js"></div>
+											<div class="ImageBackground ImageBackground127x71 DarkGrayBackgroundColor"><img src="images/watchImg/gyrocopter_hphover.png" class="Loaded_js"></div>
 										</span>
 
                 <span class="PlayerName">game over</span>
@@ -1440,7 +243,7 @@ a.navBarItem:hover {
             <div class="Panel_PlayerStat Dire Panel_Dire_4_js" data-teamname="Dire" data-playerindex="4" data-dead="1" style="order: 4;">
 										<span class="Hero">
 											<div class="RespawnTimeContainer"><div class="DotaFont RespawnTime">9</div></div>
-											<div class="ImageBackground ImageBackground127x71 DarkGrayBackgroundColor"><img src="../public/images/watchImg/mirana_hphover.png" class="Loaded_js"></div>
+											<div class="ImageBackground ImageBackground127x71 DarkGrayBackgroundColor"><img src="images/watchImg/mirana_hphover.png" class="Loaded_js"></div>
 										</span>
 
                 <span class="PlayerName">playboy</span>
@@ -1451,7 +254,7 @@ a.navBarItem:hover {
     </div>
 
     <div id="SpectatorOptions" class="SpectatorOptions">
-        <img src="../public/images/watchImg/gear_small.png" class="Loaded_js">
+        <img src="images/watchImg/gear_small.png" class="Loaded_js">
         <span class="DotaFont">观战选项</span>
     </div>
 
@@ -1461,15 +264,15 @@ a.navBarItem:hover {
 
         <canvas width="23" height="24" id="MinimapCanvas_Temp" class="Hidden"></canvas>
 
-        <img class="Background Loaded_js" src="../public/images/watchImg/minimap_686.jpg" width="100%">
+        <img class="Background Loaded_js" src="images/watchImg/minimap_686.jpg" width="100%">
 
     </div>
 </div>
-
+<!--对应网页中间列，display：flex；flex-flow：column nowrap-->
 <div class="MainFlexContainer_ColumnB">
 <div id="VideoContainer" class="VideoContainer">
     <div class="Sizer"></div>
-    <iframe id="VideoIFrame" class="VideoIFrame" width="100%" height="480" src="../public/images/watchImg/76561198125568794.html" allowfullscreen=""></iframe>
+    <iframe id="VideoIFrame" class="VideoIFrame" width="100%" height="480" src="images/watchImg/76561198125568794.html" allowfullscreen=""></iframe>
 </div>
 
 <div id="MiniNav" class="MiniNav">
@@ -1567,7 +370,7 @@ a.navBarItem:hover {
 <div class="Panel_Players_Instance BottomBorder_js NonStreamerTeam Transparent" data-dead="0">
     <div class="ColumnA">
         <div class="HeroImageContainer">
-            <img class="HeroImage Loaded_js" src="../public/images/watchImg/bristleback_hphover.png">
+            <img class="HeroImage Loaded_js" src="images/watchImg/bristleback_hphover.png">
             <div class="RespawnTimeContainer"><div class="DotaFont RespawnTime">27</div></div>
         </div>
     </div>
@@ -1599,7 +402,7 @@ a.navBarItem:hover {
     </div>
 
     <div class="ColumnE">
-        <div class="Items"><div class="Items"><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/power_treads_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/pipe_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/tpscroll_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/heavens_halberd_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/vanguard_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/reaver_lg.png"></div></div></div></div>
+        <div class="Items"><div class="Items"><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/power_treads_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/pipe_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/tpscroll_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/heavens_halberd_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/vanguard_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/reaver_lg.png"></div></div></div></div>
     </div>
 
     <div class="ColumnF">
@@ -1612,7 +415,7 @@ a.navBarItem:hover {
 </div><div class="Panel_Players_Instance BottomBorder_js Transparent" data-dead="0">
     <div class="ColumnA">
         <div class="HeroImageContainer">
-            <img class="HeroImage Loaded_js" src="../public/images/watchImg/lone_druid_hphover.png">
+            <img class="HeroImage Loaded_js" src="images/watchImg/lone_druid_hphover.png">
             <div class="RespawnTimeContainer"><div class="DotaFont RespawnTime">1</div></div>
         </div>
     </div>
@@ -1644,7 +447,7 @@ a.navBarItem:hover {
     </div>
 
     <div class="ColumnE">
-        <div class="Items"><div class="Items"><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/ultimate_scepter_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/ward_sentry_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/hand_of_midas_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/power_treads_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"></div></div></div></div>
+        <div class="Items"><div class="Items"><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/ultimate_scepter_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/ward_sentry_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/hand_of_midas_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/power_treads_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"></div></div></div></div>
     </div>
 
     <div class="ColumnF">
@@ -1657,7 +460,7 @@ a.navBarItem:hover {
 </div><div style="clear: both;"></div><div class="Panel_Players_Instance BottomBorder_js NonStreamerTeam Transparent" data-dead="1">
     <div class="ColumnA">
         <div class="HeroImageContainer">
-            <img class="HeroImage Loaded_js" src="../public/images/watchImg/lion_hphover.png">
+            <img class="HeroImage Loaded_js" src="images/watchImg/lion_hphover.png">
             <div class="RespawnTimeContainer"><div class="DotaFont RespawnTime">41</div></div>
         </div>
     </div>
@@ -1689,7 +492,7 @@ a.navBarItem:hover {
     </div>
 
     <div class="ColumnE">
-        <div class="Items"><div class="Items"><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/aether_lens_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/force_staff_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/blink_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/dust_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/tranquil_boots_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/ultimate_scepter_lg.png"></div></div></div></div>
+        <div class="Items"><div class="Items"><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/aether_lens_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/force_staff_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/blink_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/dust_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/tranquil_boots_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/ultimate_scepter_lg.png"></div></div></div></div>
     </div>
 
     <div class="ColumnF">
@@ -1702,7 +505,7 @@ a.navBarItem:hover {
 </div><div class="Panel_Players_Instance BottomBorder_js Transparent" data-dead="1">
     <div class="ColumnA">
         <div class="HeroImageContainer">
-            <img class="HeroImage Loaded_js" src="../public/images/watchImg/huskar_hphover.png">
+            <img class="HeroImage Loaded_js" src="images/watchImg/huskar_hphover.png">
             <div class="RespawnTimeContainer"><div class="DotaFont RespawnTime">56</div></div>
         </div>
     </div>
@@ -1734,7 +537,7 @@ a.navBarItem:hover {
     </div>
 
     <div class="ColumnE">
-        <div class="Items"><div class="Items"><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/power_treads_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/satanic_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/black_king_bar_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/armlet_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/heavens_halberd_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/demon_edge_lg.png"></div></div></div></div>
+        <div class="Items"><div class="Items"><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/power_treads_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/satanic_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/black_king_bar_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/armlet_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/heavens_halberd_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/demon_edge_lg.png"></div></div></div></div>
     </div>
 
     <div class="ColumnF">
@@ -1747,7 +550,7 @@ a.navBarItem:hover {
 </div><div style="clear: both;"></div><div class="Panel_Players_Instance BottomBorder_js NonStreamerTeam Transparent" data-dead="1">
     <div class="ColumnA">
         <div class="HeroImageContainer">
-            <img class="HeroImage Loaded_js" src="../public/images/watchImg/phantom_assassin_hphover.png">
+            <img class="HeroImage Loaded_js" src="images/watchImg/phantom_assassin_hphover.png">
             <div class="RespawnTimeContainer"><div class="DotaFont RespawnTime">80</div></div>
         </div>
     </div>
@@ -1779,7 +582,7 @@ a.navBarItem:hover {
     </div>
 
     <div class="ColumnE">
-        <div class="Items"><div class="Items"><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/basher_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/phase_boots_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/black_king_bar_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/desolator_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/demon_edge_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/bfury_lg.png"></div></div></div></div>
+        <div class="Items"><div class="Items"><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/basher_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/phase_boots_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/black_king_bar_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/desolator_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/demon_edge_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/bfury_lg.png"></div></div></div></div>
     </div>
 
     <div class="ColumnF">
@@ -1792,7 +595,7 @@ a.navBarItem:hover {
 </div><div class="Panel_Players_Instance BottomBorder_js Transparent" data-dead="0">
     <div class="ColumnA">
         <div class="HeroImageContainer">
-            <img class="HeroImage Loaded_js" src="../public/images/watchImg/medusa_hphover.png">
+            <img class="HeroImage Loaded_js" src="images/watchImg/medusa_hphover.png">
             <div class="RespawnTimeContainer"><div class="DotaFont RespawnTime"></div></div>
         </div>
     </div>
@@ -1824,7 +627,7 @@ a.navBarItem:hover {
     </div>
 
     <div class="ColumnE">
-        <div class="Items"><div class="Items"><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/ultimate_orb_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/sphere_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/monkey_king_bar_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/manta_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/phase_boots_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/dragon_lance_lg.png"></div></div></div></div>
+        <div class="Items"><div class="Items"><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/ultimate_orb_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/sphere_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/monkey_king_bar_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/manta_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/phase_boots_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/dragon_lance_lg.png"></div></div></div></div>
     </div>
 
     <div class="ColumnF">
@@ -1837,7 +640,7 @@ a.navBarItem:hover {
 </div><div style="clear: both;"></div><div class="Panel_Players_Instance BottomBorder_js NonStreamerTeam Transparent" data-dead="1">
     <div class="ColumnA">
         <div class="HeroImageContainer">
-            <img class="HeroImage Loaded_js" src="../public/images/watchImg/tinker_hphover.png">
+            <img class="HeroImage Loaded_js" src="images/watchImg/tinker_hphover.png">
             <div class="RespawnTimeContainer"><div class="DotaFont RespawnTime">6</div></div>
         </div>
     </div>
@@ -1869,7 +672,7 @@ a.navBarItem:hover {
     </div>
 
     <div class="ColumnE">
-        <div class="Items"><div class="Items"><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/blink_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/sheepstick_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/bloodstone_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/ethereal_blade_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/soul_ring_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/travel_boots_lg.png"></div></div></div></div>
+        <div class="Items"><div class="Items"><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/blink_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/sheepstick_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/bloodstone_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/ethereal_blade_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/soul_ring_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/travel_boots_lg.png"></div></div></div></div>
     </div>
 
     <div class="ColumnF">
@@ -1882,7 +685,7 @@ a.navBarItem:hover {
 </div><div class="Panel_Players_Instance BottomBorder_js Transparent" data-dead="0">
     <div class="ColumnA">
         <div class="HeroImageContainer">
-            <img class="HeroImage Loaded_js" src="../public/images/watchImg/gyrocopter_hphover.png">
+            <img class="HeroImage Loaded_js" src="images/watchImg/gyrocopter_hphover.png">
             <div class="RespawnTimeContainer"><div class="DotaFont RespawnTime">1</div></div>
         </div>
     </div>
@@ -1914,7 +717,7 @@ a.navBarItem:hover {
     </div>
 
     <div class="ColumnE">
-        <div class="Items"><div class="Items"><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/helm_of_the_dominator_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/magic_wand_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/phase_boots_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/monkey_king_bar_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/black_king_bar_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/invis_sword_lg.png"></div></div></div></div>
+        <div class="Items"><div class="Items"><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/helm_of_the_dominator_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/magic_wand_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/phase_boots_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/monkey_king_bar_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/black_king_bar_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/invis_sword_lg.png"></div></div></div></div>
     </div>
 
     <div class="ColumnF">
@@ -1927,7 +730,7 @@ a.navBarItem:hover {
 </div><div style="clear: both;"></div><div class="Panel_Players_Instance NonStreamerTeam Transparent" data-dead="0">
     <div class="ColumnA">
         <div class="HeroImageContainer">
-            <img class="HeroImage Loaded_js" src="../public/images/watchImg/dragon_knight_hphover.png">
+            <img class="HeroImage Loaded_js" src="images/watchImg/dragon_knight_hphover.png">
             <div class="RespawnTimeContainer"><div class="DotaFont RespawnTime"></div></div>
         </div>
     </div>
@@ -1959,7 +762,7 @@ a.navBarItem:hover {
     </div>
 
     <div class="ColumnE">
-        <div class="Items"><div class="Items"><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/silver_edge_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/magic_wand_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/greater_crit_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/power_treads_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/tpscroll_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/sange_and_yasha_lg.png"></div></div></div></div>
+        <div class="Items"><div class="Items"><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/silver_edge_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/magic_wand_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/greater_crit_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/power_treads_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/tpscroll_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/sange_and_yasha_lg.png"></div></div></div></div>
     </div>
 
     <div class="ColumnF">
@@ -1972,7 +775,7 @@ a.navBarItem:hover {
 </div><div class="Panel_Players_Instance Transparent" data-dead="0">
     <div class="ColumnA">
         <div class="HeroImageContainer">
-            <img class="HeroImage Loaded_js" src="../public/images/watchImg/mirana_hphover.png">
+            <img class="HeroImage Loaded_js" src="images/watchImg/mirana_hphover.png">
             <div class="RespawnTimeContainer"><div class="DotaFont RespawnTime"></div></div>
         </div>
     </div>
@@ -2004,7 +807,7 @@ a.navBarItem:hover {
     </div>
 
     <div class="ColumnE">
-        <div class="Items"><div class="Items"><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/tranquil_boots_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/maelstrom_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/cyclone_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/sphere_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="../public/images/watchImg/tpscroll_lg.png"></div></div></div></div>
+        <div class="Items"><div class="Items"><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/tranquil_boots_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/maelstrom_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/cyclone_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/sphere_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 TransparentBackground"><img class="Loaded_js" src="images/watchImg/tpscroll_lg.png"></div></div></div></div>
     </div>
 
     <div class="ColumnF">
@@ -2034,7 +837,7 @@ a.navBarItem:hover {
 <div class="ColumnA ColumnRightMargin">
     <div class="PlayerName DotaFont" style="font-size: 1.92em;">Chibizёnok</div>
     <div class="HeroImageContainer">
-        <img class="HeroImage Loaded_js" src="../public/images/watchImg/huskar_vert.jpg">
+        <img class="HeroImage Loaded_js" src="images/watchImg/huskar_vert.jpg">
         <div class="RespawnTimeContainer"><div class="DotaFont RespawnTime" style="font-size: 2.56em;"></div></div>
     </div>
 </div>
@@ -2063,7 +866,7 @@ a.navBarItem:hover {
     </div>
 
     <div class="AbilitiesContainer"><span class="AbilityContainer AbilityContainer_0 AbilityRightPadding" style="font-size: 0.96em;">
-					<div class="ImageBackground"><img src="../public/images/watchImg/huskar_inner_vitality_hp1.png" class="abilityIconWithTooltip Loaded_js" abilityname="huskar_inner_vitality"></div>
+					<div class="ImageBackground"><img src="images/watchImg/huskar_inner_vitality_hp1.png" class="abilityIconWithTooltip Loaded_js" abilityname="huskar_inner_vitality"></div>
 
 					<div class="Levels">
 
@@ -2077,7 +880,7 @@ a.navBarItem:hover {
 					<div class="ManaCost DotaFont"></div>
 
 				</span><span class="AbilityContainer AbilityContainer_1 AbilityRightPadding" style="font-size: 0.96em;">
-					<div class="ImageBackground"><img src="../public/images/watchImg/huskar_burning_spear_hp1.png" class="abilityIconWithTooltip Loaded_js" abilityname="huskar_burning_spear"></div>
+					<div class="ImageBackground"><img src="images/watchImg/huskar_burning_spear_hp1.png" class="abilityIconWithTooltip Loaded_js" abilityname="huskar_burning_spear"></div>
 
 					<div class="Levels">
 
@@ -2091,7 +894,7 @@ a.navBarItem:hover {
 					<div class="ManaCost DotaFont"></div>
 
 				</span><span class="AbilityContainer AbilityContainer_2 AbilityRightPadding" style="font-size: 0.96em;">
-					<div class="ImageBackground"><img src="../public/images/watchImg/huskar_berserkers_blood_hp1.png" class="abilityIconWithTooltip Loaded_js" abilityname="huskar_berserkers_blood"></div>
+					<div class="ImageBackground"><img src="images/watchImg/huskar_berserkers_blood_hp1.png" class="abilityIconWithTooltip Loaded_js" abilityname="huskar_berserkers_blood"></div>
 
 					<div class="Levels">
 
@@ -2105,7 +908,7 @@ a.navBarItem:hover {
 					<div class="ManaCost DotaFont"></div>
 
 				</span><span class="AbilityContainer AbilityContainer_3 AbilityRightPadding" style="font-size: 0.96em;">
-					<div class="ImageBackground"><img src="../public/images/watchImg/huskar_life_break_hp1.png" class="abilityIconWithTooltip Loaded_js" abilityname="huskar_life_break"></div>
+					<div class="ImageBackground"><img src="images/watchImg/huskar_life_break_hp1.png" class="abilityIconWithTooltip Loaded_js" abilityname="huskar_life_break"></div>
 
 					<div class="Levels">
 
@@ -2119,7 +922,7 @@ a.navBarItem:hover {
 					<div class="ManaCost DotaFont"></div>
 
 				</span><span class="AbilityContainer AbilityContainer_4 AbilityRightPadding" style="font-size: 0.96em;">
-					<div class="ImageBackground"><img src="../public/images/watchImg/attribute_bonus_hp1.png" class="abilityIconWithTooltip Loaded_js" abilityname="attribute_bonus"></div>
+					<div class="ImageBackground"><img src="images/watchImg/attribute_bonus_hp1.png" class="abilityIconWithTooltip Loaded_js" abilityname="attribute_bonus"></div>
 
 					<div class="Levels">
 
@@ -2168,33 +971,33 @@ a.navBarItem:hover {
 
     <div class="Attributes" style="font-size: 0.8em;">
 																																																	<span class="Attribute" data-attribute="str">
-														<img width="33" height="33" class="PrimaryIcon Loaded_js" src="../public/images/watchImg/overviewicon_primary.png">
-														<img class="Icon Loaded_js" src="../public/images/watchImg/overviewicon_str.png">
+														<img width="33" height="33" class="PrimaryIcon Loaded_js" src="images/watchImg/overviewicon_primary.png">
+														<img class="Icon Loaded_js" src="images/watchImg/overviewicon_str.png">
 														<div class="Values DotaFont">76+94</div>
 													</span>
 																									<span class="Attribute" data-attribute="agi">
-														<img width="33" height="33" class="PrimaryIcon Loaded_js Hidden" src="../public/images/watchImg/overviewicon_primary.png">
-														<img class="Icon Loaded_js" src="../public/images/watchImg/overviewicon_agi.png">
+														<img width="33" height="33" class="PrimaryIcon Loaded_js Hidden" src="images/watchImg/overviewicon_primary.png">
+														<img class="Icon Loaded_js" src="images/watchImg/overviewicon_agi.png">
 														<div class="Values DotaFont">47+18</div>
 													</span>
 																									<span class="Attribute" data-attribute="int">
-														<img width="33" height="33" class="PrimaryIcon Loaded_js Hidden" src="../public/images/watchImg/overviewicon_primary.png">
-														<img class="Icon Loaded_js" src="../public/images/watchImg/overviewicon_int.png">
+														<img width="33" height="33" class="PrimaryIcon Loaded_js Hidden" src="images/watchImg/overviewicon_primary.png">
+														<img class="Icon Loaded_js" src="images/watchImg/overviewicon_int.png">
 														<div class="Values DotaFont">52+18</div>
 													</span>
 																									<span class="Attribute" data-attribute="attack">
-														<img width="33" height="33" class="PrimaryIcon Loaded_js Hidden" src="../public/images/watchImg/overviewicon_primary.png">
-														<img class="Icon Loaded_js" src="../public/images/watchImg/overviewicon_attack.png">
+														<img width="33" height="33" class="PrimaryIcon Loaded_js Hidden" src="images/watchImg/overviewicon_primary.png">
+														<img class="Icon Loaded_js" src="images/watchImg/overviewicon_attack.png">
 														<div class="Values DotaFont">195+155</div>
 													</span>
 																									<span class="Attribute" data-attribute="speed">
-														<img width="33" height="33" class="PrimaryIcon Loaded_js Hidden" src="../public/images/watchImg/overviewicon_primary.png">
-														<img class="Icon Loaded_js" src="../public/images/watchImg/overviewicon_speed.png">
+														<img width="33" height="33" class="PrimaryIcon Loaded_js Hidden" src="images/watchImg/overviewicon_primary.png">
+														<img class="Icon Loaded_js" src="images/watchImg/overviewicon_speed.png">
 														<div class="Values DotaFont">300+45</div>
 													</span>
 																									<span class="Attribute" data-attribute="defense">
-														<img width="33" height="33" class="PrimaryIcon Loaded_js Hidden" src="../public/images/watchImg/overviewicon_primary.png">
-														<img class="Icon Loaded_js" src="../public/images/watchImg/overviewicon_defense.png">
+														<img width="33" height="33" class="PrimaryIcon Loaded_js Hidden" src="images/watchImg/overviewicon_primary.png">
+														<img class="Icon Loaded_js" src="images/watchImg/overviewicon_defense.png">
 														<div class="Values DotaFont">8+15</div>
 													</span>
     </div>
@@ -2205,11 +1008,11 @@ a.navBarItem:hover {
         <span class="GoldContainer GoldColor DotaFont"><span class="Gold" style="font-size: 1.32em;"></span><span class="GoldAbbrev" style="font-size: 0.96em;">&nbsp;金</span></span>
     </div>
 
-    <div id="Panel_PlayerDetails_ItemContainer" class="Panel_PlayerDetails_ItemContainer" data-enabletooltips="1"><div class="Items"><div class="Item"><div class="ImageBackground ImageBackground4x3 InnerShadow DarkGrayBackgroundColor"><img class="Loaded_js itemIconWithTooltip" itemname="power_treads" src="../public/images/watchImg/power_treads_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 InnerShadow DarkGrayBackgroundColor"><img class="Loaded_js itemIconWithTooltip" itemname="satanic" src="../public/images/watchImg/satanic_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 InnerShadow DarkGrayBackgroundColor"><img class="Loaded_js itemIconWithTooltip" itemname="black_king_bar" src="../public/images/watchImg/black_king_bar_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 InnerShadow DarkGrayBackgroundColor"><img class="Loaded_js itemIconWithTooltip" itemname="armlet" src="../public/images/watchImg/armlet_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 InnerShadow DarkGrayBackgroundColor"><img class="Loaded_js itemIconWithTooltip" itemname="heavens_halberd" src="../public/images/watchImg/heavens_halberd_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 InnerShadow DarkGrayBackgroundColor"><img class="Loaded_js itemIconWithTooltip" itemname="demon_edge" src="../public/images/watchImg/demon_edge_lg.png"></div></div></div></div>
+    <div id="Panel_PlayerDetails_ItemContainer" class="Panel_PlayerDetails_ItemContainer" data-enabletooltips="1"><div class="Items"><div class="Item"><div class="ImageBackground ImageBackground4x3 InnerShadow DarkGrayBackgroundColor"><img class="Loaded_js itemIconWithTooltip" itemname="power_treads" src="images/watchImg/power_treads_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 InnerShadow DarkGrayBackgroundColor"><img class="Loaded_js itemIconWithTooltip" itemname="satanic" src="images/watchImg/satanic_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 InnerShadow DarkGrayBackgroundColor"><img class="Loaded_js itemIconWithTooltip" itemname="black_king_bar" src="images/watchImg/black_king_bar_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 InnerShadow DarkGrayBackgroundColor"><img class="Loaded_js itemIconWithTooltip" itemname="armlet" src="images/watchImg/armlet_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 InnerShadow DarkGrayBackgroundColor"><img class="Loaded_js itemIconWithTooltip" itemname="heavens_halberd" src="images/watchImg/heavens_halberd_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 InnerShadow DarkGrayBackgroundColor"><img class="Loaded_js itemIconWithTooltip" itemname="demon_edge" src="images/watchImg/demon_edge_lg.png"></div></div></div></div>
 
     <div id="Panel_PlayerDetails_StashItemContainer" class="Panel_PlayerDetails_StashItemContainer" data-enabletooltips="1">
         <div class="TextContainer"><span class="Text">储藏处</span></div>
-        <div class="Items"><div class="Item"><div class="ImageBackground ImageBackground4x3 InnerShadow"><img class="Loaded_js itemIconWithTooltip" itemname="javelin" src="../public/images/watchImg/javelin_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 InnerShadow"><img class="Loaded_js itemIconWithTooltip" itemname="javelin" src="../public/images/watchImg/javelin_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 InnerShadow"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 InnerShadow"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 InnerShadow"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 InnerShadow"></div></div></div></div>
+        <div class="Items"><div class="Item"><div class="ImageBackground ImageBackground4x3 InnerShadow"><img class="Loaded_js itemIconWithTooltip" itemname="javelin" src="images/watchImg/javelin_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 InnerShadow"><img class="Loaded_js itemIconWithTooltip" itemname="javelin" src="images/watchImg/javelin_lg.png"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 InnerShadow"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 InnerShadow"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 InnerShadow"></div></div><div class="Item"><div class="ImageBackground ImageBackground4x3 InnerShadow"></div></div></div></div>
 </div>
 
 <div id="Panel_PlayerDetails_RowA_ColumnD" class="Panel_PlayerDetails_RowA_ColumnD DotaFont" style="font-size: 1.2em;">
@@ -2251,35 +1054,35 @@ a.navBarItem:hover {
         <div class="Padding"><span class="DeadPercent PlayerStat"></span><span class="Abbrev">&nbsp;%&nbsp;死亡</span></div>
     </div>
     <div class="Panel_PlayerDetails_RowB_EnemyColumn ColumnC Player_0">
-        <span class="HeroIcon"><img src="../public/images/watchImg/bristleback.png" class="Loaded_js"></span>
+        <span class="HeroIcon"><img src="images/watchImg/bristleback.png" class="Loaded_js"></span>
 												<span class="Text">
 													<div class="SelfKillsAndAssistsOnEnemy Padding"><span class="Kills"></span>&nbsp;击&nbsp;<span class="Assists"></span>&nbsp;助</div>
 													<div class="EnemyKillsAndAssistsOnSelf Padding"><span class="Kills"></span>&nbsp;击&nbsp;<span class="Assists"></span>&nbsp;助</div>
 												</span>
     </div>
     <div class="Panel_PlayerDetails_RowB_EnemyColumn ColumnD Player_1">
-        <span class="HeroIcon"><img src="../public/images/watchImg/lion.png" class="Loaded_js"></span>
+        <span class="HeroIcon"><img src="images/watchImg/lion.png" class="Loaded_js"></span>
 												<span class="Text">
 													<div class="SelfKillsAndAssistsOnEnemy Padding"><span class="Kills"></span>&nbsp;击&nbsp;<span class="Assists"></span>&nbsp;助</div>
 													<div class="EnemyKillsAndAssistsOnSelf Padding"><span class="Kills"></span>&nbsp;击&nbsp;<span class="Assists"></span>&nbsp;助</div>
 												</span>
     </div>
     <div class="Panel_PlayerDetails_RowB_EnemyColumn ColumnE Player_2">
-        <span class="HeroIcon"><img src="../public/images/watchImg/phantom_assassin.png" class="Loaded_js"></span>
+        <span class="HeroIcon"><img src="images/watchImg/phantom_assassin.png" class="Loaded_js"></span>
 												<span class="Text">
 													<div class="SelfKillsAndAssistsOnEnemy Padding"><span class="Kills"></span>&nbsp;击&nbsp;<span class="Assists"></span>&nbsp;助</div>
 													<div class="EnemyKillsAndAssistsOnSelf Padding"><span class="Kills"></span>&nbsp;击&nbsp;<span class="Assists"></span>&nbsp;助</div>
 												</span>
     </div>
     <div class="Panel_PlayerDetails_RowB_EnemyColumn ColumnF Player_3">
-        <span class="HeroIcon"><img src="../public/images/watchImg/tinker.png" class="Loaded_js"></span>
+        <span class="HeroIcon"><img src="images/watchImg/tinker.png" class="Loaded_js"></span>
 												<span class="Text">
 													<div class="SelfKillsAndAssistsOnEnemy Padding"><span class="Kills"></span>&nbsp;击&nbsp;<span class="Assists"></span>&nbsp;助</div>
 													<div class="EnemyKillsAndAssistsOnSelf Padding"><span class="Kills"></span>&nbsp;击&nbsp;<span class="Assists"></span>&nbsp;助</div>
 												</span>
     </div>
     <div class="Panel_PlayerDetails_RowB_EnemyColumn ColumnG Player_4">
-        <span class="HeroIcon"><img src="../public/images/watchImg/dragon_knight.png" class="Loaded_js"></span>
+        <span class="HeroIcon"><img src="images/watchImg/dragon_knight.png" class="Loaded_js"></span>
 												<span class="Text">
 													<div class="SelfKillsAndAssistsOnEnemy Padding"><span class="Kills"></span>&nbsp;击&nbsp;<span class="Assists"></span>&nbsp;助</div>
 													<div class="EnemyKillsAndAssistsOnSelf Padding"><span class="Kills"></span>&nbsp;击&nbsp;<span class="Assists"></span>&nbsp;助</div>
@@ -2291,7 +1094,7 @@ a.navBarItem:hover {
     <div class="AbilityBlockContainer">
 
         <div class="ColumnA">
-            <div class="ImageBackground"><img src="../public/images/watchImg/huskar_inner_vitality_hp1.png" class="abilityIconWithTooltip Loaded_js" abilityname="huskar_inner_vitality"></div>
+            <div class="ImageBackground"><img src="images/watchImg/huskar_inner_vitality_hp1.png" class="abilityIconWithTooltip Loaded_js" abilityname="huskar_inner_vitality"></div>
         </div>
 
         <div class="ColumnB">
@@ -2332,7 +1135,7 @@ a.navBarItem:hover {
     <div class="AbilityBlockContainer">
 
         <div class="ColumnA">
-            <div class="ImageBackground"><img src="../public/images/watchImg/huskar_burning_spear_hp1.png" class="abilityIconWithTooltip Loaded_js" abilityname="huskar_burning_spear"></div>
+            <div class="ImageBackground"><img src="images/watchImg/huskar_burning_spear_hp1.png" class="abilityIconWithTooltip Loaded_js" abilityname="huskar_burning_spear"></div>
         </div>
 
         <div class="ColumnB">
@@ -2373,7 +1176,7 @@ a.navBarItem:hover {
     <div class="AbilityBlockContainer">
 
         <div class="ColumnA">
-            <div class="ImageBackground"><img src="../public/images/watchImg/huskar_berserkers_blood_hp1.png" class="abilityIconWithTooltip Loaded_js" abilityname="huskar_berserkers_blood"></div>
+            <div class="ImageBackground"><img src="images/watchImg/huskar_berserkers_blood_hp1.png" class="abilityIconWithTooltip Loaded_js" abilityname="huskar_berserkers_blood"></div>
         </div>
 
         <div class="ColumnB">
@@ -2414,7 +1217,7 @@ a.navBarItem:hover {
     <div class="AbilityBlockContainer">
 
         <div class="ColumnA">
-            <div class="ImageBackground"><img src="../public/images/watchImg/huskar_life_break_hp1.png" class="abilityIconWithTooltip Loaded_js" abilityname="huskar_life_break"></div>
+            <div class="ImageBackground"><img src="images/watchImg/huskar_life_break_hp1.png" class="abilityIconWithTooltip Loaded_js" abilityname="huskar_life_break"></div>
         </div>
 
         <div class="ColumnB">
@@ -2455,7 +1258,7 @@ a.navBarItem:hover {
     <div class="AbilityBlockContainer">
 
         <div class="ColumnA">
-            <div class="ImageBackground"><img src="../public/images/watchImg/attribute_bonus_hp1.png" class="abilityIconWithTooltip Loaded_js" abilityname="attribute_bonus"></div>
+            <div class="ImageBackground"><img src="images/watchImg/attribute_bonus_hp1.png" class="abilityIconWithTooltip Loaded_js" abilityname="attribute_bonus"></div>
         </div>
 
         <div class="ColumnB">
@@ -2502,7 +1305,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/gauntlets_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/gauntlets_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">-1:07</div>
 
@@ -2511,7 +1314,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/gauntlets_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/gauntlets_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">-1:07</div>
 
@@ -2520,7 +1323,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/tango_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/tango_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">-1:06</div>
 
@@ -2529,7 +1332,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/flask_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/flask_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">-1:02</div>
 
@@ -2538,7 +1341,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/faerie_fire_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/faerie_fire_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">-0:59</div>
 
@@ -2547,7 +1350,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/clarity_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/clarity_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">-0:58</div>
 
@@ -2556,7 +1359,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/branches_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/branches_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">-0:55</div>
 
@@ -2565,7 +1368,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/tpscroll_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/tpscroll_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">1:57</div>
 
@@ -2574,7 +1377,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/magic_stick_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/magic_stick_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">2:42</div>
 
@@ -2583,7 +1386,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/boots_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/boots_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">4:07</div>
 
@@ -2592,7 +1395,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/tpscroll_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/tpscroll_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">4:28</div>
 
@@ -2601,7 +1404,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/gauntlets_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/gauntlets_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">4:32</div>
 
@@ -2610,7 +1413,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/tpscroll_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/tpscroll_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">5:09</div>
 
@@ -2619,7 +1422,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/sobi_mask_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/sobi_mask_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">6:49</div>
 
@@ -2628,7 +1431,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/urn_of_shadows_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/urn_of_shadows_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">7:13</div>
 
@@ -2637,7 +1440,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/belt_of_strength_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/belt_of_strength_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">8:56</div>
 
@@ -2646,7 +1449,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/gloves_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/gloves_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">9:23</div>
 
@@ -2655,7 +1458,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/power_treads_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/power_treads_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">9:23</div>
 
@@ -2664,7 +1467,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/tpscroll_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/tpscroll_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">9:23</div>
 
@@ -2673,7 +1476,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/circlet_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/circlet_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">9:28</div>
 
@@ -2682,7 +1485,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/branches_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/branches_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">9:28</div>
 
@@ -2691,7 +1494,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/branches_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/branches_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">9:28</div>
 
@@ -2700,7 +1503,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/infused_raindrop_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/infused_raindrop_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">10:20</div>
 
@@ -2709,7 +1512,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/magic_wand_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/magic_wand_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">10:22</div>
 
@@ -2718,7 +1521,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/smoke_of_deceit_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/smoke_of_deceit_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">10:30</div>
 
@@ -2727,7 +1530,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/tpscroll_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/tpscroll_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">10:36</div>
 
@@ -2736,7 +1539,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/helm_of_iron_will_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/helm_of_iron_will_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">11:35</div>
 
@@ -2745,7 +1548,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/tpscroll_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/tpscroll_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">12:08</div>
 
@@ -2754,7 +1557,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/gloves_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/gloves_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">13:10</div>
 
@@ -2763,7 +1566,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/blades_of_attack_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/blades_of_attack_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">13:10</div>
 
@@ -2772,7 +1575,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/smoke_of_deceit_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/smoke_of_deceit_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">13:26</div>
 
@@ -2781,7 +1584,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/tpscroll_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/tpscroll_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">13:57</div>
 
@@ -2790,7 +1593,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/armlet_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/armlet_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">13:59</div>
 
@@ -2799,7 +1602,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/smoke_of_deceit_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/smoke_of_deceit_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">14:33</div>
 
@@ -2808,7 +1611,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/lifesteal_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/lifesteal_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">15:05</div>
 
@@ -2817,7 +1620,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/tpscroll_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/tpscroll_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">15:06</div>
 
@@ -2826,7 +1629,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/helm_of_iron_will_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/helm_of_iron_will_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">16:18</div>
 
@@ -2835,7 +1638,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/helm_of_the_dominator_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/helm_of_the_dominator_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">16:18</div>
 
@@ -2844,7 +1647,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/tpscroll_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/tpscroll_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">17:35</div>
 
@@ -2853,7 +1656,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/talisman_of_evasion_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/talisman_of_evasion_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">21:10</div>
 
@@ -2862,7 +1665,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/ogre_axe_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/ogre_axe_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">21:17</div>
 
@@ -2871,7 +1674,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/belt_of_strength_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/belt_of_strength_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">23:25</div>
 
@@ -2880,7 +1683,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/sange_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/sange_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">23:25</div>
 
@@ -2889,7 +1692,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/smoke_of_deceit_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/smoke_of_deceit_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">23:54</div>
 
@@ -2898,7 +1701,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/heavens_halberd_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/heavens_halberd_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">24:05</div>
 
@@ -2907,7 +1710,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/ogre_axe_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/ogre_axe_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">30:25</div>
 
@@ -2916,7 +1719,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/mithril_hammer_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/mithril_hammer_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">30:25</div>
 
@@ -2925,7 +1728,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/black_king_bar_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/black_king_bar_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">30:26</div>
 
@@ -2934,7 +1737,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/demon_edge_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/demon_edge_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">35:41</div>
 
@@ -2943,7 +1746,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/reaver_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/reaver_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">47:24</div>
 
@@ -2952,7 +1755,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/satanic_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/satanic_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">47:33</div>
 
@@ -2961,7 +1764,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/javelin_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/javelin_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">53:19</div>
 
@@ -2970,7 +1773,7 @@ a.navBarItem:hover {
 			<div class="ImageBackground ImageBackground4x3">
                 <!-- img inserted by JS -->
                 <div class="ShoppingItemSoldOverlay Hidden"></div>
-                <img src="../public/images/watchImg/javelin_lg.png" class="Loaded_js"></div>
+                <img src="images/watchImg/javelin_lg.png" class="Loaded_js"></div>
 
 			<div class="Time DotaFont">53:20</div>
 
@@ -2986,7 +1789,7 @@ a.navBarItem:hover {
     <div class="StreamDataPanelScrollableContainer NoVerticalScroll">
         <div id="Panel_MatchStats" class="Panel_MatchStats DataDependentPanel Opaque">
             <div class="LoadingContainer"><div class="WaitingPanel FadeAnimation" style="display: none;"><div></div></div></div><div class="Content Opaque">
-            <iframe id="IFrame_MatchStats" width="100%" src="../public/images/watchImg/rendergraph.html" allowfullscreen="" style="height: 103px;"></iframe>
+            <iframe id="IFrame_MatchStats" width="100%" src="images/watchImg/rendergraph.html" allowfullscreen="" style="height: 103px;"></iframe>
         </div>
         </div>
     </div>
@@ -3042,7 +1845,7 @@ a.navBarItem:hover {
 
 <div class="MainFlexContainer_ColumnC">
 
-    <iframe id="Chat" class="Chat" width="100%" src="../public/images/watchImg/76561198125568794(1).html"><div id="ChatChannel_1" class="ChatChannel">
+    <iframe id="Chat" class="Chat" width="100%" src="images/watchImg/76561198125568794(1).html"><div id="ChatChannel_1" class="ChatChannel">
 
         <div class="MessageBox">
             <textarea data-defaulttext="聊天请在此输入" class="MessageBoxText DotaFont">聊天请在此输入</textarea>
@@ -3374,30 +2177,30 @@ a.navBarItem:hover {
     </li>
 </ul>
 
-<img id="RadiantMinimapTower" src="../public/images/watchImg/tower_radiant.png" class="Loaded_js">
-<img id="RadiantMinimapTowerAngled" src="../public/images/watchImg/tower_angle_radiant.png" class="Loaded_js">
-<img id="RadiantMinimapBarracks" src="../public/images/watchImg/barracks_radiant.png" class="Loaded_js">
-<img id="RadiantMinimapBarracksAngled" src="../public/images/watchImg/barracks_angle_radiant.png" class="Loaded_js">
-<img id="RadiantMinimapAncient" src="../public/images/watchImg/ancient_radiant.png" class="Loaded_js">
-<img id="DireMinimapTower" src="../public/images/watchImg/tower_dire.png" class="Loaded_js">
-<img id="DireMinimapTowerAngled" src="../public/images/watchImg/tower_angle_dire.png" class="Loaded_js">
-<img id="DireMinimapBarracks" src="../public/images/watchImg/barracks_dire.png" class="Loaded_js">
-<img id="DireMinimapBarracksAngled" src="../public/images/watchImg/barracks_angle_dire.png" class="Loaded_js">
-<img id="DireMinimapAncient" src="../public/images/watchImg/ancient_dire.png" class="Loaded_js">
+<img id="RadiantMinimapTower" src="images/watchImg/tower_radiant.png" class="Loaded_js">
+<img id="RadiantMinimapTowerAngled" src="images/watchImg/tower_angle_radiant.png" class="Loaded_js">
+<img id="RadiantMinimapBarracks" src="images/watchImg/barracks_radiant.png" class="Loaded_js">
+<img id="RadiantMinimapBarracksAngled" src="images/watchImg/barracks_angle_radiant.png" class="Loaded_js">
+<img id="RadiantMinimapAncient" src="images/watchImg/ancient_radiant.png" class="Loaded_js">
+<img id="DireMinimapTower" src="images/watchImg/tower_dire.png" class="Loaded_js">
+<img id="DireMinimapTowerAngled" src="images/watchImg/tower_angle_dire.png" class="Loaded_js">
+<img id="DireMinimapBarracks" src="images/watchImg/barracks_dire.png" class="Loaded_js">
+<img id="DireMinimapBarracksAngled" src="images/watchImg/barracks_angle_dire.png" class="Loaded_js">
+<img id="DireMinimapAncient" src="images/watchImg/ancient_dire.png" class="Loaded_js">
 
 </div>
 
-<script type="text/javascript" src="../public/images/watchImg/jquery.imagesloaded.min.js"></script>
-<script type="text/javascript" src="../public/images/watchImg/tv.min.js"></script>
-<script type="text/javascript" src="../public/images/watchImg/vutils.min.js"></script>
-<script type="text/javascript" src="../public/images/watchImg/localization_helper.min.js"></script>
-<script type="text/javascript" src="../public/images/watchImg/jquery.actual.min.js"></script>
-<script type="text/javascript" src="../public/images/watchImg/utilities.min.js"></script>
-<script type="text/javascript" src="../public/images/watchImg/sprintf.min.js"></script>
-<script type="text/javascript" src="../public/images/watchImg/prefixfree.min.js"></script>
-<script type="text/javascript" src="../public/images/watchImg/jquery.keyframes.min.js"></script>
-<script type="text/javascript" src="../public/images/watchImg/keyframes.spritesheet.min.js"></script>
-<script type="text/javascript" src="../public/images/watchImg/svg4everybody.min.js"></script>
+<script type="text/javascript" src="images/watchImg/jquery.imagesloaded.min.js"></script>
+<script type="text/javascript" src="images/watchImg/tv.min.js"></script>
+<script type="text/javascript" src="images/watchImg/vutils.min.js"></script>
+<script type="text/javascript" src="images/watchImg/localization_helper.min.js"></script>
+<script type="text/javascript" src="images/watchImg/jquery.actual.min.js"></script>
+<script type="text/javascript" src="images/watchImg/utilities.min.js"></script>
+<script type="text/javascript" src="images/watchImg/sprintf.min.js"></script>
+<script type="text/javascript" src="images/watchImg/prefixfree.min.js"></script>
+<script type="text/javascript" src="images/watchImg/jquery.keyframes.min.js"></script>
+<script type="text/javascript" src="images/watchImg/keyframes.spritesheet.min.js"></script>
+<script type="text/javascript" src="images/watchImg/svg4everybody.min.js"></script>
 
 
 <script type="text/javascript">
@@ -3458,4 +2261,4 @@ a.navBarItem:hover {
     移动速度减缓： <span class="attribVal">40% / 50% / 60%</span><br>
     减速持续时间： <span class="attribVal">4 / 5 / 6</span><br>
     <span class="scepterVal">神杖升级造成伤害：</span> <span class="attribVal">65%</span><br>
-    <span class="scepterVal">神杖升级冷却时间：</span> <span class="attribVal">4</span></div><div class="abilityCMB"><div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗" class="manaImg" src="../public/images/watchImg/mana.png" width="16" height="16" border="0"> 0/0/0</div><div class="cooldown"><img alt="冷却时间" title="冷却时间" class="cooldownImg" src="../public/images/watchImg/cooldown.png" width="16" height="16" border="0"> 12</div><br clear="left"></div></div><div class="abilityLore">哈斯卡不顾危险，冲入只有他能幸存的激烈近身战。</div><div class="BaseArrow ArrowLeft" style="left: 0px; top: 335.025px;"></div></div></body></html>
+    <span class="scepterVal">神杖升级冷却时间：</span> <span class="attribVal">4</span></div><div class="abilityCMB"><div class="cooldownMana"><div class="mana"><img alt="魔法消耗" title="魔法消耗" class="manaImg" src="images/watchImg/mana.png" width="16" height="16" border="0"> 0/0/0</div><div class="cooldown"><img alt="冷却时间" title="冷却时间" class="cooldownImg" src="images/watchImg/cooldown.png" width="16" height="16" border="0"> 12</div><br clear="left"></div></div><div class="abilityLore">哈斯卡不顾危险，冲入只有他能幸存的激烈近身战。</div><div class="BaseArrow ArrowLeft" style="left: 0px; top: 335.025px;"></div></div></body></html>
