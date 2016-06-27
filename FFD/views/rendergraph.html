@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://www.dota2.com/playerstats/rendergraph? -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="shortcut icon" href="http://www.dota2.com/favicon.ico">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=9">
+	<link href="./global.css" rel="stylesheet" type="text/css">
+<link href="./global_schinese.css" rel="stylesheet" type="text/css">
+<link href="./publicheader.css" rel="stylesheet" type="text/css">
+<link href="./playerstats.css" rel="stylesheet" type="text/css">
+</head>
+
+<body data-iframe="1">
+
+	<div class="Content" data-iframe="1">
+
+		
+			<div class="Hidden">
+				<div id="TeamBalance" class="Graph" data-iframe="1"></div>
+			</div> 
+
+			<div class="">
+				<div id="Gold" class="Graph" data-iframe="1" style="padding: 0px;"><canvas class="flot-base" width="1223" height="112" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 979px; height: 90px;"></canvas><div class="flot-text" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; font-size: smaller; color: rgb(84, 84, 84);"><div class="flot-x-axis flot-x1-axis xAxis x1Axis" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"></div><div class="flot-y-axis flot-y1-axis yAxis y1Axis" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"></div></div><canvas class="flot-overlay" width="1223" height="112" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 979px; height: 90px;"></canvas></div>
+			</div> 
+
+			<div class="Hidden">
+				<div id="XP" class="Graph" data-iframe="1" style="padding: 0px;"><canvas class="flot-base" width="1223" height="112" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 979px; height: 90px;"></canvas><div class="flot-text" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; font-size: smaller; color: rgb(84, 84, 84);"><div class="flot-x-axis flot-x1-axis xAxis x1Axis" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"></div><div class="flot-y-axis flot-y1-axis yAxis y1Axis" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"></div></div><canvas class="flot-overlay" width="1223" height="112" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 979px; height: 90px;"></canvas></div>
+			</div> 
+
+			<div class="Hidden">
+				<div id="GoldLocation" class="Graph" data-iframe="1"></div>
+			</div> 
+
+			</div>
+
+	<div id="Tooltip" class="Tooltip DotaFont"></div>
+
+	<script type="text/javascript" src="./jquery-1.7.1.min.js"></script>
+<script type="text/javascript">$J = jQuery;</script><script type="text/javascript" src="./shared_global.js"></script>
+<script type="text/javascript" src="./iframe_utils(1).js"></script>
+	<script type="text/javascript" src="./playerstats.min.js"></script>
+	<script type="text/javascript" src="./localization_helper.min.js"></script>
+	<script type="text/javascript" src="./sprintf.min.js"></script>
+	<script type="text/javascript" src="./vutils.min.js"></script>
+	<script type="text/javascript" src="./jquery.flot.min.js"></script>
+	<script type="text/javascript" src="./jquery.flot.time.min.js"></script>
+	<script type="text/javascript" src="./jquery.flot.canvas.min.js"></script>
+	<script type="text/javascript" src="./jquery.flot.categories.min.js"></script>
+	<script type="text/javascript" src="./jquery.flot.crosshair.min.js"></script>
+	<script type="text/javascript" src="./jquery.flot.errorbars.min.js"></script>
+	<script type="text/javascript" src="./jquery.flot.fillbetween.min.js"></script>
+	<script type="text/javascript" src="./jquery.flot.image.min.js"></script>
+	<script type="text/javascript" src="./jquery.flot.navigate.min.js"></script>
+	<script type="text/javascript" src="./jquery.flot.pie.min.js"></script>
+	<script type="text/javascript" src="./jquery.flot.resize.min.js"></script>
+	<script type="text/javascript" src="./jquery.flot.selection.min.js"></script>
+	<script type="text/javascript" src="./jquery.flot.stack.min.js"></script>
+	<script type="text/javascript" src="./jquery.flot.symbol.min.js"></script>
+	<script type="text/javascript" src="./jquery.flot.threshold.min.js"></script>
+
+	<script type="text/javascript">
+
+		var g_HeroData = {"1":{"name":"npc_dota_hero_antimage","portait":"antimage"},"2":{"name":"npc_dota_hero_axe","portait":"axe"},"3":{"name":"npc_dota_hero_bane","portait":"bane"},"4":{"name":"npc_dota_hero_bloodseeker","portait":"bloodseeker"},"5":{"name":"npc_dota_hero_crystal_maiden","portait":"crystal_maiden"},"6":{"name":"npc_dota_hero_drow_ranger","portait":"drow_ranger"},"7":{"name":"npc_dota_hero_earthshaker","portait":"earthshaker"},"8":{"name":"npc_dota_hero_juggernaut","portait":"juggernaut"},"9":{"name":"npc_dota_hero_mirana","portait":"mirana"},"11":{"name":"npc_dota_hero_nevermore","portait":"nevermore"},"10":{"name":"npc_dota_hero_morphling","portait":"morphling"},"12":{"name":"npc_dota_hero_phantom_lancer","portait":"phantom_lancer"},"13":{"name":"npc_dota_hero_puck","portait":"puck"},"14":{"name":"npc_dota_hero_pudge","portait":"pudge"},"15":{"name":"npc_dota_hero_razor","portait":"razor"},"16":{"name":"npc_dota_hero_sand_king","portait":"sand_king"},"17":{"name":"npc_dota_hero_storm_spirit","portait":"storm_spirit"},"18":{"name":"npc_dota_hero_sven","portait":"sven"},"19":{"name":"npc_dota_hero_tiny","portait":"tiny"},"20":{"name":"npc_dota_hero_vengefulspirit","portait":"vengefulspirit"},"21":{"name":"npc_dota_hero_windrunner","portait":"windrunner"},"22":{"name":"npc_dota_hero_zuus","portait":"zuus"},"23":{"name":"npc_dota_hero_kunkka","portait":"kunkka"},"25":{"name":"npc_dota_hero_lina","portait":"lina"},"31":{"name":"npc_dota_hero_lich","portait":"lich"},"26":{"name":"npc_dota_hero_lion","portait":"lion"},"27":{"name":"npc_dota_hero_shadow_shaman","portait":"shadow_shaman"},"28":{"name":"npc_dota_hero_slardar","portait":"slardar"},"29":{"name":"npc_dota_hero_tidehunter","portait":"tidehunter"},"30":{"name":"npc_dota_hero_witch_doctor","portait":"witch_doctor"},"32":{"name":"npc_dota_hero_riki","portait":"riki"},"33":{"name":"npc_dota_hero_enigma","portait":"enigma"},"34":{"name":"npc_dota_hero_tinker","portait":"tinker"},"35":{"name":"npc_dota_hero_sniper","portait":"sniper"},"36":{"name":"npc_dota_hero_necrolyte","portait":"necrolyte"},"37":{"name":"npc_dota_hero_warlock","portait":"warlock"},"38":{"name":"npc_dota_hero_beastmaster","portait":"beastmaster"},"39":{"name":"npc_dota_hero_queenofpain","portait":"queenofpain"},"40":{"name":"npc_dota_hero_venomancer","portait":"venomancer"},"41":{"name":"npc_dota_hero_faceless_void","portait":"faceless_void"},"42":{"name":"npc_dota_hero_skeleton_king","portait":"skeleton_king"},"43":{"name":"npc_dota_hero_death_prophet","portait":"death_prophet"},"44":{"name":"npc_dota_hero_phantom_assassin","portait":"phantom_assassin"},"45":{"name":"npc_dota_hero_pugna","portait":"pugna"},"46":{"name":"npc_dota_hero_templar_assassin","portait":"templar_assassin"},"47":{"name":"npc_dota_hero_viper","portait":"viper"},"48":{"name":"npc_dota_hero_luna","portait":"luna"},"49":{"name":"npc_dota_hero_dragon_knight","portait":"dragon_knight"},"50":{"name":"npc_dota_hero_dazzle","portait":"dazzle"},"51":{"name":"npc_dota_hero_rattletrap","portait":"rattletrap"},"52":{"name":"npc_dota_hero_leshrac","portait":"leshrac"},"53":{"name":"npc_dota_hero_furion","portait":"furion"},"54":{"name":"npc_dota_hero_life_stealer","portait":"life_stealer"},"55":{"name":"npc_dota_hero_dark_seer","portait":"dark_seer"},"56":{"name":"npc_dota_hero_clinkz","portait":"clinkz"},"57":{"name":"npc_dota_hero_omniknight","portait":"omniknight"},"58":{"name":"npc_dota_hero_enchantress","portait":"enchantress"},"59":{"name":"npc_dota_hero_huskar","portait":"huskar"},"60":{"name":"npc_dota_hero_night_stalker","portait":"night_stalker"},"61":{"name":"npc_dota_hero_broodmother","portait":"broodmother"},"62":{"name":"npc_dota_hero_bounty_hunter","portait":"bounty_hunter"},"63":{"name":"npc_dota_hero_weaver","portait":"weaver"},"64":{"name":"npc_dota_hero_jakiro","portait":"jakiro"},"65":{"name":"npc_dota_hero_batrider","portait":"batrider"},"66":{"name":"npc_dota_hero_chen","portait":"chen"},"67":{"name":"npc_dota_hero_spectre","portait":"spectre"},"69":{"name":"npc_dota_hero_doom_bringer","portait":"doom_bringer"},"68":{"name":"npc_dota_hero_ancient_apparition","portait":"ancient_apparition"},"70":{"name":"npc_dota_hero_ursa","portait":"ursa"},"71":{"name":"npc_dota_hero_spirit_breaker","portait":"spirit_breaker"},"72":{"name":"npc_dota_hero_gyrocopter","portait":"gyrocopter"},"73":{"name":"npc_dota_hero_alchemist","portait":"alchemist"},"74":{"name":"npc_dota_hero_invoker","portait":"invoker"},"75":{"name":"npc_dota_hero_silencer","portait":"silencer"},"76":{"name":"npc_dota_hero_obsidian_destroyer","portait":"obsidian_destroyer"},"77":{"name":"npc_dota_hero_lycan","portait":"lycan"},"78":{"name":"npc_dota_hero_brewmaster","portait":"brewmaster"},"79":{"name":"npc_dota_hero_shadow_demon","portait":"shadow_demon"},"80":{"name":"npc_dota_hero_lone_druid","portait":"lone_druid"},"81":{"name":"npc_dota_hero_chaos_knight","portait":"chaos_knight"},"82":{"name":"npc_dota_hero_meepo","portait":"meepo"},"83":{"name":"npc_dota_hero_treant","portait":"treant"},"84":{"name":"npc_dota_hero_ogre_magi","portait":"ogre_magi"},"85":{"name":"npc_dota_hero_undying","portait":"undying"},"86":{"name":"npc_dota_hero_rubick","portait":"rubick"},"87":{"name":"npc_dota_hero_disruptor","portait":"disruptor"},"88":{"name":"npc_dota_hero_nyx_assassin","portait":"nyx_assassin"},"89":{"name":"npc_dota_hero_naga_siren","portait":"naga_siren"},"90":{"name":"npc_dota_hero_keeper_of_the_light","portait":"keeper_of_the_light"},"91":{"name":"npc_dota_hero_wisp","portait":"wisp"},"92":{"name":"npc_dota_hero_visage","portait":"visage"},"93":{"name":"npc_dota_hero_slark","portait":"slark"},"94":{"name":"npc_dota_hero_medusa","portait":"medusa"},"95":{"name":"npc_dota_hero_troll_warlord","portait":"troll_warlord"},"96":{"name":"npc_dota_hero_centaur","portait":"centaur"},"97":{"name":"npc_dota_hero_magnataur","portait":"magnataur"},"98":{"name":"npc_dota_hero_shredder","portait":"shredder"},"99":{"name":"npc_dota_hero_bristleback","portait":"bristleback"},"100":{"name":"npc_dota_hero_tusk","portait":"tusk"},"101":{"name":"npc_dota_hero_skywrath_mage","portait":"skywrath_mage"},"102":{"name":"npc_dota_hero_abaddon","portait":"abaddon"},"103":{"name":"npc_dota_hero_elder_titan","portait":"elder_titan"},"104":{"name":"npc_dota_hero_legion_commander","portait":"legion_commander"},"106":{"name":"npc_dota_hero_ember_spirit","portait":"ember_spirit"},"107":{"name":"npc_dota_hero_earth_spirit","portait":"earth_spirit"},"109":{"name":"npc_dota_hero_terrorblade","portait":"terrorblade"},"110":{"name":"npc_dota_hero_phoenix","portait":"phoenix"},"111":{"name":"npc_dota_hero_oracle","portait":"oracle"},"105":{"name":"npc_dota_hero_techies","portait":"techies"},"112":{"name":"npc_dota_hero_winter_wyvern","portait":"winter_wyvern"},"113":{"name":"npc_dota_hero_arc_warden","portait":"arc_warden"}};
+		var g_strImageURL = 'http://cdn.dota2.com/apps/dota2/images/';
+		var g_strDotaURL = 'http://www.dota2.com';
+		var g_Localization = new CLocalizationHelper( {"DotaTV_Graph_GameBalance_Option_Kills":"\u51fb\u6740","DotaTV_Graph_GameBalance_Option_Buildings":"\u5efa\u7b51","DotaTV_Graph_GameBalance_Option_Gold":"\u91d1\u94b1","DotaTV_Graph_GameBalance_Option_XP":"\u7ecf\u9a8c","DotaTV_Graph_GraphOption_DisplayKills":"\u51fb\u6740","DotaTV_Graph_GraphOption_ShowDeltaValues":"\u6218\u961f\u5dee\u8ddd","DotaTV_Graph_GoldLocation_Location_BottomLane":"\u4e0b\u8def","DotaTV_Graph_GoldLocation_Location_MidLane":"\u4e2d\u8def","DotaTV_Graph_GoldLocation_Location_TopLane":"\u4e0a\u8def","DotaTV_Graph_GoldLocation_Location_Jungle":"\u91ce\u533a","DotaTV_Graph_GoldLocation_Location_Ancients":"\u9057\u8ff9","DotaTV_Graph_GoldLocation_Location_Other":"\u5176\u4ed6"} );
+
+		$(
+			function()
+			{
+				
+					var g_IFrameHelper = new CIFrameHelper( [ g_strDotaURL ] );
+					var g_Graph = null;
+
+					// Let the parent know we're ready for messages
+					g_IFrameHelper.PostMessageToIFrameParent(
+						'OnGraphSystemReady',
+						// Tell the parent what graphs are available for its UI, etc.
+						{
+							graphs:
+							[
+								{ name: 'XP', display: '经验' },
+								{ name: 'Gold', display: '金钱' },
+								{ name: 'GoldLocation', display: '经济分配' }
+							]
+						}
+					);
+
+					// Handle all messages from the parent IFrame
+					$( window ).on(
+						"message",
+						function( e )
+						{
+														if ( e.originalEvent.origin !== g_strDotaURL )
+								return;
+
+							var Msg = e.originalEvent.data;
+							switch ( Msg.msg )
+							{
+								case 'InitGraph':
+
+									if ( null !== g_Graph )
+									{
+										g_Graph.Destroy();
+										g_Graph = null;
+									}
+
+									switch( Msg.data.graph_name )
+									{
+									case 'TeamBalance':
+										g_Graph = new CTeamBalanceGraph();
+										break;
+
+									case 'Gold':
+										g_Graph = new CGoldGraph();
+										break;
+
+									case 'XP':
+										g_Graph = new CXPGraph();
+										break;
+
+									case 'GoldLocation':
+										g_Graph = new CGoldLocationGraph();
+										break;
+
+									default:
+										VUtils.AssertMsg( false, "Unknown graph name, " + Msg.data.graph_name );
+									}
+
+									if ( g_Graph )
+									{
+										// Tell the IFrame parent to initialize all UI for the current graph
+										g_IFrameHelper.PostMessageToIFrameParent( 'InitGraphUI', { graph_options: g_Graph.GetOptions() } );
+
+										// Show the graph
+										g_Graph.Show();
+									}
+
+									break;
+
+								case 'ModifyGraphOption':
+
+									g_Graph.ModifyOption( Msg.data.option_name, Msg.data.option_value );
+
+									break;
+
+								case 'UpdateTeamLogo':
+
+									g_Graph.UpdateTeamLogo( Msg.data.team, Msg.data.url );
+
+									break;
+
+								case 'RenderGraph':
+
+									//Init( Msg.data );
+									if ( g_Graph )
+									{
+										g_Graph.Render( Msg.data );
+									}
+
+									break;
+							}
+						}
+					);   
+
+							}
+		);
+
+				
+		
+	</script>
+
+
+
+</body></html>

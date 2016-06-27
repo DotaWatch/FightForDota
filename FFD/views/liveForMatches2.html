@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html class=" -webkit-">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Live For Dota</title>
-<link rel="shortcut icon" href="http://cdn.dota2.com/apps/dota2/images/favicon.ico">
-<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-<link rel="stylesheet" href="stylesheets/static/reset.css">
-<link rel="stylesheet" href="stylesheets/watchCSS/global.css">
-<link rel="stylesheet" href="stylesheets/watchCSS/global_schinese.css">
-<link rel="stylesheet" href="stylesheets/watchCSS/publicheader.css">
-<link rel="stylesheet" href="stylesheets/watchCSS/tv.css">
-<link rel="stylesheet" href="stylesheets/watchCSS/tooltips.css">
-<script type="text/javascript" src="images/watchImg/jquery-2.1.3.min.js"></script>
-<script type="text/javascript">$J = jQuery;</script><script type="text/javascript" src="images/watchImg/shared_global.js"></script>
-<script type="text/javascript" src="images/watchImg/tooltips.js"></script>
-<style class="keyframe-style" id="boost-keyframe" type="text/css"> .boostKeyframe{transform:scale3d(1,1,1);}</style>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Live For Dota</title>
+    <link rel="shortcut icon" href="http://cdn.dota2.com/apps/dota2/images/favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+    <link rel="stylesheet" href="stylesheets/static/reset.css">
+    <link rel="stylesheet" href="stylesheets/watchCSS/global.css">
+    <link rel="stylesheet" href="stylesheets/watchCSS/global_schinese.css">
+    <link rel="stylesheet" href="stylesheets/watchCSS/publicheader.css">
+    <link rel="stylesheet" href="stylesheets/watchCSS/tv.css">
+    <link rel="stylesheet" href="stylesheets/watchCSS/tooltips.css">
+    <script type="text/javascript" src="images/watchImg/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript">$J = jQuery;</script><script type="text/javascript" src="images/watchImg/shared_global.js"></script>
+    <script type="text/javascript" src="images/watchImg/tooltips.js"></script>
+    <style class="keyframe-style" id="boost-keyframe" type="text/css"> .boostKeyframe{transform:scale3d(1,1,1);}</style>
 </head>
 
 <body class="MinPageWidth ">
@@ -272,24 +272,27 @@
 <div class="MainFlexContainer_ColumnB">
 <div id="VideoContainer" class="VideoContainer">
     <div class="Sizer"></div>
-    <iframe id="VideoIFrame" class="VideoIFrame" width="100%" height="480" src="images/watchImg/76561198125568794.html" allowfullscreen=""></iframe>
+    <iframe id="VideoIFrame" class="VideoIFrame" width="100%" height="480" src="76561198125568794.html" allowfullscreen=""></iframe>
 </div>
 
 <div id="MiniNav" class="MiniNav">
 					<span class="Links">
 						<a data-divname="Panel_Players" href="javascript:void(0);" class="NavLink DotaFont">选手</a>
-						<a data-divname="Panel_MatchStats" href="javascript:void(0);" class="NavLink DotaFont Glow">图表</a>
+						<!--<a data-divname="Panel_MatchStats" href="javascript:void(0);" class="NavLink DotaFont Glow">图表</a>-->
 						<a data-divname="Panel_Draft" href="javascript:void(0);" class="NavLink DotaFont TournamentOnly" data-istournamentgame="0">选人</a>
 					</span>
-					<span id="MiniNavOptions" class="ActivePanelOptions DotaFont" style="display: block;"><div id="Panel_MatchStats_display_kill_icons" class="CheckboxContainer">
-                        <input type="Checkbox" id="Panel_MatchStats_display_kill_icons_">
-                        <label for="Panel_MatchStats_display_kill_icons_">击杀</label>
-                    </div></span>
+					<span id="MiniNavOptions" class="ActivePanelOptions DotaFont" style="display: block;">
+                        <div id="Panel_MatchStats_display_kill_icons" class="CheckboxContainer">
+                            <input type="Checkbox" id="Panel_MatchStats_display_kill_icons_">
+                            <label for="Panel_MatchStats_display_kill_icons_">击杀</label>
+                        </div>
+                    </span>
 					<span id="GraphComboBoxContainer" class="GraphComboBoxContainer" style="display: block;">
 						<div class="ComboBox">
                             <span class="Text">金钱</span>
+                            <!--下拉箭头-->
 							<span class="Arrow AutoLoad Loaded_js">
-																<svg width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="140px" viewBox="0 0 220 140" enable-background="new 0 0 220 140" xml:space="preserve">
+							    <svg width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="140px" viewBox="0 0 220 140" enable-background="new 0 0 220 140" xml:space="preserve">
 								<line class="Line" fill="none" stroke="#000000" stroke-width="40" stroke-miterlimit="10" x1="14.311" y1="14.528" x2="124.938" y2="125.563"></line>
 								<line class="Line" fill="none" stroke="#000000" stroke-width="40" stroke-miterlimit="10" x1="108" y1="114.25" x2="205.235" y2="14.65"></line>
 								</svg>
@@ -317,8 +320,14 @@
 
 <div class="StreamDataPanelItemContainer" style="z-index: -1;">
 <div class="StreamDataPanelScrollableContainer">
+<!--以下对应“选手”模块-->
 <div id="Panel_Players" class="Panel_Players DataDependentPanel">
-<div class="LoadingContainer"><div class="WaitingPanel FadeAnimation Opaque" style="display: block;"><div></div></div></div><div class="Content Opaque">
+<div class="LoadingContainer">
+    <div class="WaitingPanel FadeAnimation Opaque" style="display: block;">
+        <div></div>
+    </div>
+</div>
+<div class="Content Opaque">
 <div class="Hidden">
     <div id="Panel_Players_DummyInstance" class="Panel_Players_Instance">
         <div class="ColumnA">
@@ -826,7 +835,7 @@
 
 <div class="StreamDataPanelScrollableContainer">
 
-<!-- PLAYER DETAILS PANEL -->
+<!-- 选手细节 -->
 
 <div id="Panel_PlayerDetails" class="Panel_PlayerDetails DataDependentPanel" data-dead="0">
 
@@ -1785,16 +1794,6 @@
 </div>
 </div>
 
-<div class="StreamDataPanelItemContainer" style="z-index: 1;">
-    <div class="StreamDataPanelScrollableContainer NoVerticalScroll">
-        <div id="Panel_MatchStats" class="Panel_MatchStats DataDependentPanel Opaque">
-            <div class="LoadingContainer"><div class="WaitingPanel FadeAnimation" style="display: none;"><div></div></div></div><div class="Content Opaque">
-            <iframe id="IFrame_MatchStats" width="100%" src="images/watchImg/rendergraph.html" allowfullscreen="" style="height: 103px;"></iframe>
-        </div>
-        </div>
-    </div>
-</div>
-
 <div class="StreamDataPanelItemContainer">
 
     <div class="StreamDataPanelScrollableContainer">
@@ -1845,74 +1844,27 @@
 
 <div class="MainFlexContainer_ColumnC">
 
-    <iframe id="Chat" class="Chat" width="100%" src="images/watchImg/76561198125568794(1).html"><div id="ChatChannel_1" class="ChatChannel">
-
-        <div class="MessageBox">
-            <textarea data-defaulttext="聊天请在此输入" class="MessageBoxText DotaFont">聊天请在此输入</textarea>
-            <div class="SmileyFace EmoticonsButton"></div>
+    <div id="Panel_MatchStats" class="Panel_MatchStats DataDependentPanel Opaque">
+        <div class="LoadingContainer">
+            <div class="WaitingPanel FadeAnimation" style="display: none;"></div>
         </div>
-
-        <div class="Messages">
-            <ul class="MessageList">
-            </ul>
+        <div class="Content Opaque">
+            <iframe id="IFrame_MatchStats" width="100%" src="rendergraph.html" allowfullscreen="" style="height: 400px;"></iframe>
         </div>
+    </div>
 
-    </div></iframe>
+    <div id="Panel_MatchStats2" class="Panel_MatchStats DataDependentPanel Opaque">
+        <div class="LoadingContainer">
+            <div class="WaitingPanel FadeAnimation" style="display: none;"></div>
+        </div>
+        <div class="Content Opaque">
+            <iframe id="IFrame_MatchStats2" width="100%" src="rendergraph.html" allowfullscreen="" style="height: 400px;"></iframe>
+        </div>
+    </div>
 
 
-    <!-- Removing tournament Cheer for the time being until we get the WebAPI Calls hooked up. -->
-    <!--				<div id="Panel_TournamentCheer" class="Panel_TournamentCheer TournamentOnly">
-                        <div class="Column">
-                            <div class="HideShowButtons">
-                                <span class="HideButton"></span>
-                                <span class="ShowButton"></span>
-                            </div>
-                            <div class="Title DotaFont"></div>
-                            <div class="Container">
-                                <div class="MessagePanel DotaFont">
-                                    <a href="javascript:void(0);" class="CloseButton">&#215;</a>
-                                    <div class="Aligner">
-                                        <div class="LoginContainer">
-                                            <div class="Msg"></div>
-                                            <a href="javascript:void(0);" class="Button"><div></div></a>
-                                        </div>
-                                        <div class="NotLiveMsgContainer">
-                                            <div class="Msg"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                                                                                <div class="TeamRow TeamRow__js">
-                                        <div class="CheerButtonContainer">
-                                            <div class="Button" data-team="">
-                                                <div class="Shine"></div>
-                                                <div class="PressedShadow"></div>
-                                                <div class="ImageAligner">
-                                                    <div class="ImageContainer">
-                                                        <div class="ImageBackground ImageBackground1x1"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <span class="BarContainer"></span>
-                                    </div>
-                                                            <div class="Desc DotaFont"></div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div id="Panel_TournamentBox" class="Panel_TournamentBox TournamentOnly">
-                        <div class="Content DotaFont">
-                            <div class="Section GamesInProgress">
-                                <h1></h1>
-                                <ul class="GameList"></ul>
-                            </div>
 
-                            <div class="Section GamesComingUp">
-                                <h1></h1>
-                                <ul class="GameList"></ul>
-                            </div>
-                        </div>
-                    </div>-->
 </div>
 
 </div>

@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<!-- saved from url=(0116)http://steamcommunity.com/broadcast/watch/76561198125568794?iframe=1&origin=http%3A%2F%2Fwww.dota2.com&enablevideo=1 -->
+<html class=" responsive">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="theme-color" content="#171a21">
+	<title>Steam 社区 :: Chibizёnok :: 直播</title>
+	<link rel="shortcut icon" href="http://steamcommunity.com/favicon.ico" type="image/x-icon">
+	<link href="./motiva_sans.css" rel="stylesheet" type="text/css">
+    <link href="./buttons.css" rel="stylesheet" type="text/css">
+    <link href="./shared_global.css" rel="stylesheet" type="text/css">
+    <link href="./globalv2.css" rel="stylesheet" type="text/css">
+    <link href="./profilev2.css" rel="stylesheet" type="text/css">
+    <link href="./profile_sharedfiles.css" rel="stylesheet" type="text/css">
+    <link href="./dash_player.css" rel="stylesheet" type="text/css">
+    <link href="./broadcast_watch.css" rel="stylesheet" type="text/css">
+    <link href="./modalContent.css" rel="stylesheet" type="text/css">
+    <link href="./shared_responsive.css" rel="stylesheet" type="text/css">
+    <link href="./header.css" rel="stylesheet" type="text/css">
+			<script async="" src="./analytics.js"></script><script>
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+					m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+				ga('create', 'UA-33779068-1', 'auto', {
+					'sampleRate': 0.4				});
+				ga('set', 'dimension1', false );
+				ga('set', 'dimension2', 'External' );
+				ga('set', 'dimension3', 'broadcast' );
+				ga('set', 'dimension4', "broadcast\/watch" );
+				ga('send', 'pageview');
+
+			</script>
+			<script type="text/javascript" src="./jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="./global.js"></script>
+<script type="text/javascript" src="./tooltip.js"></script>
+<script type="text/javascript" src="./shared_global(1).js"></script>
+<script type="text/javascript">$J = jQuery.noConflict();
+if ( typeof JSON != 'object' || !JSON.stringify || !JSON.parse ) { document.write( "<scr" + "ipt type=\"text\/javascript\" src=\"http:\/\/steamcommunity-a.akamaihd.net\/public\/javascript\/json2.js?v=pmScf4470EZP&amp;l=schinese\"><\/script>\n" ); };
+</script><script type="text/javascript" src="./dash_player.js"></script>
+<script type="text/javascript" src="./broadcast_watch.js"></script>
+<script type="text/javascript" src="./broadcast_chat.js"></script>
+<script type="text/javascript" src="./jquery.perfect-scrollbar.js"></script>
+<script type="text/javascript" src="./iframe_utils.js"></script>
+<script type="text/javascript" src="./shared_responsive_adapter.js"></script>
+
+	
+			<link rel="canonical" href="http://steamcommunity.com/broadcast/watch/76561198125568794?origin=http%3A%2F%2Fwww.dota2.com&amp;enablevideo=1">
+	
+			<link rel="image_src" href="http://steamcommunity-a.akamaihd.net/public/shared/images/responsive/share_steam_logo.png">
+	
+	
+	
+	</head>
+<body class="flat_page migrated_profile_page broadcast_watch_page iframe responsive_page">
+
+<div class="responsive_page_frame no_header">
+
+			
+		<div class="responsive_local_menu_tab" style="display: none;">
+
+		</div>
+
+		<div class="responsive_page_menu_ctn localmenu">
+			<div class="responsive_page_menu" id="responsive_page_local_menu">
+				<div class="localmenu_content">
+				</div>
+			</div>
+		</div>
+
+
+
+		
+		<div class="responsive_page_content_overlay">
+
+		</div>
+
+		<div class="responsive_fixonscroll_ctn nonresponsive_hidden no_menu">
+		</div>
+	
+	<div class="responsive_page_content">
+
+		<script type="text/javascript">
+	g_sessionID = "58203379bbc743938771813e";
+	g_steamID = false;
+
+	// We always want to have the timezone cookie set for PHP to use
+	setTimezoneCookies();
+
+	$J( function() {
+
+		InitMiniprofileHovers();
+		InitEmoticonHovers();
+		window.BindCommunityTooltip = function( $Selector ) { $Selector.v_tooltip( {'tooltipClass': 'community_tooltip', 'dataName': 'communityTooltip' } ); };
+		BindCommunityTooltip( $J('[data-community-tooltip]') );
+	});
+
+	$J( function() { InitEconomyHovers( "http:\/\/steamcommunity-a.akamaihd.net\/public\/css\/skin_1\/economy.css?v=k1KbRUnfe-Sy", "http:\/\/steamcommunity-a.akamaihd.net\/public\/javascript\/economy_common.js?v=tsXdRVB0yEaR&l=schinese", "http:\/\/steamcommunity-a.akamaihd.net\/public\/javascript\/economy.js?v=mDwwviulUGjo&l=schinese" );});</script>
+		<div class="responsive_page_template_content">
+
+			
+<script>
+
+	var IFrameHelper;
+	var BroadcastWatch;
+
+	// setup the video element and attach it to the Dash player
+	$J(document).ready(function() {
+					var bAndroid = (navigator.userAgent.toLowerCase().indexOf( 'android' ) >= 0);
+			if ( bAndroid )
+			{
+				$J( '#LoadingContent' ).addClass( 'HideThrobber' );
+				$J( '#PageLoadingText').html( '触摸以开始' );
+				$J( document ).on( 'click.AndroidEvents', function() { AndroidClickStart(); } );
+				return;
+			}
+		
+		InitPage();
+	});
+
+	function AndroidClickStart()
+	{
+		$J( document ).off( '.AndroidEvents' );
+		$J( '#LoadingContent' ).removeClass( 'HideThrobber' );
+		$J( '#PageLoadingText').html( '正在载入…' );
+		$J( '#videoplayer' )[0].play();
+
+		InitPage();
+	}
+
+	function InitPage()
+	{
+					var clientType = CBroadcastWatch.k_InBrowser;
+		
+		
+			IFrameHelper = new CIFrameHelper( 'http://www.dota2.com' );
+
+		
+		BroadcastWatch = new CBroadcastWatch( '76561198125568794', "Chibiz\u0451nok", clientType, '', IFrameHelper );
+
+				BroadcastWatch.Start( 1, 0 );
+
+		
+			BroadcastWatch.DisableChatTooltips();
+
+			// If this is chat-only, setup a message handler so the parent IFrame can tell us what the Broadcast ID is,
+			// once its independent video IFrame has loaded it.
+			$J( window ).on(
+				"message",
+				function( e )
+				{
+					if ( ["http:\/\/www.dota2.com","http:\/\/store.dota2.com.cn","http:\/\/www.counter-strike.net"].indexOf( e.originalEvent.origin ) === -1 )
+						return;
+
+					var Msg = e.originalEvent.data;
+
+					switch ( Msg.msg )
+					{
+					case 'OnVideoIFrameBroadcastIDChanged':
+						BroadcastWatch.OnVideoIFrameBroadcastIDChanged( Msg.broadcastid );
+						break;
+					}
+				}
+			);
+
+		
+		$J('.scrollbar').perfectScrollbar({suppressScrollX: true, includePadding: true});
+
+		var bSliderMouseDown = false;
+
+		$J('#ChatDragHandle').mousedown(function(event){
+			bSliderMouseDown = true;
+			event.preventDefault();
+		});
+		$J(window).mouseup(function(){
+			bSliderMouseDown = false;
+		});
+
+		$J('.context').v_tooltip({useContextMenuEvent: true, location: 'mouse', tooltipClass: 'ContextMenu'});
+
+		$J(document).mousemove( function( event )
+		{
+			if( !bSliderMouseDown )
+				return;
+
+			var nDesiredX = Math.max( event.pageX - 20, 400 );
+
+			var nAdjustedWidth = $J( "#LoadedContent" ).width() - 40;
+			var nChatWidth = nAdjustedWidth - nDesiredX;
+			if( nChatWidth < 200 )
+				nChatWidth = 200;
+			$J('#video_content').css({paddingRight: nChatWidth } );
+			$J('#ChatWindow').css({width: nChatWidth });
+
+			var nButtonWidths = $J('.EmoticonContainer').outerWidth(true) + $J('.ChatSend').outerWidth(true);
+			var nChatPadding = parseInt( $J('#chatmessage').css('margin-left') ) + parseInt( $J('#chatmessage').css('margin-right') ) + 2;
+
+			$J('#chatmessage').css({width: ( nChatWidth - nButtonWidths - nChatPadding ) + 'px' });
+
+		});
+
+		
+			}
+
+	
+	
+</script>
+
+<div class="pagecontent no_header">
+	<!-- main body -->
+	<div id="PageContents" class="ShowPlayer">
+		<div id="LoadingContent">
+			<div class="LoadingContentBackground">
+				<div class="LoadingWrapper">
+					<div class="LoadingThrobber">
+						<div class="Bar Bar1"></div>
+						<div class="Bar Bar2"></div>
+						<div class="Bar Bar3"></div>
+					</div>
+					<div id="PageLoadingText" class="LoadingText">正在载入…</div>
+				</div>
+			</div>
+
+			
+		</div>
+
+		<div id="LoadedContent">
+
+			<div class="BroadcastRowShadow"></div>
+
+			<div class="ChatAndVideoContainer">
+
+				
+					<div id="video_content">
+						<div id="video_wrapper" style="position: relative; overflow: hidden;" class="dash_live_edge">
+							<video class="BroadcastPlayer context" id="videoplayer" data-tooltip-content="
+									&lt;a href=&quot;http://steamcommunity.com/profiles/76561198125568794&quot; target=&quot;_blank&quot;&gt;View Profile&lt;/a&gt;
+									&lt;a href=&quot;#&quot; onclick=&quot;BroadcastWatch.ToggleStats(); return false;&quot;&gt;Toggle Stats&lt;/a&gt;" src="blob:http%3A//steamcommunity.com/8ab12c3a-2eec-480b-8495-e879e0326cec"></video>
+							<div id="LoadingVideoContent">
+								<div class="LoadingWrapper">
+									<div class="LoadingThrobber">
+										<div class="Bar Bar1"></div>
+										<div class="Bar Bar2"></div>
+										<div class="Bar Bar3"></div>
+									</div>
+									<div id="VideoLoadingText" class="LoadingText">正在载入…</div>
+								</div>
+							</div>
+						<div class="dash_overlay no_select">
+		<div class="play_button pause" title="播放/暂停（空格键）"></div>
+		<div class="skip_back" title="快退（向左键）"></div>
+		<div class="skip_fwd" title="快进（向右键）"></div>
+		<div class="control_container">
+			<div class="fullscreen_button" title="切换全屏"></div>
+			<div class="right_time">5:07:11</div>
+			<div class="live_button" title="跳至直播"></div>
+			<div class="customize_captions_wrap">
+				<span class="customize_captions" style="display: none;">字幕</span>
+			</div>
+			<div class="player_settings">
+				<div id="settings_icon" class="settings_icon">
+					<div class="video_quality_label">360p</div>
+				</div>
+								<div class="video_representation_live_video" style="left: 819.4px; display: none;"><span data-value="-1" class="">自动</span><span data-value="0" class="">720p (2.5Mbit/s) </span><span data-value="1">480p (1.0Mbit/s) </span><span data-value="2" class="selected">360p (0.4Mbit/s) </span></div>
+			</div>
+			<div class="volume_icon" title="静音"></div>
+			<div class="volume_slider">
+				<div class="volume_handle" style="left: 78px;"></div>
+			</div>
+		</div>
+		<div class="progress_bar_wrapper">
+			<div class="progress_bar_container">
+				<div class="progress_bar_background" style="width: 98.8618%;"></div>
+				<div class="progress_bar" style="width: 98.8618%;">
+					<div class="progress_time_bar" style="visibility: hidden; left: 781px;"></div>
+				</div>
+			</div>
+		</div>
+		<div class="progress_time_info no_select" style="visibility: hidden; left: 755px;">
+			<span class="time_display">-0:48</span>
+		</div>
+	</div><div id="settings_panel_wrapper" class="modal_panel_wrapper">
+		<div class="settings_panel">
+			<div class="panel_title">设置</div>
+			<div class="representation_video_track">
+				<div class="settings_label">视频轨</div>
+				<select id="representation_select_video_track" class="representation_select"></select>
+			</div>
+			<div class="representation_video rep_quality">
+				<div class="settings_label">画质</div>
+				<select id="representation_select_video" class="representation_select"></select>
+			</div>
+			<div class="representation_audio_track">
+				<div class="settings_label">音轨</div>
+				<select id="representation_select_audio_track" class="representation_select"></select>
+			</div>
+			<div class="representation_audio rep_quality">
+				<div class="settings_label">画质</div>
+				<select id="representation_select_audio" class="representation_select"></select>
+			</div>
+			<div class="representation_playbackRate">
+				<div class="settings_label">播放速度</div>
+				<select id="representation_select_playbackRate" class="representation_select">
+					<option value="0.5">50%</option>
+					<option value="0.9">90%</option>
+					<option value="1" selected="">100%</option>
+					<option value="1.1">110%</option>
+					<option value="1.2">120%</option>
+					<option value="1.5">150%</option>
+					<option value="2">200%</option>
+				</select>
+			</div>
+			<div class="panel_done" id="settings_done">完成</div>
+		</div>
+	</div><div class="dash_player_playback_stats"></div><div class="dash_video_live_banner"></div><div id="dash_video_title_banner" class="no_select"></div><div class="dash_big_playpause_indicator">
+		<div class="dash_big_playpause_indicator_state"></div>
+	</div><div id="closed_captions_panel_wrapper" class="modal_panel_wrapper">
+		<div class="dash_closed_captions_customization">
+			<div class="panel_title">字幕选项</div>
+
+			<div class="representation_captions">
+				<div class="settings_label">
+					<div>字幕</div>
+					<a target="_blank" class="download_subtitle">下载字幕</a>
+				</div>
+				<select id="representation_select_captions" class="representation_select">
+					<option value="none">无</option>
+				</select>
+			</div>
+
+			<div class="cc_select_wrapper">
+				<span>字体系列</span>
+				<select id="cc-font-family">
+					<option value="FreeMono, Courier New, Courier, monospace; font-variant: normal">Monospaced Serif</option>
+					<option value="Georgia, Times New Roman, serif; font-variant: normal">Proportional Serif</option>
+					<option value="Lucida Console, Monaco, DejaVu Sans Mono, Liberation Mono, monospace; font-variant: normal">Monospaced Sans-Serif</option>
+					<option value="Helvetica, Arial, sans-serif; font-variant: normal" selected="">Proportional Sans-Serif</option>
+					<option value="Comic Sans MS, Segoe Print, Papyrus, Purisa, casual; font-variant: normal">Casual</option>
+					<option value="Monotype Corsiva, Apple Chancery, Segoe Script, ITC Zapf Chancery, URW Chancery L, Brush Script MT, c    ursive; font-variant: normal">Cursive</option>
+					<option value="Helvetica, Arial, sans-serif; font-variant: small-caps">Small Caps</option>
+				</select>
+			</div>
+			<div class="cc_select_wrapper cc_font_sub">
+				<span>大小</span>
+				<select id="cc-font-size">
+					<option value="50%">50%</option>
+					<option value="75%">75%</option>
+					<option value="90%">90%</option>
+					<option value="100%" selected="">100%</option>
+					<option value="125%">125%</option>
+					<option value="150%">150%</option>
+					<option value="200%">200%</option>
+				</select>
+			</div>
+			<div class="cc_select_wrapper cc_font_sub">
+				<span>颜色</span>
+				<select id="cc-color">
+					<option value="rgba(255,255,255,1)" selected="">白色</option>
+					<option value="rgba(255,255,0,1)">黄色</option>
+					<option value="rgba(0,255,0,1)">绿色</option>
+					<option value="rgba(0,255,255,1)">青色</option>
+					<option value="rgba(0,0,255,1)">蓝色</option>
+					<option value="rgba(255,0,255,1)">品红色</option>
+					<option value="rgba(255,0,0,1)">红色</option>
+					<option value="rgba(0,0,0,1)">黑色</option>
+				</select>
+			</div>
+			<div class="cc_select_wrapper cc_font_sub">
+				<span>阴影</span>
+				<select id="cc-text-shadow">
+					<option value="none" selected="">无</option>
+					<option value="2px 2px 4px #000000">投影效果</option>
+					<option value="0px 2px 1px #000000">凸起</option>
+					<option value="0px -1px 0px #000000">凹陷</option>
+					<option value="0 0 2px #000000">均匀</option>
+				</select>
+			</div>
+			<div class="cc_select_wrapper cc_font_sub">
+				<span>线高度</span>
+				<select id="cc-line-height">
+					<option value="inherit" selected="">自动</option>
+					<option value="100%">100%</option>
+					<option value="105%">105%</option>
+					<option value="110%">110%</option>
+					<option value="115%">115%</option>
+					<option value="120%">120%</option>
+					<option value="125%">125%</option>
+					<option value="130%">130%</option>
+					<option value="140%">140%</option>
+					<option value="150%">150%</option>
+				</select>
+			</div>
+			<div class="cc_select_wrapper cc_font_sub">
+				<span>背景颜色</span>
+				<select id="cc-background-color">
+					<option value="rgba(255,255,255,0.8)">白色</option>
+					<option value="rgba(255,255,0,0.8)">黄色</option>
+					<option value="rgba(0,255,0,0.8)">绿色</option>
+					<option value="rgba(0,255,255,0.8)">青色</option>
+					<option value="rgba(0,0,255,0.8)">蓝色</option>
+					<option value="rgba(255,0,255,0.8)">品红色</option>
+					<option value="rgba(255,0,0,0.8)">红色</option>
+					<option value="rgba(0,0,0,0.8)" selected="">黑色</option>
+					<option value="Transparent">无</option>
+				</select>
+			</div>
+			<div style="clear: both;">&nbsp;</div>
+			<div class="cc_select_wrapper cc_display_sub">
+				<span>不透明度</span>
+				<select id="cc-opacity">
+					<option value=".25">25%</option>
+					<option value=".5">50%</option>
+					<option value=".75">75%</option>
+					<option value="1.0" selected="">100%</option>
+				</select>
+			</div>
+			<div class="cc_select_wrapper cc_display_sub">
+				<span>文字换行</span>
+				<select id="cc-white-space">
+					<option value="pre-line" selected="">默认</option>
+					<option value="normal">最小化</option>
+				</select>
+			</div>
+			<div style="clear: both;"></div>
+			<div class="panel_cancel" id="captions_cancel">取消</div>
+			<div class="panel_done" id="captions_done">完成</div>
+		</div>
+	</div></div>
+					</div>
+
+				
+
+				
+			</div>
+
+			
+		</div>
+
+		
+	</div>
+</div>
+
+<div id="ModalBackground" style="display: none" onclick="BroadcastWatch.CloseViewers();"></div>
+<div id="ViewerModal" style="display: none">
+	<div id="LoadingViewerModal">
+		<div class="LoadingWrapper">
+			<div class="LoadingThrobber">
+				<div class="Bar Bar1"></div>
+				<div class="Bar Bar2"></div>
+				<div class="Bar Bar3"></div>
+			</div>
+		</div>
+	</div>
+	<div id="LoadedViewerModal" class="scrollbar ps-container" style="display: none;">
+		<div id="ViewerModalViewers"></div>
+		<div id="ViewerModalError"></div>
+		<div id="ViewerModalUsers"></div>
+		<div id="ViewerNotReturned"></div>
+	<div class="ps-scrollbar-x-rail" style="display: none; width: 30px; left: 0px; bottom: 3px;"><div class="ps-scrollbar-x" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="display: block; top: 0px; height: 30px; right: 3px;"><div class="ps-scrollbar-y" style="top: 0px; height: 0px;"></div></div></div>
+</div>
+
+
+
+
+		
+
+	
+
+		
+
+		
+	
+
+		<div id="dash_video_buffering_message">
+		<div class="loading_throbber">
+			<div class="bar bar1"></div>
+			<div class="bar bar2"></div>
+			<div class="bar bar3"></div>
+		</div>
+		<div class="loading_text"></div>
+	</div>
+
+	
+
+
+
+
+
+		</div>	<!-- responsive_page_legacy_content -->
+
+		
+	</div>	<!-- responsive_page_content -->
+
+</div>	<!-- responsive_page_frame -->
+
+<div class="miniprofile_hover" style="display: none;"><div class="shadow_ul"></div><div class="shadow_top"></div><div class="shadow_ur"></div><div class="shadow_left"></div><div class="shadow_right"></div><div class="shadow_bl"></div><div class="shadow_bottom"></div><div class="shadow_br"></div><div class="miniprofile_hover_inner shadow_content"></div><div class="hover_arrow left miniprofile_arrow"><div class="miniprofile_arrow_inner"></div></div><div class="hover_arrow right miniprofile_arrow"><div class="miniprofile_arrow_inner"></div></div></div></body></html>
